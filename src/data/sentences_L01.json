@@ -33,7 +33,7 @@
           "hanzi": "我去年来中国的时候，发音不太好，闹了个大笑话。",
           "pinyin": "Wǒ qùnián lái Zhōngguó de shíhou, fāyīn bú tài hǎo, nào le ge dà xiàohuà.",
           "meaning_kr": "내가 작년에 중국에 왔을 때, 발음이 그다지 좋지 않아서 큰 웃음거리를 만들었다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S1_SENT03.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -42,7 +42,7 @@
           "hanzi": "有一天，我和丈夫去饭店吃饭，我想喝可乐。",
           "pinyin": "Yǒu yìtiān, wǒ hé zhàngfu qù fàndiàn chīfàn, wǒ xiǎng hē kělè.",
           "meaning_kr": "어느 날, 나는 남편과 식당에 밥을 먹으러 갔는데, 콜라가 마시고 싶었다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S1_SENT04.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         }
@@ -57,7 +57,7 @@
           "hanzi": "我丈夫的汉语说得很好，我让他给我要一瓶可乐，可是丈夫让我自己跟服务员要。",
           "pinyin": "Wǒ zhàngfu de Hànyǔ shuō de hěn hǎo, wǒ ràng tā gěi wǒ yào yì píng kělè, kěshì zhàngfu ràng wǒ zìjǐ gēn fúwùyuán yào.",
           "meaning_kr": "내 남편은 중국어를 잘해서, 나는 그에게 콜라 한 병을 달라고 하게 시켰지만, 남편은 나더러 직접 종업원에게 달라고 하라고 했다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S2_SENT01.mp3",
           "grammar_card_ids": [
             "G1",
             "G5"
@@ -69,7 +69,7 @@
           "hanzi": "他教我说了一遍，我又练习了几遍。",
           "pinyin": "Tā jiāo wǒ shuō le yí biàn, wǒ yòu liànxí le jǐ biàn.",
           "meaning_kr": "그는 나에게 한 번 말해 주었고, 나는 또 몇 번 연습했다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S2_SENT02.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -78,7 +78,7 @@
           "hanzi": "然后，我很紧张地说：“小姐，要一个‘可乐’。”",
           "pinyin": "Ránhòu, wǒ hěn jǐnzhāng de shuō: “Xiǎojiě, yào yí ge ‘kělè’.”",
           "meaning_kr": "그런 후, 나는 아주 긴장하며 말했다. “아가씨, ‘콜라’ 하나 주세요.”",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S2_SENT03.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -87,7 +87,7 @@
           "hanzi": "她答应了。",
           "pinyin": "Tā dāying le.",
           "meaning_kr": "그녀는 알겠다고 했다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S2_SENT04.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -96,7 +96,7 @@
           "hanzi": "说完后，我感到很高兴。",
           "pinyin": "Shuōwán hòu, wǒ gǎndào hěn gāoxìng.",
           "meaning_kr": "다 말한 후, 나는 기뻤다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S2_SENT05.mp3",
           "grammar_card_ids": [
             "G2"
           ],
@@ -107,7 +107,7 @@
           "hanzi": "等了一会儿，小姐端来了一盘肉。",
           "pinyin": "Děng le yíhuìr, xiǎojiě duān lái le yì pán ròu.",
           "meaning_kr": "잠시 기다리니, 아가씨가 고기 한 접시를 받쳐 들고 왔다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S2_SENT06.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -116,7 +116,7 @@
           "hanzi": "我们感到很奇怪。",
           "pinyin": "Wǒmen gǎndào hěn qíguài.",
           "meaning_kr": "우리는 이상하다고 느꼈다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S2_SENT07.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         }
@@ -131,7 +131,7 @@
           "hanzi": "小姐说：“扣肉来了。”",
           "pinyin": "Xiǎojiě shuō: “Kòuròu lái le.”",
           "meaning_kr": "아가씨가 말했다. “커우러우 나왔습니다.”",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S3_SENT01.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -140,7 +140,7 @@
           "hanzi": "“不，不，我要的是可乐。”",
           "pinyin": "“Bù, bù, wǒ yào de shì kělè.”",
           "meaning_kr": "“아니요, 아니요, 제가 원하는 건 콜라예요.”",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S3_SENT02.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -149,7 +149,7 @@
           "hanzi": "小姐说：“对啊！这就是扣肉。”",
           "pinyin": "Xiǎojiě shuō: “Duì a! Zhè jiùshì kòuròu.”",
           "meaning_kr": "아가씨가 말했다. “맞아요! 이게 바로 커우러우예요.”",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S3_SENT03.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -158,7 +158,7 @@
           "hanzi": "这时候，我丈夫哈哈大笑起来，一边笑，一边对小姐说：“她要的是‘可乐’，不是‘扣肉’。",
           "pinyin": "Zhè shíhou, wǒ zhàngfu hāhā dàxiào qǐlái, yìbiān xiào, yìbiān duì xiǎojiě shuō: “Tā yào de shì ‘kělè’, bú shì ‘kòuròu’.",
           "meaning_kr": "이때, 내 남편이 껄껄 크게 웃기 시작하더니, 웃으면서 아가씨에게 말했다. “그녀가 원하는 건 ‘콜라’지, ‘커우러우’가 아니에요.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S3_SENT04.mp3",
           "grammar_card_ids": [
             "G3"
           ],
@@ -169,7 +169,7 @@
           "hanzi": "这不是你的错，她是刚学会的，发音不准。”",
           "pinyin": "Zhè bú shì nǐ de cuò, tā shì gāng xuéhuì de, fāyīn bù zhǔn.”",
           "meaning_kr": "이건 당신 잘못이 아니에요, 그녀는 막 배운 거라 발음이 정확하지 않아서 그래요.”",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S3_SENT05.mp3",
           "grammar_card_ids": [
             "G2"
           ],
@@ -180,7 +180,7 @@
           "hanzi": "小姐也笑了。",
           "pinyin": "Xiǎojiě yě xiào le.",
           "meaning_kr": "아가씨도 웃었다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S3_SENT06.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         }
@@ -195,7 +195,7 @@
           "hanzi": "这时候的我，真想找个地缝钻进去，太不好意思了。",
           "pinyin": "Zhè shíhou de wǒ, zhēn xiǎng zhǎo ge dìfèng zuān jìnqù, tài bù hǎoyìsi le.",
           "meaning_kr": "그때의 나는, 정말 쥐구멍에라도 숨고 싶을 만큼 너무 민망했다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S4_SENT01.mp3",
           "grammar_card_ids": [
             "G3"
           ],
@@ -206,7 +206,7 @@
           "hanzi": "没办法，我们只好吃了那盘扣肉。",
           "pinyin": "Méi bànfǎ, wǒmen zhǐhǎo chī le nà pán kòuròu.",
           "meaning_kr": "어쩔 수 없이, 우리는 할 수 없이 그 커우러우 한 접시를 먹었다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S4_SENT02.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -215,7 +215,7 @@
           "hanzi": "我觉得味道还不错。",
           "pinyin": "Wǒ juéde wèidao hái búcuò.",
           "meaning_kr": "나는 맛이 그런대로 괜찮다고 생각했다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S4_SENT03.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -224,7 +224,7 @@
           "hanzi": "这样的事是刚学外语的人常常遇到的。",
           "pinyin": "Zhèyàng de shì shì gāng xué wàiyǔ de rén chángcháng yùdào de.",
           "meaning_kr": "이런 일은 막 외국어를 배우는 사람이 자주 마주치는 것이다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S4_SENT04.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -233,7 +233,7 @@
           "hanzi": "说汉语，如果发音不准、声调不对，它的意思会完全不一样，就可能出现“可乐”和“扣肉”的笑话。",
           "pinyin": "Shuō Hànyǔ, rúguǒ fāyīn bù zhǔn, shēngdiào bú duì, tā de yìsi huì wánquán bù yíyàng, jiù kěnéng chūxiàn “kělè” hé “kòuròu” de xiàohuà.",
           "meaning_kr": "중국어를 말할 때, 만약 발음이 정확하지 않고 성조가 맞지 않으면 그 의미가 완전히 달라져서 ‘콜라’와 ‘커우러우’의 웃음거리가 생길 수 있다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S4_SENT05.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         }
