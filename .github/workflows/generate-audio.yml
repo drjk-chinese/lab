@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: '"2" = 처음 2문장만 테스트 생성, "all" = 22문장 전체 생성'
+        description: '"2"=처음 2문장 테스트, "all"=전체 22문장, 또는 "L01S1_SENT02"처럼 특정 문장 id(쉼표로 여러 개)만 재생성'
         required: true
         default: '2'
         type: string

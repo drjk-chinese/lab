@@ -78,10 +78,20 @@ async function uploadToSupabase(path, buffer) {
   return `${SUPABASE_URL}/storage/v1/object/public/${SUPABASE_AUDIO_BUCKET}/${path}`
 }
 
+function resolveTargets(allSentences, limit) {
+  if (limit === 'all') return allSentences
+  if (/^\d+$/.test(limit)) return allSentences.slice(0, Number(limit))
+  // Comma-separated sentence_id list, e.g. "L01S1_SENT02" or
+  // "L01S1_SENT02,L01S2_SENT01" — lets you cheaply re-generate just the
+  // sentence(s) that came out wrong instead of redoing all 22.
+  const ids = limit.split(',').map((s) => s.trim())
+  return allSentences.filter((s) => ids.includes(s.sentence_id))
+}
+
 async function main() {
   const data = JSON.parse(await readFile(DATA_PATH, 'utf-8'))
   const allSentences = data.sections.flatMap((s) => s.sentences)
-  const targets = LIMIT === 'all' ? allSentences : allSentences.slice(0, Number(LIMIT))
+  const targets = resolveTargets(allSentences, LIMIT)
 
   console.log(`Generating audio for ${targets.length} of ${allSentences.length} sentences (LIMIT=${LIMIT})`)
 
