@@ -69,6 +69,13 @@ export interface Sentence {
   audio_url: string | null
   grammar_card_ids: string[]
   confirmed: boolean
+  /**
+   * Optional text override sent to the TTS engine instead of `hanzi` (e.g.
+   * an extra space to stop the model from mis-segmenting/mispronouncing a
+   * word). The displayed text (reading tab, glossary) always uses `hanzi`;
+   * only audio generation uses this when present.
+   */
+  tts_text?: string
 }
 
 export interface SentenceSection {

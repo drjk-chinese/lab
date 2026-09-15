@@ -19,6 +19,7 @@
         {
           "sentence_id": "L01S1_SENT02",
           "hanzi": "听到这个声音，我想起了刚学汉语时的一件事，忍不住笑了起来。",
+          "tts_text": "听到这个声音，我想起了刚学汉语 时的一件事，忍不住笑了起来。",
           "pinyin": "Tīngdào zhège shēngyīn, wǒ xiǎngqǐ le gāng xué Hànyǔ shí de yí jiàn shì, rěn bu zhù xiào le qǐlái.",
           "meaning_kr": "이 목소리를 듣고, 나는 막 중국어를 배우던 때의 한 가지 일이 떠올라 참지 못하고 웃기 시작했다.",
           "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L01/L01S1_SENT02.mp3",

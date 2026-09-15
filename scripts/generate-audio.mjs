@@ -97,8 +97,9 @@ async function main() {
 
   for (const sentence of targets) {
     try {
-      console.log(`- ${sentence.sentence_id}: ${sentence.hanzi}`)
-      const audioBuffer = await synthesize(sentence.hanzi)
+      const ttsText = sentence.tts_text ?? sentence.hanzi
+      console.log(`- ${sentence.sentence_id}: ${ttsText}`)
+      const audioBuffer = await synthesize(ttsText)
       const path = `L01/${sentence.sentence_id}.mp3`
       const publicUrl = await uploadToSupabase(path, audioBuffer)
       sentence.audio_url = publicUrl
