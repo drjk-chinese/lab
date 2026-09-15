@@ -4,7 +4,11 @@ import { logEvent } from '../lib/logging'
 import type { AppUser, UserRole } from '../types'
 
 const DEMO_STORAGE_KEY = 'demo_user'
-const FAKE_EMAIL_DOMAIN = 'students.chinese-reading.local'
+// Supabase Auth's email validator rejects unusual/reserved TLDs like
+// ".local". example.com is IANA-reserved specifically for placeholder use
+// (RFC 2606), so it always passes format validation without risking a real
+// mailbox ever receiving anything.
+const FAKE_EMAIL_DOMAIN = 'students.example.com'
 
 interface AuthContextValue {
   user: AppUser | null
