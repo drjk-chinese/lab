@@ -58,8 +58,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  async function hydrateProfile(userId: string) {
-    if (!supabase) return
+  async function hydrateProfile(userId: string): Promise<boolean> {
+    if (!supabase) return false
     const { data } = await supabase
       .from('profiles')
       .select('student_id, role')
@@ -67,7 +67,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       .maybeSingle()
     if (data) {
       setUser({ id: userId, studentId: data.student_id as string, role: data.role as UserRole })
+      return true
     }
+    return false
   }
 
   async function login(studentId: string, password: string) {
@@ -91,24 +93,47 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const { data, error: signInError } = await supabase.auth.signInWithPassword({ email, password })
 
     if (signInError) {
-      // First-time student login: self-provision the account + profile row.
-      const { data: signUpData, error: signUpError } = await supabase.auth.signUp({ email, password })
-      if (signUpError || !signUpData.user) {
-        setError('로그인에 실패했습니다. 학번/비밀번호를 확인해 주세요.')
+      // Wrong password for an existing account: don't fall through to
+      // signUp (which would just fail with "already registered").
+      if (signInError.message !== 'Invalid login credentials') {
+        setError(`로그인 실패: ${signInError.message}`)
         return
       }
-      await supabase.from('profiles').insert({
+
+      // First-time student login: self-provision the account + profile row.
+      const { data: signUpData, error: signUpError } = await supabase.auth.signUp({ email, password })
+      if (signUpError) {
+        setError(`가입 실패: ${signUpError.message}`)
+        return
+      }
+      if (!signUpData.user) {
+        setError('가입 실패: 이메일 인증이 필요하도록 설정되어 있는 것 같습니다. Supabase 대시보드 > Authentication > Providers > Email에서 "Confirm email"을 꺼주세요.')
+        return
+      }
+
+      const { error: profileError } = await supabase.from('profiles').insert({
         id: signUpData.user.id,
         student_id: cleanId,
         role: 'student',
       })
+      if (profileError) {
+        setError(`프로필 생성 실패: ${profileError.message}`)
+        return
+      }
+
       await hydrateProfile(signUpData.user.id)
       logEvent(cleanId, 'L01', 'login')
       return
     }
 
     if (data.user) {
-      await hydrateProfile(data.user.id)
+      const found = await hydrateProfile(data.user.id)
+      if (!found) {
+        setError(
+          '로그인은 됐지만 학생 정보(profiles)를 찾을 수 없습니다. Supabase에서 schema.sql이 실행되었는지 확인해 주세요.',
+        )
+        return
+      }
       logEvent(cleanId, 'L01', 'login')
     }
   }
