@@ -89,6 +89,7 @@ export type UserRole = 'student' | 'admin'
 export interface AppUser {
   id: string
   studentId: string
+  name: string | null
   role: UserRole
 }
 

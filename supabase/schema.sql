@@ -8,6 +8,7 @@
 create table if not exists profiles (
   id uuid primary key references auth.users (id) on delete cascade,
   student_id text unique not null,
+  name text,
   role text not null default 'student' check (role in ('student', 'admin')),
   created_at timestamptz not null default now()
 );

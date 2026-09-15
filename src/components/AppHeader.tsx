@@ -25,7 +25,7 @@ export function AppHeader() {
             관리자
           </Link>
         )}
-        <span>{user?.studentId}</span>
+        <span>{user?.name ? `${user.studentId} ${user.name}님` : user?.studentId}</span>
         <button onClick={() => void logout()} className="underline">
           로그아웃
         </button>

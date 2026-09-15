@@ -6,12 +6,13 @@ export function LoginPage() {
   const { login, loginAsDemoAdmin, isDemoMode, error } = useAuth()
   const [studentId, setStudentId] = useState('')
   const [password, setPassword] = useState('')
+  const [name, setName] = useState('')
   const [submitting, setSubmitting] = useState(false)
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault()
     setSubmitting(true)
-    await login(studentId, password)
+    await login(studentId, password, name)
     setSubmitting(false)
   }
 
@@ -24,6 +25,16 @@ export function LoginPage() {
       </div>
 
       <form onSubmit={onSubmit} className="flex flex-col gap-3">
+        <label className="flex flex-col gap-1 text-sm">
+          이름
+          <input
+            className="divider-line rounded-none border-0 border-b bg-transparent px-1 py-2 text-base outline-none focus:border-accent"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="예: 홍길동"
+            autoComplete="name"
+          />
+        </label>
         <label className="flex flex-col gap-1 text-sm">
           학번
           <input

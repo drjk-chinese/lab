@@ -15,7 +15,7 @@ interface AuthContextValue {
   loading: boolean
   isDemoMode: boolean
   error: string | null
-  login: (studentId: string, password: string) => Promise<void>
+  login: (studentId: string, password: string, name: string) => Promise<void>
   loginAsDemoAdmin: () => void
   logout: () => Promise<void>
 }
@@ -66,11 +66,16 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     if (!supabase) return false
     const { data } = await supabase
       .from('profiles')
-      .select('student_id, role')
+      .select('student_id, role, name')
       .eq('id', userId)
       .maybeSingle()
     if (data) {
-      setUser({ id: userId, studentId: data.student_id as string, role: data.role as UserRole })
+      setUser({
+        id: userId,
+        studentId: data.student_id as string,
+        name: (data.name as string | null) ?? null,
+        role: data.role as UserRole,
+      })
       return true
     }
     return false
@@ -82,23 +87,33 @@ export function AuthProvider({ children }: { children: ReactNode }) {
    * inserting and then hoping a follow-up select finds it. Returns an error
    * message string on failure, or null on success.
    */
-  async function createProfileAndSetUser(userId: string, studentId: string): Promise<string | null> {
+  async function createProfileAndSetUser(
+    userId: string,
+    studentId: string,
+    name: string | null,
+  ): Promise<string | null> {
     if (!supabase) return '내부 오류: Supabase 클라이언트가 초기화되지 않았습니다.'
     const { data, error } = await supabase
       .from('profiles')
-      .insert({ id: userId, student_id: studentId, role: 'student' })
-      .select('student_id, role')
+      .insert({ id: userId, student_id: studentId, name, role: 'student' })
+      .select('student_id, role, name')
       .single()
     if (error || !data) {
       return error?.message ?? '알 수 없는 오류로 프로필을 만들지 못했습니다.'
     }
-    setUser({ id: userId, studentId: data.student_id as string, role: data.role as UserRole })
+    setUser({
+      id: userId,
+      studentId: data.student_id as string,
+      name: (data.name as string | null) ?? null,
+      role: data.role as UserRole,
+    })
     return null
   }
 
-  async function login(studentId: string, password: string) {
+  async function login(studentId: string, password: string, name: string) {
     setError(null)
     const cleanId = studentId.trim()
+    const cleanName = name.trim() || null
     if (!cleanId || !password) {
       setError('학번과 비밀번호를 입력해 주세요.')
       return
@@ -107,7 +122,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     if (!isSupabaseConfigured || !supabase) {
       // Demo mode: no backend configured yet. Anyone can sign in as a
       // student so the app is previewable before Supabase keys are added.
-      const demoUser: AppUser = { id: `demo-${cleanId}`, studentId: cleanId, role: 'student' }
+      const demoUser: AppUser = { id: `demo-${cleanId}`, studentId: cleanId, name: cleanName, role: 'student' }
       localStorage.setItem(DEMO_STORAGE_KEY, JSON.stringify(demoUser))
       setUser(demoUser)
       return
@@ -135,7 +150,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         return
       }
 
-      const profileError = await createProfileAndSetUser(signUpData.user.id, cleanId)
+      const profileError = await createProfileAndSetUser(signUpData.user.id, cleanId, cleanName)
       if (profileError) {
         setError(`프로필 생성 실패: ${profileError}`)
         return
@@ -151,10 +166,20 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         // got created (e.g. an earlier signup attempt raced with email
         // confirmation being required at the time). We have an active
         // session now, so the RLS self-insert policy will allow this.
-        const profileError = await createProfileAndSetUser(data.user.id, cleanId)
+        const profileError = await createProfileAndSetUser(data.user.id, cleanId, cleanName)
         if (profileError) {
           setError(`프로필 생성 실패(자동복구 시도): ${profileError}`)
           return
+        }
+      } else if (cleanName) {
+        // Keep the display name in sync if the student typed a different
+        // one on a later login (e.g. first login had a typo).
+        const { error: updateError } = await supabase
+          .from('profiles')
+          .update({ name: cleanName })
+          .eq('id', data.user.id)
+        if (!updateError) {
+          setUser((prev) => (prev ? { ...prev, name: cleanName } : prev))
         }
       }
       logEvent(cleanId, 'L01', 'login')
@@ -162,7 +187,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   function loginAsDemoAdmin() {
-    const demoAdmin: AppUser = { id: 'demo-admin', studentId: 'admin', role: 'admin' }
+    const demoAdmin: AppUser = { id: 'demo-admin', studentId: 'admin', name: '관리자', role: 'admin' }
     localStorage.setItem(DEMO_STORAGE_KEY, JSON.stringify(demoAdmin))
     setUser(demoAdmin)
   }
