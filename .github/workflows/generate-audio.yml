@@ -1,0 +1,43 @@
+name: Generate lesson audio
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '"2" = 처음 2문장만 테스트 생성, "all" = 22문장 전체 생성'
+        required: true
+        default: '2'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate audio and update sentences_L01.json
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_AUDIO_BUCKET: audio
+          LIMIT: ${{ inputs.limit }}
+        run: node scripts/generate-audio.mjs
+
+      - name: Commit updated audio URLs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/sentences_L01.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "낭독 음원 자동 생성 (limit=${{ inputs.limit }})"
+          git push origin HEAD:${{ github.ref_name }}
