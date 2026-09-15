@@ -1,5 +1,6 @@
 import { useState, type FormEvent } from 'react'
 import { useAuth } from '../contexts/AuthContext'
+import { supabaseConfigError } from '../lib/supabaseClient'
 
 export function LoginPage() {
   const { login, loginAsDemoAdmin, isDemoMode, error } = useAuth()
@@ -56,7 +57,14 @@ export function LoginPage() {
         </button>
       </form>
 
-      {isDemoMode && (
+      {supabaseConfigError && (
+        <div className="mt-4 border border-accent bg-accent-soft px-3 py-2 text-xs text-accent">
+          <p className="font-medium">환경변수 설정 오류</p>
+          <p className="mt-1">{supabaseConfigError}</p>
+        </div>
+      )}
+
+      {isDemoMode && !supabaseConfigError && (
         <div className="mt-4 border-t border-line pt-4 text-xs text-text-muted">
           <p>
             Supabase 연동 전 <b>데모 모드</b>입니다. 아무 학번/비밀번호로 로그인하면 학생 화면을
