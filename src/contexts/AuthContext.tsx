@@ -76,6 +76,26 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     return false
   }
 
+  /**
+   * Creates the profiles row and, on success, sets user state directly from
+   * the returned row (insert().select() in one round trip) rather than
+   * inserting and then hoping a follow-up select finds it. Returns an error
+   * message string on failure, or null on success.
+   */
+  async function createProfileAndSetUser(userId: string, studentId: string): Promise<string | null> {
+    if (!supabase) return '내부 오류: Supabase 클라이언트가 초기화되지 않았습니다.'
+    const { data, error } = await supabase
+      .from('profiles')
+      .insert({ id: userId, student_id: studentId, role: 'student' })
+      .select('student_id, role')
+      .single()
+    if (error || !data) {
+      return error?.message ?? '알 수 없는 오류로 프로필을 만들지 못했습니다.'
+    }
+    setUser({ id: userId, studentId: data.student_id as string, role: data.role as UserRole })
+    return null
+  }
+
   async function login(studentId: string, password: string) {
     setError(null)
     const cleanId = studentId.trim()
@@ -115,17 +135,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         return
       }
 
-      const { error: profileError } = await supabase.from('profiles').insert({
-        id: signUpData.user.id,
-        student_id: cleanId,
-        role: 'student',
-      })
+      const profileError = await createProfileAndSetUser(signUpData.user.id, cleanId)
       if (profileError) {
-        setError(`프로필 생성 실패: ${profileError.message}`)
+        setError(`프로필 생성 실패: ${profileError}`)
         return
       }
-
-      await hydrateProfile(signUpData.user.id)
       logEvent(cleanId, 'L01', 'login')
       return
     }
@@ -137,20 +151,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         // got created (e.g. an earlier signup attempt raced with email
         // confirmation being required at the time). We have an active
         // session now, so the RLS self-insert policy will allow this.
-        const { error: profileError } = await supabase.from('profiles').insert({
-          id: data.user.id,
-          student_id: cleanId,
-          role: 'student',
-        })
+        const profileError = await createProfileAndSetUser(data.user.id, cleanId)
         if (profileError) {
-          setError(`프로필 생성 실패: ${profileError.message}`)
-          return
-        }
-        const foundAfterInsert = await hydrateProfile(data.user.id)
-        if (!foundAfterInsert) {
-          setError(
-            '로그인은 됐지만 학생 정보(profiles)를 찾을 수 없습니다. Supabase에서 schema.sql이 실행되었는지 확인해 주세요.',
-          )
+          setError(`프로필 생성 실패(자동복구 시도): ${profileError}`)
           return
         }
       }
