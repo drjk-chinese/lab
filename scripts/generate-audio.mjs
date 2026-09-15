@@ -12,8 +12,13 @@
 //   SUPABASE_AUDIO_BUCKET (defaults to "audio")
 //   LIMIT ("2" for a quick test, "all" for every sentence — defaults to "2")
 
-import { readFile, writeFile } from 'node:fs/promises'
+import { readFile, writeFile, mkdtemp, rm } from 'node:fs/promises'
+import { tmpdir } from 'node:os'
+import { join } from 'node:path'
+import { execFile } from 'node:child_process'
+import { promisify } from 'node:util'
 
+const execFileAsync = promisify(execFile)
 const DATA_PATH = new URL('../src/data/sentences_L01.json', import.meta.url)
 
 const {
@@ -50,9 +55,13 @@ async function synthesize(text) {
       body: JSON.stringify({
         text,
         model_id: 'eleven_multilingual_v2',
-        // No voice_settings override: use the voice's own saved default
-        // settings (stability/similarity/style) so the API output matches
-        // what the ElevenLabs website preview sounds like for this voice.
+        // Forces Chinese pronunciation instead of relying on the model's
+        // auto language-detection, which was mispronouncing 汉语 in short
+        // sentences (the ElevenLabs website playground gets this right
+        // because it lets you pick the language explicitly).
+        language_code: 'zh',
+        // No stability/similarity override: use the voice's own saved
+        // default settings, same as the website preview.
       }),
     },
   )
@@ -60,6 +69,28 @@ async function synthesize(text) {
     throw new Error(`ElevenLabs API error ${res.status}: ${await res.text()}`)
   }
   return Buffer.from(await res.arrayBuffer())
+}
+
+/** Normalizes loudness with ffmpeg (preinstalled on GitHub-hosted runners) so quiet lines aren't hard to hear. */
+async function normalizeLoudness(buffer) {
+  const dir = await mkdtemp(join(tmpdir(), 'audio-'))
+  const inPath = join(dir, 'in.mp3')
+  const outPath = join(dir, 'out.mp3')
+  try {
+    await writeFile(inPath, buffer)
+    await execFileAsync('ffmpeg', [
+      '-y',
+      '-i', inPath,
+      '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11',
+      outPath,
+    ])
+    return await readFile(outPath)
+  } catch (err) {
+    console.error(`  loudness normalization skipped (ffmpeg error): ${err.message}`)
+    return buffer
+  } finally {
+    await rm(dir, { recursive: true, force: true })
+  }
 }
 
 async function uploadToSupabase(path, buffer) {
@@ -101,7 +132,8 @@ async function main() {
     try {
       const ttsText = sentence.tts_text ?? sentence.hanzi
       console.log(`- ${sentence.sentence_id}: ${ttsText}`)
-      const audioBuffer = await synthesize(ttsText)
+      const rawAudio = await synthesize(ttsText)
+      const audioBuffer = await normalizeLoudness(rawAudio)
       const path = `L01/${sentence.sentence_id}.mp3`
       const publicUrl = await uploadToSupabase(path, audioBuffer)
       sentence.audio_url = publicUrl

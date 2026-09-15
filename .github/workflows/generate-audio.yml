@@ -8,6 +8,11 @@ on:
         required: true
         default: '2'
         type: string
+      voice_id:
+        description: '일레븐랩스 Voice ID (매번 시크릿을 안 바꿔도 여기서 바로 바꿔서 실행 가능)'
+        required: true
+        default: 'YzrnvkRH5LmJq8EeoZ0d'
+        type: string
 
 permissions:
   contents: write
@@ -27,7 +32,7 @@ jobs:
       - name: Generate audio and update sentences_L01.json
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_VOICE_ID: ${{ inputs.voice_id }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           SUPABASE_AUDIO_BUCKET: audio
