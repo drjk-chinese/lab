@@ -56,7 +56,7 @@
       "structure": "동사 + 起来(시작)/进去(안으로)",
       "meaning": "동작의 진행 방향이나 시작을 나타냄",
       "examples": [
-        {"source": "text", "hanzi": "忍不住笑了起来。", "pinyin": "rěn bú zhù xiào le qǐlái.", "meaning_kr": "참지 못하고 웃기 시작했다."},
+        {"source": "text", "hanzi": "忍不住笑了起来。", "pinyin": "rěn bu zhù xiào le qǐlái.", "meaning_kr": "참지 못하고 웃기 시작했다."},
         {"source": "text", "hanzi": "哈哈大笑起来。", "pinyin": "hāhā dàxiào qǐlái.", "meaning_kr": "껄껄 크게 웃기 시작했다."},
         {"source": "text", "hanzi": "找个地缝钻进去。", "pinyin": "zhǎo ge dìfèng zuān jìnqù.", "meaning_kr": "쥐구멍에라도 파고들어가고 싶다."},
         {"source": "extra", "hanzi": "他站了起来。", "pinyin": "tā zhàn le qǐlái.", "meaning_kr": "그는 일어섰다."},
@@ -72,7 +72,7 @@
         {
           "source": "text",
           "hanzi": "忍不住笑了起来。",
-          "pinyin": "rěn bú zhù xiào le qǐlái.",
+          "pinyin": "rěn bu zhù xiào le qǐlái.",
           "meaning_kr": "참지 못하고 웃기 시작했다. (忍+不+住 = 참아낼 수 없다)",
           "segments": [
             {"text": "忍", "role": "verb"},

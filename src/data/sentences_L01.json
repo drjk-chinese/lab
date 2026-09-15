@@ -19,7 +19,7 @@
         {
           "sentence_id": "L01S1_SENT02",
           "hanzi": "听到这个声音，我想起了刚学汉语时的一件事，忍不住笑了起来。",
-          "pinyin": "Tīngdào zhège shēngyīn, wǒ xiǎngqǐ le gāng xué Hànyǔ shí de yí jiàn shì, rěn bú zhù xiào le qǐlái.",
+          "pinyin": "Tīngdào zhège shēngyīn, wǒ xiǎngqǐ le gāng xué Hànyǔ shí de yí jiàn shì, rěn bu zhù xiào le qǐlái.",
           "meaning_kr": "이 목소리를 듣고, 나는 막 중국어를 배우던 때의 한 가지 일이 떠올라 참지 못하고 웃기 시작했다.",
           "audio_url": null,
           "grammar_card_ids": ["G3", "G4"],
@@ -28,7 +28,7 @@
         {
           "sentence_id": "L01S1_SENT03",
           "hanzi": "我去年来中国的时候，发音不太好，闹了个大笑话。",
-          "pinyin": "Wǒ qùnián lái Zhōngguó de shíhou, fāyīn bú tài hǎo, nào le ge dà xiàohua.",
+          "pinyin": "Wǒ qùnián lái Zhōngguó de shíhou, fāyīn bú tài hǎo, nào le ge dà xiàohuà.",
           "meaning_kr": "내가 작년에 중국에 왔을 때, 발음이 그다지 좋지 않아서 큰 웃음거리를 만들었다.",
           "audio_url": null,
           "grammar_card_ids": [],
@@ -199,7 +199,7 @@
         {
           "sentence_id": "L01S4_SENT03",
           "hanzi": "我觉得味道还不错。",
-          "pinyin": "Wǒ juéde wèidào hái búcuò.",
+          "pinyin": "Wǒ juéde wèidao hái búcuò.",
           "meaning_kr": "나는 맛이 그런대로 괜찮다고 생각했다.",
           "audio_url": null,
           "grammar_card_ids": [],
@@ -217,7 +217,7 @@
         {
           "sentence_id": "L01S4_SENT05",
           "hanzi": "说汉语，如果发音不准、声调不对，它的意思会完全不一样，就可能出现“可乐”和“扣肉”的笑话。",
-          "pinyin": "Shuō Hànyǔ, rúguǒ fāyīn bù zhǔn, shēngdiào bú duì, tā de yìsi huì wánquán bù yíyàng, jiù kěnéng chūxiàn “kělè” hé “kòuròu” de xiàohua.",
+          "pinyin": "Shuō Hànyǔ, rúguǒ fāyīn bù zhǔn, shēngdiào bú duì, tā de yìsi huì wánquán bù yíyàng, jiù kěnéng chūxiàn “kělè” hé “kòuròu” de xiàohuà.",
           "meaning_kr": "중국어를 말할 때, 만약 발음이 정확하지 않고 성조가 맞지 않으면 그 의미가 완전히 달라져서 ‘콜라’와 ‘커우러우’의 웃음거리가 생길 수 있다.",
           "audio_url": null,
           "grammar_card_ids": [],
