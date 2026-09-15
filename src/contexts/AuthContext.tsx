@@ -133,10 +133,26 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     if (data.user) {
       const found = await hydrateProfile(data.user.id)
       if (!found) {
-        setError(
-          '로그인은 됐지만 학생 정보(profiles)를 찾을 수 없습니다. Supabase에서 schema.sql이 실행되었는지 확인해 주세요.',
-        )
-        return
+        // Self-heal: the auth account exists but its profiles row never
+        // got created (e.g. an earlier signup attempt raced with email
+        // confirmation being required at the time). We have an active
+        // session now, so the RLS self-insert policy will allow this.
+        const { error: profileError } = await supabase.from('profiles').insert({
+          id: data.user.id,
+          student_id: cleanId,
+          role: 'student',
+        })
+        if (profileError) {
+          setError(`프로필 생성 실패: ${profileError.message}`)
+          return
+        }
+        const foundAfterInsert = await hydrateProfile(data.user.id)
+        if (!foundAfterInsert) {
+          setError(
+            '로그인은 됐지만 학생 정보(profiles)를 찾을 수 없습니다. Supabase에서 schema.sql이 실행되었는지 확인해 주세요.',
+          )
+          return
+        }
       }
       logEvent(cleanId, 'L01', 'login')
     }
