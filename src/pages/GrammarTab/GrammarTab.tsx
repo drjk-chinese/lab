@@ -34,9 +34,17 @@ export function GrammarTab() {
 
   if (!grammar || !sentences) return <div className="p-6 text-sm text-text-muted">불러오는 중…</div>
 
-  const sentenceByHanzi = new Map(
-    sentences.sections.flatMap((s) => s.sentences).map((s) => [s.hanzi, s.sentence_id]),
-  )
+  const allSentences = sentences.sections.flatMap((s) => s.sentences)
+
+  // Grammar card examples quote a short excerpt of the body text, but the
+  // actual reading-tab sentence can be a longer sentence the excerpt is
+  // embedded in (e.g. G1 and G5 both quote clauses from one combined
+  // sentence). Match by substring rather than exact equality, ignoring the
+  // example's trailing punctuation.
+  function findSentenceId(exampleHanzi: string): string | undefined {
+    const needle = exampleHanzi.replace(/[。！？]+$/, '')
+    return allSentences.find((s) => s.hanzi.includes(needle))?.sentence_id
+  }
 
   return (
     <div className="px-4 py-4 pb-24">
@@ -60,7 +68,7 @@ export function GrammarTab() {
 
           <div className="mt-3 space-y-3">
             {card.examples.map((ex, idx) => (
-              <ExampleRow key={idx} example={ex} sentenceId={sentenceByHanzi.get(ex.hanzi)} />
+              <ExampleRow key={idx} example={ex} sentenceId={findSentenceId(ex.hanzi)} />
             ))}
           </div>
         </section>
