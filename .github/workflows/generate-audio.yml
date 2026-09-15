@@ -29,6 +29,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install ffmpeg (for loudness normalization)
+        run: sudo apt-get update -y && sudo apt-get install -y ffmpeg
+
       - name: Generate audio and update sentences_L01.json
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
