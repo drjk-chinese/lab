@@ -14,13 +14,27 @@ create table if not exists profiles (
 
 alter table profiles enable row level security;
 
+-- Admin-check helper. SECURITY DEFINER makes this query bypass RLS, which
+-- is required here: a policy on `profiles` that reads `profiles` again to
+-- check the caller's role would otherwise recurse into itself (Postgres
+-- error "infinite recursion detected in policy for relation profiles").
+create or replace function public.is_admin(uid uuid)
+returns boolean
+language sql
+security definer
+set search_path = public
+stable
+as $$
+  select exists (
+    select 1 from profiles p where p.id = uid and p.role = 'admin'
+  );
+$$;
+
 create policy "profiles: read own row" on profiles
   for select using (auth.uid() = id);
 
 create policy "profiles: admins read all" on profiles
-  for select using (
-    exists (select 1 from profiles p where p.id = auth.uid() and p.role = 'admin')
-  );
+  for select using (public.is_admin(auth.uid()));
 
 -- Students self-provision on first login (see src/contexts/AuthContext.tsx:
 -- signInWithPassword, falling back to signUp on first attempt). Only a
@@ -48,14 +62,10 @@ create policy "lesson_content: everyone can read" on lesson_content
   for select using (true);
 
 create policy "lesson_content: admins can write" on lesson_content
-  for insert with check (
-    exists (select 1 from profiles p where p.id = auth.uid() and p.role = 'admin')
-  );
+  for insert with check (public.is_admin(auth.uid()));
 
 create policy "lesson_content: admins can update" on lesson_content
-  for update using (
-    exists (select 1 from profiles p where p.id = auth.uid() and p.role = 'admin')
-  );
+  for update using (public.is_admin(auth.uid()));
 
 -- ── event_logs ──────────────────────────────────────────────────────────
 -- Research logging for every student interaction. event_type examples:
@@ -78,9 +88,7 @@ create policy "event_logs: students insert own" on event_logs
   );
 
 create policy "event_logs: admins read all" on event_logs
-  for select using (
-    exists (select 1 from profiles p where p.id = auth.uid() and p.role = 'admin')
-  );
+  for select using (public.is_admin(auth.uid()));
 
 create index if not exists event_logs_student_lesson_idx
   on event_logs (student_id, lesson_id);
@@ -107,9 +115,7 @@ create policy "quiz_results: students insert own" on quiz_results
   );
 
 create policy "quiz_results: admins read all" on quiz_results
-  for select using (
-    exists (select 1 from profiles p where p.id = auth.uid() and p.role = 'admin')
-  );
+  for select using (public.is_admin(auth.uid()));
 
 -- ── activity dashboard helper view ─────────────────────────────────────
 -- Backs the admin "활동현황" table: per-student login count, checked-word
