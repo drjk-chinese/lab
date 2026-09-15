@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif-sc: "Noto Serif SC", serif;
+
+  --color-bg: #faf8f8;
+  --color-bg-app: #fafaf8;
+  --color-text: #1a1a1a;
+  --color-text-muted: #6b6862;
+  --color-accent: #c4453b;
+  --color-accent-soft: #f4e3e0;
+  --color-teal: #2b6777;
+  --color-teal-soft: #e1ecee;
+  --color-card: #f0ede4;
+  --color-line: #e4e0d6;
+
+  --color-role-verb: #2b6cb0;
+  --color-role-complement: #c05621;
+  --color-role-marker: #718096;
+  --color-role-object: #2f855a;
+  --color-role-subject: #c4453b;
+  --color-role-rang: #6b46c1;
+  --color-role-object-person: #2f855a;
+  --color-role-action: #2b6cb0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: var(--color-bg-app);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.font-hanzi {
+  font-family: var(--font-serif-sc);
+}
+
+/* thin-line divider aesthetic instead of shadows/rounded cards everywhere */
+.divider-line {
+  border-bottom: 1px solid var(--color-line);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 3px;
+}

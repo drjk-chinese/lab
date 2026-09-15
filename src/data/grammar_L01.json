@@ -1,0 +1,131 @@
+{
+  "lesson_id": "L01",
+  "grammar_cards": [
+    {
+      "card_id": "G1",
+      "title": "상태보어 (V得C)",
+      "structure": "동사 + 得 + 보어",
+      "meaning": "동작 결과의 정도·상태 설명",
+      "footnote": "목적어를 소유격으로 문두 이동, 동사 중복 없음 (我丈夫说汉语说得很好 → 我丈夫的汉语说得很好)",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "我丈夫的汉语说得很好。",
+          "pinyin": "wǒ zhàngfu de Hànyǔ shuō de hěn hǎo.",
+          "meaning_kr": "내 남편은 중국어를 잘한다.",
+          "footnote_marker": true,
+          "segments": [
+            {"text": "我丈夫的汉语", "role": "object"},
+            {"text": "说", "role": "verb"},
+            {"text": "得", "role": "marker"},
+            {"text": "很好", "role": "complement"}
+          ]
+        },
+        {
+          "source": "extra",
+          "hanzi": "她的字写得很漂亮。",
+          "pinyin": "tā de zì xiě de hěn piàoliang.",
+          "meaning_kr": "그녀는 글씨를 예쁘게 쓴다.",
+          "footnote_marker": true
+        },
+        {
+          "source": "extra",
+          "hanzi": "我朋友的中文说得非常流利。",
+          "pinyin": "wǒ péngyou de Zhōngwén shuō de fēicháng liúlì.",
+          "meaning_kr": "내 친구는 중국어를 아주 유창하게 한다.",
+          "footnote_marker": true
+        }
+      ]
+    },
+    {
+      "card_id": "G2",
+      "title": "결과보어",
+      "structure": "동사 + 完(완성)/到(도달)/会(습득)",
+      "meaning": "동작의 결과 표시",
+      "examples": [
+        {"source": "text", "hanzi": "说完后，我感到很高兴。", "pinyin": "shuōwán hòu, wǒ gǎndào hěn gāoxìng.", "meaning_kr": "다 말한 후, 나는 기뻤다."},
+        {"source": "text", "hanzi": "我感到很高兴。", "pinyin": "wǒ gǎndào hěn gāoxìng.", "meaning_kr": "나는 기뻤다."},
+        {"source": "text", "hanzi": "她是刚学会的。", "pinyin": "tā shì gāng xuéhuì de.", "meaning_kr": "그녀는 방금 배워서 할 줄 알게 된 것이다."},
+        {"source": "extra", "hanzi": "我做完作业了。", "pinyin": "wǒ zuòwán zuòyè le.", "meaning_kr": "나는 숙제를 다 했다."},
+        {"source": "extra", "hanzi": "他看到了。", "pinyin": "tā kàndào le.", "meaning_kr": "그는 봤다."}
+      ]
+    },
+    {
+      "card_id": "G3",
+      "title": "방향보어",
+      "structure": "동사 + 起来(시작)/进去(안으로)",
+      "meaning": "동작의 진행 방향이나 시작을 나타냄",
+      "examples": [
+        {"source": "text", "hanzi": "忍不住笑了起来。", "pinyin": "rěn bú zhù xiào le qǐlái.", "meaning_kr": "참지 못하고 웃기 시작했다."},
+        {"source": "text", "hanzi": "哈哈大笑起来。", "pinyin": "hāhā dàxiào qǐlái.", "meaning_kr": "껄껄 크게 웃기 시작했다."},
+        {"source": "text", "hanzi": "找个地缝钻进去。", "pinyin": "zhǎo ge dìfèng zuān jìnqù.", "meaning_kr": "쥐구멍에라도 파고들어가고 싶다."},
+        {"source": "extra", "hanzi": "他站了起来。", "pinyin": "tā zhàn le qǐlái.", "meaning_kr": "그는 일어섰다."},
+        {"source": "extra", "hanzi": "她走进去了。", "pinyin": "tā zǒu jìnqù le.", "meaning_kr": "그녀는 걸어 들어갔다."}
+      ]
+    },
+    {
+      "card_id": "G4",
+      "title": "가능보어 (V得/不C)",
+      "structure": "동사 + 得/不 + 보어",
+      "meaning": "~할 수 있다/없다",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "忍不住笑了起来。",
+          "pinyin": "rěn bú zhù xiào le qǐlái.",
+          "meaning_kr": "참지 못하고 웃기 시작했다. (忍+不+住 = 참아낼 수 없다)",
+          "segments": [
+            {"text": "忍", "role": "verb"},
+            {"text": "不", "role": "marker"},
+            {"text": "住", "role": "complement"}
+          ]
+        },
+        {"source": "extra", "hanzi": "我的手机找不到了。", "pinyin": "wǒ de shǒujī zhǎo bu dào le.", "meaning_kr": "내 휴대폰을 찾을 수가 없다."},
+        {"source": "extra", "hanzi": "他说得太快，我听不懂。", "pinyin": "tā shuō de tài kuài, wǒ tīng bu dǒng.", "meaning_kr": "그가 너무 빨리 말해서 나는 알아들을 수 없다."}
+      ]
+    },
+    {
+      "card_id": "G5",
+      "title": "让자문 (사역동사)",
+      "structure": "A + 让 + B + 동사",
+      "meaning": "A가 B에게 ~하게 하다/시키다",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "我让他给我要一瓶可乐。",
+          "pinyin": "wǒ ràng tā gěi wǒ yào yì píng kělè.",
+          "meaning_kr": "나는 그에게 콜라 한 병을 달라고 하게 시켰다.",
+          "segments": [
+            {"text": "我", "role": "subject"},
+            {"text": "让", "role": "rang"},
+            {"text": "他", "role": "object_person"},
+            {"text": "给我要一瓶可乐", "role": "action"}
+          ]
+        },
+        {
+          "source": "text",
+          "hanzi": "丈夫让我自己跟服务员要。",
+          "pinyin": "zhàngfu ràng wǒ zìjǐ gēn fúwùyuán yào.",
+          "meaning_kr": "남편은 나에게 직접 종업원에게 달라고 하게 했다.",
+          "segments": [
+            {"text": "丈夫", "role": "subject"},
+            {"text": "让", "role": "rang"},
+            {"text": "我", "role": "object_person"},
+            {"text": "自己跟服务员要", "role": "action"}
+          ]
+        },
+        {"source": "extra", "hanzi": "老师让我们写作业。", "pinyin": "lǎoshī ràng wǒmen xiě zuòyè.", "meaning_kr": "선생님은 우리에게 숙제를 쓰게 했다."}
+      ]
+    }
+  ],
+  "color_roles": {
+    "verb": "blue",
+    "complement": "orange",
+    "marker": "gray",
+    "object": "green",
+    "subject": "red",
+    "rang": "purple",
+    "object_person": "green",
+    "action": "blue"
+  }
+}

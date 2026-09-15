@@ -1,0 +1,97 @@
+{
+  "lesson_id": "L01",
+  "sections": [
+    {
+      "section_id": "L01-S1",
+      "words": [
+        {"word_id": "L01S1_01", "hanzi": "小姐", "pinyin": "xiǎojiě", "meaning_kr": "아가씨", "example": {"text": "小姐，请问洗手间在哪儿？", "pinyin": "xiǎojiě, qǐngwèn xǐshǒujiān zài nǎr?", "meaning_kr": "아가씨, 화장실이 어디예요?"}},
+        {"word_id": "L01S1_02", "hanzi": "听到", "pinyin": "tīngdào", "meaning_kr": "듣다, 들리다", "example": {"text": "我听到了他的声音。", "pinyin": "wǒ tīngdào le tā de shēngyīn.", "meaning_kr": "나는 그의 목소리를 들었다."}},
+        {"word_id": "L01S1_03", "hanzi": "声音", "pinyin": "shēngyīn", "meaning_kr": "소리", "example": {"text": "她的声音很好听。", "pinyin": "tā de shēngyīn hěn hǎotīng.", "meaning_kr": "그녀의 목소리는 듣기 좋다."}},
+        {"word_id": "L01S1_04", "hanzi": "想起", "pinyin": "xiǎngqǐ", "meaning_kr": "떠올리다", "example": {"text": "我想起了那件事。", "pinyin": "wǒ xiǎngqǐ le nà jiàn shì.", "meaning_kr": "나는 그 일이 떠올랐다."}},
+        {"word_id": "L01S1_05", "hanzi": "刚", "pinyin": "gāng", "meaning_kr": "방금, 막", "example": {"text": "他刚到家。", "pinyin": "tā gāng dào jiā.", "meaning_kr": "그는 방금 집에 도착했다."}},
+        {"word_id": "L01S1_06", "hanzi": "汉语", "pinyin": "Hànyǔ", "meaning_kr": "중국어", "example": {"text": "我在学汉语。", "pinyin": "wǒ zài xué Hànyǔ.", "meaning_kr": "나는 중국어를 배우고 있다."}},
+        {"word_id": "L01S1_07", "hanzi": "件", "pinyin": "jiàn", "meaning_kr": "건(양사)", "example": {"text": "这是一件小事。", "pinyin": "zhè shì yí jiàn xiǎoshì.", "meaning_kr": "이건 작은 일이다."}},
+        {"word_id": "L01S1_08", "hanzi": "忍不住", "pinyin": "rěn bú zhù", "meaning_kr": "참지 못하다", "example": {"text": "我忍不住笑了。", "pinyin": "wǒ rěn bú zhù xiào le.", "meaning_kr": "나는 참지 못하고 웃었다."}},
+        {"word_id": "L01S1_09", "hanzi": "起来", "pinyin": "qǐlái", "meaning_kr": "~하기 시작하다(방향보어)", "example": {"text": "他哭了起来。", "pinyin": "tā kū le qǐlái.", "meaning_kr": "그는 울기 시작했다."}},
+        {"word_id": "L01S1_10", "hanzi": "去年", "pinyin": "qùnián", "meaning_kr": "작년", "example": {"text": "我去年来中国。", "pinyin": "wǒ qùnián lái Zhōngguó.", "meaning_kr": "나는 작년에 중국에 왔다."}},
+        {"word_id": "L01S1_11", "hanzi": "中国", "pinyin": "Zhōngguó", "meaning_kr": "중국", "example": {"text": "中国很大。", "pinyin": "Zhōngguó hěn dà.", "meaning_kr": "중국은 크다."}},
+        {"word_id": "L01S1_12", "hanzi": "时候", "pinyin": "shíhou", "meaning_kr": "때, 시각", "example": {"text": "吃饭的时候不要说话。", "pinyin": "chīfàn de shíhou bú yào shuōhuà.", "meaning_kr": "밥 먹을 때 말하지 마세요."}},
+        {"word_id": "L01S1_13", "hanzi": "发音", "pinyin": "fāyīn", "meaning_kr": "발음", "example": {"text": "他的发音很好。", "pinyin": "tā de fāyīn hěn hǎo.", "meaning_kr": "그의 발음은 좋다."}},
+        {"word_id": "L01S1_14", "hanzi": "不太", "pinyin": "bú tài", "meaning_kr": "그다지 ~않다", "example": {"text": "今天不太冷。", "pinyin": "jīntiān bú tài lěng.", "meaning_kr": "오늘은 그다지 춥지 않다."}},
+        {"word_id": "L01S1_15", "hanzi": "闹", "pinyin": "nào", "meaning_kr": "(사달을) 일으키다", "example": {"text": "他闹了个笑话。", "pinyin": "tā nào le ge xiàohua.", "meaning_kr": "그는 웃음거리를 만들었다."}},
+        {"word_id": "L01S1_16", "hanzi": "笑话", "pinyin": "xiàohua", "meaning_kr": "웃음거리", "example": {"text": "这是一个笑话。", "pinyin": "zhè shì yí ge xiàohua.", "meaning_kr": "이건 웃음거리다."}},
+        {"word_id": "L01S1_17", "hanzi": "有一天", "pinyin": "yǒu yìtiān", "meaning_kr": "어느 날", "example": {"text": "有一天，他来了。", "pinyin": "yǒu yìtiān, tā lái le.", "meaning_kr": "어느 날, 그가 왔다."}},
+        {"word_id": "L01S1_18", "hanzi": "丈夫", "pinyin": "zhàngfu", "meaning_kr": "남편", "example": {"text": "我丈夫在工作。", "pinyin": "wǒ zhàngfu zài gōngzuò.", "meaning_kr": "내 남편은 일하고 있다."}},
+        {"word_id": "L01S1_19", "hanzi": "饭店", "pinyin": "fàndiàn", "meaning_kr": "식당", "example": {"text": "我们去饭店吃饭。", "pinyin": "wǒmen qù fàndiàn chīfàn.", "meaning_kr": "우리는 식당에 밥 먹으러 간다."}},
+        {"word_id": "L01S1_20", "hanzi": "可乐", "pinyin": "kělè", "meaning_kr": "콜라", "example": {"text": "我想喝可乐。", "pinyin": "wǒ xiǎng hē kělè.", "meaning_kr": "나는 콜라를 마시고 싶다."}},
+        {"word_id": "L01S1_21", "hanzi": "要", "pinyin": "yào", "meaning_kr": "주문하다, 달라고 하다", "example": {"text": "我要一个可乐。", "pinyin": "wǒ yào yí ge kělè.", "meaning_kr": "저는 콜라 하나 주문할게요."}}
+      ]
+    },
+    {
+      "section_id": "L01-S2",
+      "words": [
+        {"word_id": "L01S2_01", "hanzi": "说得很好", "pinyin": "shuō de hěn hǎo", "meaning_kr": "잘 말했다/말을 잘 한다(상태보어)", "example": {"text": "他说得很好。", "pinyin": "tā shuō de hěn hǎo.", "meaning_kr": "그는 말을 잘 한다."}},
+        {"word_id": "L01S2_02", "hanzi": "让", "pinyin": "ràng", "meaning_kr": "~하게 하다, 시키다", "example": {"text": "妈妈让我早点回家。", "pinyin": "māma ràng wǒ zǎodiǎn huíjiā.", "meaning_kr": "엄마는 나에게 집에 일찍 오라고 했다."}},
+        {"word_id": "L01S2_03", "hanzi": "给", "pinyin": "gěi", "meaning_kr": "~에게", "example": {"text": "我给他一本书。", "pinyin": "wǒ gěi tā yì běn shū.", "meaning_kr": "나는 그에게 책 한 권을 주었다."}},
+        {"word_id": "L01S2_04", "hanzi": "瓶", "pinyin": "píng", "meaning_kr": "병(양사)", "example": {"text": "我要一瓶水。", "pinyin": "wǒ yào yì píng shuǐ.", "meaning_kr": "저는 물 한 병 주세요."}},
+        {"word_id": "L01S2_05", "hanzi": "可是", "pinyin": "kěshì", "meaning_kr": "그러나", "example": {"text": "我很累，可是不能休息。", "pinyin": "wǒ hěn lèi, kěshì bù néng xiūxi.", "meaning_kr": "나는 피곤하지만 쉴 수 없다."}},
+        {"word_id": "L01S2_06", "hanzi": "自己", "pinyin": "zìjǐ", "meaning_kr": "스스로", "example": {"text": "他自己做的。", "pinyin": "tā zìjǐ zuò de.", "meaning_kr": "그가 스스로 한 것이다."}},
+        {"word_id": "L01S2_07", "hanzi": "跟", "pinyin": "gēn", "meaning_kr": "~와/~에게", "example": {"text": "我跟他说了。", "pinyin": "wǒ gēn tā shuō le.", "meaning_kr": "나는 그에게 말했다."}},
+        {"word_id": "L01S2_08", "hanzi": "服务员", "pinyin": "fúwùyuán", "meaning_kr": "종업원", "example": {"text": "服务员，请给我菜单。", "pinyin": "fúwùyuán, qǐng gěi wǒ càidān.", "meaning_kr": "종업원, 메뉴판 주세요."}},
+        {"word_id": "L01S2_09", "hanzi": "教", "pinyin": "jiāo", "meaning_kr": "가르치다", "example": {"text": "老师教我们汉语。", "pinyin": "lǎoshī jiāo wǒmen Hànyǔ.", "meaning_kr": "선생님은 우리에게 중국어를 가르친다."}},
+        {"word_id": "L01S2_10", "hanzi": "遍", "pinyin": "biàn", "meaning_kr": "번(양사)", "example": {"text": "我读了三遍。", "pinyin": "wǒ dú le sān biàn.", "meaning_kr": "나는 세 번 읽었다."}},
+        {"word_id": "L01S2_11", "hanzi": "又", "pinyin": "yòu", "meaning_kr": "또, 다시", "example": {"text": "他又来了。", "pinyin": "tā yòu lái le.", "meaning_kr": "그가 또 왔다."}},
+        {"word_id": "L01S2_12", "hanzi": "练习", "pinyin": "liànxí", "meaning_kr": "연습하다", "example": {"text": "我每天练习汉语。", "pinyin": "wǒ měitiān liànxí Hànyǔ.", "meaning_kr": "나는 매일 중국어를 연습한다."}},
+        {"word_id": "L01S2_13", "hanzi": "然后", "pinyin": "ránhòu", "meaning_kr": "그런 후", "example": {"text": "先吃饭，然后休息。", "pinyin": "xiān chīfàn, ránhòu xiūxi.", "meaning_kr": "먼저 밥 먹고, 그다음 쉰다."}},
+        {"word_id": "L01S2_14", "hanzi": "紧张", "pinyin": "jǐnzhāng", "meaning_kr": "긴장하다", "example": {"text": "考试前我很紧张。", "pinyin": "kǎoshì qián wǒ hěn jǐnzhāng.", "meaning_kr": "시험 전에 나는 긴장했다."}},
+        {"word_id": "L01S2_15", "hanzi": "答应", "pinyin": "dāying", "meaning_kr": "대답하다/승낙하다", "example": {"text": "他答应了我的请求。", "pinyin": "tā dāying le wǒ de qǐngqiú.", "meaning_kr": "그는 내 부탁을 승낙했다."}},
+        {"word_id": "L01S2_16", "hanzi": "说完", "pinyin": "shuōwán", "meaning_kr": "다 말하다", "example": {"text": "他说完了。", "pinyin": "tā shuōwán le.", "meaning_kr": "그는 다 말했다."}},
+        {"word_id": "L01S2_17", "hanzi": "感到", "pinyin": "gǎndào", "meaning_kr": "느끼다", "example": {"text": "我感到很高兴。", "pinyin": "wǒ gǎndào hěn gāoxìng.", "meaning_kr": "나는 기뻤다."}},
+        {"word_id": "L01S2_18", "hanzi": "高兴", "pinyin": "gāoxìng", "meaning_kr": "기쁘다", "example": {"text": "认识你很高兴。", "pinyin": "rènshi nǐ hěn gāoxìng.", "meaning_kr": "당신을 알게 되어 기쁩니다."}},
+        {"word_id": "L01S2_19", "hanzi": "等", "pinyin": "děng", "meaning_kr": "기다리다", "example": {"text": "请等一下。", "pinyin": "qǐng děng yíxià.", "meaning_kr": "잠깐 기다려 주세요."}},
+        {"word_id": "L01S2_20", "hanzi": "一会儿", "pinyin": "yíhuìr", "meaning_kr": "잠시", "example": {"text": "等我一会儿。", "pinyin": "děng wǒ yíhuìr.", "meaning_kr": "잠깐만 기다려 주세요."}},
+        {"word_id": "L01S2_21", "hanzi": "端", "pinyin": "duān", "meaning_kr": "받쳐 들다", "example": {"text": "服务员端来了菜。", "pinyin": "fúwùyuán duān lái le cài.", "meaning_kr": "종업원이 요리를 받쳐 들고 왔다."}},
+        {"word_id": "L01S2_22", "hanzi": "盘", "pinyin": "pán", "meaning_kr": "접시(양사)", "example": {"text": "一盘菜", "pinyin": "yì pán cài", "meaning_kr": "요리 한 접시"}},
+        {"word_id": "L01S2_23", "hanzi": "肉", "pinyin": "ròu", "meaning_kr": "고기", "example": {"text": "我不吃肉。", "pinyin": "wǒ bù chī ròu.", "meaning_kr": "저는 고기를 안 먹어요."}},
+        {"word_id": "L01S2_24", "hanzi": "奇怪", "pinyin": "qíguài", "meaning_kr": "이상하다", "example": {"text": "这件事很奇怪。", "pinyin": "zhè jiàn shì hěn qíguài.", "meaning_kr": "이 일은 이상하다."}}
+      ]
+    },
+    {
+      "section_id": "L01-S3",
+      "words": [
+        {"word_id": "L01S3_01", "hanzi": "扣肉", "pinyin": "kòuròu", "meaning_kr": "커우러우(삼겹살찜, 튀겼다가 찐 삼겹살 요리)", "example": {"text": "扣肉是中国菜。", "pinyin": "kòuròu shì Zhōngguó cài.", "meaning_kr": "커우러우는 중국 요리다."}},
+        {"word_id": "L01S3_02", "hanzi": "这时候", "pinyin": "zhè shíhou", "meaning_kr": "이때", "example": {"text": "这时候，他笑了。", "pinyin": "zhè shíhou, tā xiào le.", "meaning_kr": "이때, 그가 웃었다."}},
+        {"word_id": "L01S3_03", "hanzi": "哈哈大笑", "pinyin": "hāhā dàxiào", "meaning_kr": "껄껄 크게 웃다", "example": {"text": "他哈哈大笑起来。", "pinyin": "tā hāhā dàxiào qǐlái.", "meaning_kr": "그는 껄껄 크게 웃기 시작했다."}},
+        {"word_id": "L01S3_04", "hanzi": "一边…一边", "pinyin": "yìbiān…yìbiān", "meaning_kr": "~하면서 ~하다", "example": {"text": "他一边吃饭，一边看电视。", "pinyin": "tā yìbiān chīfàn, yìbiān kàn diànshì.", "meaning_kr": "그는 밥을 먹으면서 텔레비전을 본다."}},
+        {"word_id": "L01S3_05", "hanzi": "学会", "pinyin": "xuéhuì", "meaning_kr": "배워서 할 줄 알게 되다", "example": {"text": "我学会了做饭。", "pinyin": "wǒ xuéhuì le zuòfàn.", "meaning_kr": "나는 요리를 배워서 할 줄 알게 되었다."}},
+        {"word_id": "L01S3_06", "hanzi": "准", "pinyin": "zhǔn", "meaning_kr": "정확하다", "example": {"text": "他的发音很准。", "pinyin": "tā de fāyīn hěn zhǔn.", "meaning_kr": "그의 발음은 정확하다."}},
+        {"word_id": "L01S3_07", "hanzi": "错", "pinyin": "cuò", "meaning_kr": "잘못", "example": {"text": "这不是你的错。", "pinyin": "zhè bú shì nǐ de cuò.", "meaning_kr": "이건 당신의 잘못이 아니다."}}
+      ]
+    },
+    {
+      "section_id": "L01-S4",
+      "words": [
+        {"word_id": "L01S4_01", "hanzi": "找", "pinyin": "zhǎo", "meaning_kr": "찾다", "example": {"text": "我在找我的手机。", "pinyin": "wǒ zài zhǎo wǒ de shǒujī.", "meaning_kr": "나는 내 휴대폰을 찾고 있다."}},
+        {"word_id": "L01S4_02", "hanzi": "钻进去", "pinyin": "zuān jìnqù", "meaning_kr": "파고들어가다(동사+방향보어 进去)", "example": {"text": "他钻进去了。", "pinyin": "tā zuān jìnqù le.", "meaning_kr": "그는 (안으로) 파고들어갔다."}},
+        {"word_id": "L01S4_03", "hanzi": "找个地缝钻进去", "pinyin": "zhǎo ge dìfèng zuān jìnqù", "meaning_kr": "쥐구멍에라도 숨고 싶다", "example": {"text": "太丢脸了，我真想找个地缝钻进去。", "pinyin": "tài diūliǎn le, wǒ zhēn xiǎng zhǎo ge dìfèng zuān jìnqù.", "meaning_kr": "너무 창피해서 정말 쥐구멍에라도 숨고 싶었다."}},
+        {"word_id": "L01S4_04", "hanzi": "不好意思", "pinyin": "bù hǎoyìsi", "meaning_kr": "민망하다", "example": {"text": "我说错了，很不好意思。", "pinyin": "wǒ shuōcuò le, hěn bù hǎoyìsi.", "meaning_kr": "나는 잘못 말해서 민망했다."}},
+        {"word_id": "L01S4_05", "hanzi": "没办法", "pinyin": "méi bànfǎ", "meaning_kr": "어쩔 수 없다", "example": {"text": "没办法，只能这样了。", "pinyin": "méi bànfǎ, zhǐ néng zhèyàng le.", "meaning_kr": "어쩔 수 없다, 이렇게 할 수밖에."}},
+        {"word_id": "L01S4_06", "hanzi": "只好", "pinyin": "zhǐhǎo", "meaning_kr": "할 수 없이", "example": {"text": "下雨了，我们只好回家。", "pinyin": "xiàyǔ le, wǒmen zhǐhǎo huíjiā.", "meaning_kr": "비가 와서, 우리는 할 수 없이 집에 갔다."}},
+        {"word_id": "L01S4_07", "hanzi": "觉得", "pinyin": "juéde", "meaning_kr": "~라고 느끼다/생각하다", "example": {"text": "我觉得这个很好吃。", "pinyin": "wǒ juéde zhè ge hěn hǎochī.", "meaning_kr": "나는 이게 맛있다고 생각한다."}},
+        {"word_id": "L01S4_08", "hanzi": "味道", "pinyin": "wèidào", "meaning_kr": "맛", "example": {"text": "这个味道不错。", "pinyin": "zhè ge wèidào búcuò.", "meaning_kr": "이 맛은 괜찮다."}},
+        {"word_id": "L01S4_09", "hanzi": "不错", "pinyin": "búcuò", "meaning_kr": "나쁘지 않다, 괜찮다", "example": {"text": "这本书不错。", "pinyin": "zhè běn shū búcuò.", "meaning_kr": "이 책 괜찮다."}},
+        {"word_id": "L01S4_10", "hanzi": "这样", "pinyin": "zhèyàng", "meaning_kr": "이렇게", "example": {"text": "你不能这样做。", "pinyin": "nǐ bù néng zhèyàng zuò.", "meaning_kr": "너는 이렇게 하면 안 된다."}},
+        {"word_id": "L01S4_11", "hanzi": "外语", "pinyin": "wàiyǔ", "meaning_kr": "외국어", "example": {"text": "学外语很有意思。", "pinyin": "xué wàiyǔ hěn yǒuyìsi.", "meaning_kr": "외국어를 배우는 건 재미있다."}},
+        {"word_id": "L01S4_12", "hanzi": "常常", "pinyin": "chángcháng", "meaning_kr": "자주", "example": {"text": "我常常去图书馆。", "pinyin": "wǒ chángcháng qù túshūguǎn.", "meaning_kr": "나는 자주 도서관에 간다."}},
+        {"word_id": "L01S4_13", "hanzi": "遇到", "pinyin": "yùdào", "meaning_kr": "마주치다", "example": {"text": "我在路上遇到了他。", "pinyin": "wǒ zài lùshang yùdào le tā.", "meaning_kr": "나는 길에서 그를 마주쳤다."}},
+        {"word_id": "L01S4_14", "hanzi": "如果…就", "pinyin": "rúguǒ…jiù", "meaning_kr": "만약 ~라면", "example": {"text": "如果下雨，我们就不去了。", "pinyin": "rúguǒ xiàyǔ, wǒmen jiù bú qù le.", "meaning_kr": "만약 비가 오면, 우리는 안 갈 것이다."}},
+        {"word_id": "L01S4_15", "hanzi": "声调", "pinyin": "shēngdiào", "meaning_kr": "성조", "example": {"text": "汉语的声调很重要。", "pinyin": "Hànyǔ de shēngdiào hěn zhòngyào.", "meaning_kr": "중국어의 성조는 중요하다."}},
+        {"word_id": "L01S4_16", "hanzi": "意思", "pinyin": "yìsi", "meaning_kr": "의미", "example": {"text": "这个词是什么意思？", "pinyin": "zhè ge cí shì shénme yìsi?", "meaning_kr": "이 단어는 무슨 뜻이에요?"}},
+        {"word_id": "L01S4_17", "hanzi": "完全", "pinyin": "wánquán", "meaning_kr": "완전히", "example": {"text": "他完全不知道。", "pinyin": "tā wánquán bù zhīdào.", "meaning_kr": "그는 완전히 몰랐다."}},
+        {"word_id": "L01S4_18", "hanzi": "一样", "pinyin": "yíyàng", "meaning_kr": "같다", "example": {"text": "这两个一样。", "pinyin": "zhè liǎng ge yíyàng.", "meaning_kr": "이 둘은 같다."}},
+        {"word_id": "L01S4_19", "hanzi": "可能", "pinyin": "kěnéng", "meaning_kr": "아마도, 가능하다", "example": {"text": "他可能不来了。", "pinyin": "tā kěnéng bù lái le.", "meaning_kr": "그는 아마 안 올 것이다."}},
+        {"word_id": "L01S4_20", "hanzi": "出现", "pinyin": "chūxiàn", "meaning_kr": "나타나다", "example": {"text": "问题出现了。", "pinyin": "wèntí chūxiàn le.", "meaning_kr": "문제가 나타났다."}}
+      ]
+    }
+  ]
+}

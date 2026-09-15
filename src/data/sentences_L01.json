@@ -1,0 +1,103 @@
+{
+  "lesson_id": "L01",
+  "lesson_title": "可乐与扣肉",
+  "note": "본문 원문(전체 지문)은 아직 전달되지 않았습니다. 아래 문장들은 grammar_L01.json의 각 문법 카드에 source:\"text\"로 표시된, 실제 본문에서 발췌된 문장만 반영한 것입니다. 각 섹션의 나머지 문장은 원문이 제공되는 대로 이 파일(또는 관리자 화면의 인라인 편집)에 채워 넣어야 합니다.",
+  "sections": [
+    {
+      "section_id": "L01-S1",
+      "complete": false,
+      "sentences": [
+        {
+          "sentence_id": "L01S1_SENT01",
+          "hanzi": "忍不住笑了起来。",
+          "pinyin": "rěn bú zhù xiào le qǐlái.",
+          "meaning_kr": "참지 못하고 웃기 시작했다.",
+          "audio_url": null,
+          "grammar_card_ids": ["G3", "G4"],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "section_id": "L01-S2",
+      "complete": false,
+      "sentences": [
+        {
+          "sentence_id": "L01S2_SENT01",
+          "hanzi": "我丈夫的汉语说得很好。",
+          "pinyin": "wǒ zhàngfu de Hànyǔ shuō de hěn hǎo.",
+          "meaning_kr": "내 남편은 중국어를 잘한다.",
+          "audio_url": null,
+          "grammar_card_ids": ["G1"],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L01S2_SENT02",
+          "hanzi": "我让他给我要一瓶可乐。",
+          "pinyin": "wǒ ràng tā gěi wǒ yào yì píng kělè.",
+          "meaning_kr": "나는 그에게 콜라 한 병을 달라고 하게 시켰다.",
+          "audio_url": null,
+          "grammar_card_ids": ["G5"],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L01S2_SENT03",
+          "hanzi": "丈夫让我自己跟服务员要。",
+          "pinyin": "zhàngfu ràng wǒ zìjǐ gēn fúwùyuán yào.",
+          "meaning_kr": "남편은 나에게 직접 종업원에게 달라고 하게 했다.",
+          "audio_url": null,
+          "grammar_card_ids": ["G5"],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L01S2_SENT04",
+          "hanzi": "说完后，我感到很高兴。",
+          "pinyin": "shuōwán hòu, wǒ gǎndào hěn gāoxìng.",
+          "meaning_kr": "다 말한 후, 나는 기뻤다.",
+          "audio_url": null,
+          "grammar_card_ids": ["G2"],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "section_id": "L01-S3",
+      "complete": false,
+      "sentences": [
+        {
+          "sentence_id": "L01S3_SENT01",
+          "hanzi": "她是刚学会的。",
+          "pinyin": "tā shì gāng xuéhuì de.",
+          "meaning_kr": "그녀는 방금 배워서 할 줄 알게 된 것이다.",
+          "audio_url": null,
+          "grammar_card_ids": ["G2"],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L01S3_SENT02",
+          "hanzi": "哈哈大笑起来。",
+          "pinyin": "hāhā dàxiào qǐlái.",
+          "meaning_kr": "껄껄 크게 웃기 시작했다.",
+          "audio_url": null,
+          "grammar_card_ids": ["G3"],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "section_id": "L01-S4",
+      "complete": false,
+      "sentences": [
+        {
+          "sentence_id": "L01S4_SENT01",
+          "hanzi": "找个地缝钻进去。",
+          "pinyin": "zhǎo ge dìfèng zuān jìnqù.",
+          "meaning_kr": "쥐구멍에라도 숨고 싶다.",
+          "audio_url": null,
+          "grammar_card_ids": ["G3"],
+          "confirmed": true
+        }
+      ]
+    }
+  ]
+}
