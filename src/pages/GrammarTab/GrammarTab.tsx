@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { getGrammar, getSentences } from '../../lib/dataSource'
+import { speak } from '../../lib/tts'
 import type { GrammarData, GrammarExample, SentencesData, GrammarRole } from '../../types'
 
 const LESSON_ID = 'L01'
@@ -91,7 +92,13 @@ function ExampleRow({ example, sentenceId }: { example: GrammarExample; sentence
       </p>
       <p className="mt-1 text-sm text-teal">{example.pinyin}</p>
       <p className="mt-1 text-sm text-text-muted">{example.meaning_kr}</p>
-      <div className="mt-1 flex items-center gap-2 text-xs">
+      <div className="mt-2 flex items-center gap-2 text-xs">
+        <button
+          onClick={() => speak(example.hanzi)}
+          className="border border-teal px-2 py-1 text-teal"
+        >
+          🔊 듣기
+        </button>
         {example.source === 'text' && (
           <span className="border border-line px-1.5 py-0.5 text-text-muted">본문</span>
         )}
