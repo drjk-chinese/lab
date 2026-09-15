@@ -142,7 +142,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       // First-time student login: self-provision the account + profile row.
       const { data: signUpData, error: signUpError } = await supabase.auth.signUp({ email, password })
       if (signUpError) {
-        setError(`가입 실패: ${signUpError.message}`)
+        // Supabase returns the same generic "Invalid login credentials" for
+        // both "no such account" and "wrong password" (by design, to avoid
+        // leaking which emails are registered). We only reach signUp when
+        // that generic error fired, so a "already registered" response here
+        // means the account exists and the password just didn't match —
+        // surface that plainly instead of a confusing "signup failed".
+        if (/already registered/i.test(signUpError.message)) {
+          setError('비밀번호가 이전에 로그인했을 때와 다릅니다. 처음 사용했던 비밀번호로 다시 시도해 주세요.')
+        } else {
+          setError(`가입 실패: ${signUpError.message}`)
+        }
         return
       }
       if (!signUpData.user) {
