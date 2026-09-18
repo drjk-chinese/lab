@@ -13,7 +13,11 @@ export function logEvent(
   eventType: EventType,
   targetId: string | null = null,
 ) {
-  if (!isSupabaseConfigured || !supabase || !studentId) return
+  if (!isSupabaseConfigured || !supabase || !studentId) {
+    console.warn('logEvent skipped:', { isSupabaseConfigured, hasClient: !!supabase, studentId, eventType })
+    return
+  }
+  console.log('logEvent attempting insert:', { studentId, lessonId, eventType, targetId })
   supabase
     .from('event_logs')
     .insert({
@@ -24,6 +28,10 @@ export function logEvent(
       timestamp: new Date().toISOString(),
     })
     .then(({ error }) => {
-      if (error) console.error('logEvent failed:', error.message, { studentId, lessonId, eventType, targetId })
+      if (error) {
+        console.error('logEvent failed:', error.message, { studentId, lessonId, eventType, targetId })
+      } else {
+        console.log('logEvent succeeded:', { studentId, eventType })
+      }
     })
 }
