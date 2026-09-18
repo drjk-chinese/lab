@@ -122,7 +122,10 @@ create policy "quiz_results: admins read all" on quiz_results
 -- Backs the admin "활동현황" table: per-student login count, checked-word
 -- count, quiz accuracy, sentence play count, recording count, and rough
 -- time-on-task.
-create or replace view student_activity_summary as
+-- drop+create (not "or replace") because Postgres won't let a view's
+-- column list be reordered/inserted-into in place, only appended to.
+drop view if exists student_activity_summary;
+create view student_activity_summary as
 select
   e.student_id,
   e.lesson_id,
