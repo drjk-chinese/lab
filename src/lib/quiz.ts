@@ -1,4 +1,5 @@
 import type { VocabWord } from '../types'
+import { toneVariants } from './pinyinTones'
 
 export type QuizQuestionType = 'meaning' | 'pinyin'
 
@@ -18,13 +19,35 @@ function shuffle<T>(arr: T[]): T[] {
   return copy
 }
 
-/** Builds a 4-choice question for one word, pulling distractors from the full word pool. */
+/**
+ * Builds a 4-choice question for one word. Meaning questions pull
+ * distractors from the full word pool as before. Pinyin questions prefer
+ * "same syllable, different tone" distractors (e.g. wèidao vs wéidao) so
+ * the quiz actually drills tone discrimination instead of just word
+ * recognition; it only falls back to random pool pinyin when a word
+ * doesn't yield enough tone variants (e.g. very short/neutral syllables).
+ */
 function buildQuestion(word: VocabWord, type: QuizQuestionType, pool: VocabWord[]): QuizQuestion {
   const correct = type === 'meaning' ? word.meaning_kr : word.pinyin
   const distractorPool = pool.filter((w) => w.word_id !== word.word_id)
-  const distractors = shuffle(distractorPool)
-    .slice(0, 3)
-    .map((w) => (type === 'meaning' ? w.meaning_kr : w.pinyin))
+
+  let distractors: string[]
+  if (type === 'pinyin') {
+    const toneBased = toneVariants(word.pinyin, 3).filter((v) => v !== correct)
+    const missing = 3 - toneBased.length
+    const poolFallback =
+      missing > 0
+        ? shuffle(distractorPool)
+            .map((w) => w.pinyin)
+            .filter((p) => p !== correct && !toneBased.includes(p))
+            .slice(0, missing)
+        : []
+    distractors = [...toneBased, ...poolFallback]
+  } else {
+    distractors = shuffle(distractorPool)
+      .slice(0, 3)
+      .map((w) => w.meaning_kr)
+  }
 
   const choices = shuffle([correct, ...distractors])
   return { word, type, choices, correctIndex: choices.indexOf(correct) }
