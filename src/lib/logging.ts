@@ -14,11 +14,16 @@ export function logEvent(
   targetId: string | null = null,
 ) {
   if (!isSupabaseConfigured || !supabase || !studentId) return
-  void supabase.from('event_logs').insert({
-    student_id: studentId,
-    lesson_id: lessonId,
-    event_type: eventType,
-    target_id: targetId,
-    timestamp: new Date().toISOString(),
-  })
+  supabase
+    .from('event_logs')
+    .insert({
+      student_id: studentId,
+      lesson_id: lessonId,
+      event_type: eventType,
+      target_id: targetId,
+      timestamp: new Date().toISOString(),
+    })
+    .then(({ error }) => {
+      if (error) console.error('logEvent failed:', error.message, { studentId, lessonId, eventType, targetId })
+    })
 }
