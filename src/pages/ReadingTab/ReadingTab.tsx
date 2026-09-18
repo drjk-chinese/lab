@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { getSentences } from '../../lib/dataSource'
+import { logEvent } from '../../lib/logging'
 import { useAuth } from '../../contexts/AuthContext'
 import { SentenceCard } from './SentenceCard'
 import type { SentencesData, Sentence } from '../../types'
@@ -45,6 +46,7 @@ export function ReadingTab() {
     audioRef.current.src = s.audio_url as string
     audioRef.current.onended = () => playAllSequentially(list, i + 1)
     void audioRef.current.play()
+    logEvent(user?.studentId ?? null, LESSON_ID, 'sentence_play', s.sentence_id)
   }
 
   function handlePlayAll() {
