@@ -91,6 +91,14 @@ create policy "event_logs: students insert own" on event_logs
 create policy "event_logs: admins read all" on event_logs
   for select using (public.is_admin(auth.uid()));
 
+-- Lets a student read back their own event history (used by the 낭독 탭
+-- recording-progress indicator to count distinct sentences they've ever
+-- attempted recording for, across sessions).
+create policy "event_logs: students read own" on event_logs
+  for select using (
+    student_id = (select p.student_id from profiles p where p.id = auth.uid())
+  );
+
 create index if not exists event_logs_student_lesson_idx
   on event_logs (student_id, lesson_id);
 

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { getSentences } from '../../lib/dataSource'
 import { logEvent } from '../../lib/logging'
+import { getRecordedSentenceIds } from '../../lib/activity'
 import { useAuth } from '../../contexts/AuthContext'
 import { SentenceCard } from './SentenceCard'
 import type { SentencesData, Sentence } from '../../types'
@@ -17,12 +18,18 @@ export function ReadingTab() {
   const [showTranslation, setShowTranslation] = useState(false)
   const [showGrammar, setShowGrammar] = useState(false)
   const [playingAll, setPlayingAll] = useState(false)
+  const [recordedIds, setRecordedIds] = useState<Set<string>>(new Set())
   const [searchParams] = useSearchParams()
   const audioRef = useRef<HTMLAudioElement | null>(null)
 
   useEffect(() => {
     getSentences(LESSON_ID).then(setData)
   }, [])
+
+  useEffect(() => {
+    if (!user?.studentId) return
+    getRecordedSentenceIds(user.studentId, LESSON_ID).then(setRecordedIds)
+  }, [user?.studentId])
 
   useEffect(() => {
     const target = searchParams.get('sentence')
@@ -88,6 +95,12 @@ export function ReadingTab() {
           <ToggleRow label="해석" checked={showTranslation} onChange={setShowTranslation} />
           <ToggleRow label="문법" checked={showGrammar} onChange={setShowGrammar} />
         </div>
+
+        {user && (
+          <p className="mt-2 text-xs text-text-muted">
+            🎙 {allSentences.length}개 중 {recordedIds.size}개 문장 녹음함
+          </p>
+        )}
       </div>
 
       {data.sections.some((s) => !s.complete) && (
@@ -107,6 +120,7 @@ export function ReadingTab() {
               showGrammar={showGrammar}
               studentId={user?.studentId ?? null}
               lessonId={LESSON_ID}
+              onRecorded={(id) => setRecordedIds((prev) => new Set(prev).add(id))}
             />
           ))}
         </div>

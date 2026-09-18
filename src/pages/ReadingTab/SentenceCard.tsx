@@ -12,6 +12,7 @@ interface Props {
   showGrammar: boolean
   studentId: string | null
   lessonId: string
+  onRecorded?: (sentenceId: string) => void
 }
 
 export function SentenceCard({
@@ -21,6 +22,7 @@ export function SentenceCard({
   showGrammar,
   studentId,
   lessonId,
+  onRecorded,
 }: Props) {
   const [speed, setSpeed] = useState<(typeof SPEEDS)[number]>(1)
   const [recording, setRecording] = useState(false)
@@ -58,6 +60,7 @@ export function SentenceCard({
       mediaRecorderRef.current = recorder
       setRecording(true)
       logEvent(studentId, lessonId, 'record_attempt', sentence.sentence_id)
+      onRecorded?.(sentence.sentence_id)
     } catch {
       alert('마이크 권한이 필요합니다.')
     }
