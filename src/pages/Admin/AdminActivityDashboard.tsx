@@ -9,6 +9,7 @@ interface ActivityRow {
   quiz_answers: number
   quiz_correct: number
   sentence_plays: number
+  recordings: number
   session_span_seconds: number | null
 }
 
@@ -49,6 +50,7 @@ export function AdminActivityDashboard() {
             <th className="py-2 pr-3">체크 단어</th>
             <th className="py-2 pr-3">퀴즈 정답률</th>
             <th className="py-2 pr-3">문장 재생</th>
+            <th className="py-2 pr-3">녹음 횟수</th>
             <th className="py-2 pr-3">체류시간</th>
           </tr>
         </thead>
@@ -62,6 +64,7 @@ export function AdminActivityDashboard() {
                 {r.quiz_answers > 0 ? `${Math.round((r.quiz_correct / r.quiz_answers) * 100)}%` : '-'}
               </td>
               <td className="py-2 pr-3">{r.sentence_plays}</td>
+              <td className="py-2 pr-3">{r.recordings}</td>
               <td className="py-2 pr-3">
                 {r.session_span_seconds ? `${Math.round(r.session_span_seconds / 60)}분` : '-'}
               </td>

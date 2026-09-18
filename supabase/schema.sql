@@ -120,7 +120,8 @@ create policy "quiz_results: admins read all" on quiz_results
 
 -- ── activity dashboard helper view ─────────────────────────────────────
 -- Backs the admin "활동현황" table: per-student login count, checked-word
--- count, quiz accuracy, sentence play count, and rough time-on-task.
+-- count, quiz accuracy, sentence play count, recording count, and rough
+-- time-on-task.
 create or replace view student_activity_summary as
 select
   e.student_id,
@@ -132,6 +133,7 @@ select
     where e.event_type = 'quiz_answer' and e.target_id like '%:correct'
   ) as quiz_correct,
   count(*) filter (where e.event_type = 'sentence_play') as sentence_plays,
+  count(*) filter (where e.event_type = 'record_attempt') as recordings,
   extract(epoch from (max(e.timestamp) - min(e.timestamp))) as session_span_seconds
 from event_logs e
 group by e.student_id, e.lesson_id;
