@@ -1,0 +1,1344 @@
+{
+  "lesson_id": "L03",
+  "sections": [
+    {
+      "section_id": "L03-S1",
+      "words": [
+        {
+          "word_id": "L03_001",
+          "hanzi": "工作",
+          "pinyin": "gōngzuò",
+          "meaning_kr": "일, 직업, 일하다",
+          "example": {
+            "text": "我很喜欢这份工作。",
+            "pinyin": "Wǒ hěn xǐhuan zhè fèn gōngzuò.",
+            "meaning_kr": "나는 이 일을 매우 좋아한다."
+          }
+        },
+        {
+          "word_id": "L03_002",
+          "hanzi": "觉得",
+          "pinyin": "juéde",
+          "meaning_kr": "~라고 생각하다, 느끼다",
+          "example": {
+            "text": "你觉得今天怎么样？",
+            "pinyin": "Nǐ juéde jīntiān zěnmeyàng?",
+            "meaning_kr": "너는 오늘 어떻다고 생각하니?"
+          }
+        },
+        {
+          "word_id": "L03_003",
+          "hanzi": "理想",
+          "pinyin": "lǐxiǎng",
+          "meaning_kr": "이상, 이상적이다",
+          "example": {
+            "text": "这是我理想的生活。",
+            "pinyin": "Zhè shì wǒ lǐxiǎng de shēnghuó.",
+            "meaning_kr": "이것은 내가 이상적으로 생각하는 삶이다."
+          }
+        },
+        {
+          "word_id": "L03_004",
+          "hanzi": "应该",
+          "pinyin": "yīnggāi",
+          "meaning_kr": "마땅히 ~해야 한다",
+          "example": {
+            "text": "你应该多休息。",
+            "pinyin": "Nǐ yīnggāi duō xiūxi.",
+            "meaning_kr": "너는 마땅히 좀 더 쉬어야 한다."
+          }
+        },
+        {
+          "word_id": "L03_005",
+          "hanzi": "那种",
+          "pinyin": "nà zhǒng",
+          "meaning_kr": "그런 종류, 저런 것",
+          "example": {
+            "text": "我不喜欢那种颜色。",
+            "pinyin": "Wǒ bù xǐhuan nà zhǒng yánsè.",
+            "meaning_kr": "나는 그런 색깔을 좋아하지 않는다."
+          }
+        },
+        {
+          "word_id": "L03_006",
+          "hanzi": "既…又…",
+          "pinyin": "jì…yòu…",
+          "meaning_kr": "~하기도 하고 또 ~하기도 하다",
+          "example": {
+            "text": "这苹果既大又甜。",
+            "pinyin": "Zhè píngguǒ jì dà yòu tián.",
+            "meaning_kr": "이 사과는 크기도 하고 또 달다."
+          }
+        },
+        {
+          "word_id": "L03_007",
+          "hanzi": "能",
+          "pinyin": "néng",
+          "meaning_kr": "~할 수 있다",
+          "example": {
+            "text": "明天你能来吗？",
+            "pinyin": "Míngtiān nǐ néng lái ma?",
+            "meaning_kr": "내일 너 올 수 있니?"
+          }
+        },
+        {
+          "word_id": "L03_008",
+          "hanzi": "锻炼",
+          "pinyin": "duànliàn",
+          "meaning_kr": "단련하다, 운동하다",
+          "example": {
+            "text": "跑步可以锻炼身体。",
+            "pinyin": "Pǎobù kěyǐ duànliàn shēntǐ.",
+            "meaning_kr": "달리기는 몸을 단련할 수 있다."
+          }
+        },
+        {
+          "word_id": "L03_009",
+          "hanzi": "能力",
+          "pinyin": "nénglì",
+          "meaning_kr": "능력",
+          "example": {
+            "text": "他的能力很强。",
+            "pinyin": "Tā de nénglì hěn qiáng.",
+            "meaning_kr": "그의 능력은 뛰어나다."
+          }
+        },
+        {
+          "word_id": "L03_010",
+          "hanzi": "有意思",
+          "pinyin": "yǒu yìsi",
+          "meaning_kr": "재미있다, 의미가 있다",
+          "example": {
+            "text": "这部电影很有意思。",
+            "pinyin": "Zhè bù diànyǐng hěn yǒu yìsi.",
+            "meaning_kr": "이 영화는 매우 재미있다."
+          }
+        },
+        {
+          "word_id": "L03_011",
+          "hanzi": "希望",
+          "pinyin": "xīwàng",
+          "meaning_kr": "희망하다, 바라다",
+          "example": {
+            "text": "我希望明天不下雨。",
+            "pinyin": "Wǒ xīwàng míngtiān bú xiàyǔ.",
+            "meaning_kr": "나는 내일 비가 오지 않기를 바란다."
+          }
+        },
+        {
+          "word_id": "L03_012",
+          "hanzi": "把",
+          "pinyin": "bǎ",
+          "meaning_kr": "~을/를 (처치를 나타냄)",
+          "example": {
+            "text": "请把门关上。",
+            "pinyin": "Qǐng bǎ mén guānshàng.",
+            "meaning_kr": "문 좀 닫아 주세요."
+          }
+        },
+        {
+          "word_id": "L03_013",
+          "hanzi": "自己",
+          "pinyin": "zìjǐ",
+          "meaning_kr": "자신, 자기",
+          "example": {
+            "text": "我自己去就可以了。",
+            "pinyin": "Wǒ zìjǐ qù jiù kěyǐ le.",
+            "meaning_kr": "나 혼자 가도 충분해."
+          }
+        },
+        {
+          "word_id": "L03_014",
+          "hanzi": "学",
+          "pinyin": "xué",
+          "meaning_kr": "배우다, 공부하다",
+          "example": {
+            "text": "我们一起学汉语吧。",
+            "pinyin": "Wǒmen yìqǐ xué Hànyǔ ba.",
+            "meaning_kr": "우리 함께 중국어 배우자."
+          }
+        },
+        {
+          "word_id": "L03_015",
+          "hanzi": "知识",
+          "pinyin": "zhīshi",
+          "meaning_kr": "지식",
+          "example": {
+            "text": "书里有很多知识。",
+            "pinyin": "Shū lǐ yǒu hěn duō zhīshi.",
+            "meaning_kr": "책 속에는 많은 지식이 있다."
+          }
+        },
+        {
+          "word_id": "L03_016",
+          "hanzi": "更多",
+          "pinyin": "gèng duō",
+          "meaning_kr": "더 많이, 더욱 많은",
+          "example": {
+            "text": "我想了解更多。",
+            "pinyin": "Wǒ xiǎng liǎojiě gèng duō.",
+            "meaning_kr": "나는 더 많이 알고 싶다."
+          }
+        },
+        {
+          "word_id": "L03_017",
+          "hanzi": "用到",
+          "pinyin": "yòng dào",
+          "meaning_kr": "~에 쓰다, 적용하다",
+          "example": {
+            "text": "这些方法可以用到生活中。",
+            "pinyin": "Zhèxiē fāngfǎ kěyǐ yòngdào shēnghuó zhōng.",
+            "meaning_kr": "이 방법들은 생활 속에 쓰일 수 있다."
+          }
+        },
+        {
+          "word_id": "L03_019",
+          "hanzi": "翻译",
+          "pinyin": "fānyì",
+          "meaning_kr": "통역/번역하다, 번역가",
+          "example": {
+            "text": "请帮我翻译一下。",
+            "pinyin": "Qǐng bāng wǒ fānyì yíxià.",
+            "meaning_kr": "나를 도와 번역 좀 해줘."
+          }
+        },
+        {
+          "word_id": "L03_027",
+          "hanzi": "以前",
+          "pinyin": "yǐqián",
+          "meaning_kr": "이전, 예전",
+          "example": {
+            "text": "他以前住在这里。",
+            "pinyin": "Tā yǐqián zhù zài zhèlǐ.",
+            "meaning_kr": "그는 예전에 여기에 살았다."
+          }
+        },
+        {
+          "word_id": "L03_028",
+          "hanzi": "问",
+          "pinyin": "wèn",
+          "meaning_kr": "묻다, 질문하다",
+          "example": {
+            "text": "我可以问一个问题吗？",
+            "pinyin": "Wǒ kěyǐ wèn yí ge wèntí ma?",
+            "meaning_kr": "질문 하나 해도 될까요?"
+          }
+        },
+        {
+          "word_id": "L03_029",
+          "hanzi": "过",
+          "pinyin": "guo",
+          "meaning_kr": "~한 적이 있다 (동태조사)",
+          "example": {
+            "text": "我去过北京。",
+            "pinyin": "Wǒ qùguo Běijīng.",
+            "meaning_kr": "나는 베이징에 가본 적이 있다."
+          }
+        },
+        {
+          "word_id": "L03_030",
+          "hanzi": "很多",
+          "pinyin": "hěn duō",
+          "meaning_kr": "아주 많은",
+          "example": {
+            "text": "这里有很多书。",
+            "pinyin": "Zhèlǐ yǒu hěn duō shū.",
+            "meaning_kr": "여기에는 책이 아주 많다."
+          }
+        },
+        {
+          "word_id": "L03_031",
+          "hanzi": "次",
+          "pinyin": "cì",
+          "meaning_kr": "번, 회 (양사)",
+          "example": {
+            "text": "这是我第一次来。",
+            "pinyin": "Zhè shì wǒ dì yī cì lái.",
+            "meaning_kr": "이것은 나의 첫 번째 방문이다."
+          }
+        },
+        {
+          "word_id": "L03_032",
+          "hanzi": "喜欢",
+          "pinyin": "xǐhuan",
+          "meaning_kr": "좋아하다",
+          "example": {
+            "text": "我喜欢听音乐。",
+            "pinyin": "Wǒ xǐhuan tīng yīnyuè.",
+            "meaning_kr": "나는 음악 듣는 것을 좋아한다."
+          }
+        },
+        {
+          "word_id": "L03_033",
+          "hanzi": "想法",
+          "pinyin": "xiǎngfǎ",
+          "meaning_kr": "생각, 의견",
+          "example": {
+            "text": "你的想法很好。",
+            "pinyin": "Nǐ de xiǎngfǎ hěn hǎo.",
+            "meaning_kr": "너의 생각이 아주 좋다."
+          }
+        },
+        {
+          "word_id": "L03_034",
+          "hanzi": "总/总是",
+          "pinyin": "zǒng/zǒngshì",
+          "meaning_kr": "늘, 항상",
+          "example": {
+            "text": "他总是很忙。",
+            "pinyin": "Tā zǒngshì hěn máng.",
+            "meaning_kr": "그는 늘 바쁘다."
+          }
+        },
+        {
+          "word_id": "L03_035",
+          "hanzi": "变/变化",
+          "pinyin": "biàn/biànhuà",
+          "meaning_kr": "변화하다, 변하다",
+          "example": {
+            "text": "天气变冷了。",
+            "pinyin": "Tiānqì biàn lěng le.",
+            "meaning_kr": "날씨가 추워졌다."
+          }
+        },
+        {
+          "word_id": "L03_036",
+          "hanzi": "现在",
+          "pinyin": "xiànzài",
+          "meaning_kr": "지금, 현재",
+          "example": {
+            "text": "现在几点了？",
+            "pinyin": "Xiànzài jǐ diǎn le?",
+            "meaning_kr": "지금 몇 시예요?"
+          }
+        },
+        {
+          "word_id": "L03_037",
+          "hanzi": "当",
+          "pinyin": "dāng",
+          "meaning_kr": "~가 되다, (직업을) 맡다",
+          "example": {
+            "text": "我想当一名老师。",
+            "pinyin": "Wǒ xiǎng dāng yì míng lǎoshī.",
+            "meaning_kr": "나는 선생님이 되고 싶다."
+          }
+        },
+        {
+          "word_id": "L03_038",
+          "hanzi": "因为",
+          "pinyin": "yīnwèi",
+          "meaning_kr": "왜냐하면, ~때문에",
+          "example": {
+            "text": "因为生病，他没来。",
+            "pinyin": "Yīnwèi shēngbìng, tā méi lái.",
+            "meaning_kr": "아팠기 때문에 그는 오지 않았다."
+          }
+        },
+        {
+          "word_id": "L03_039",
+          "hanzi": "中文/汉语",
+          "pinyin": "Zhōngwén/Hànyǔ",
+          "meaning_kr": "중국어",
+          "example": {
+            "text": "我在学习中文。",
+            "pinyin": "Wǒ zài xuéxí Zhōngwén.",
+            "meaning_kr": "나는 중국어를 배우고 있다."
+          }
+        },
+        {
+          "word_id": "L03_040",
+          "hanzi": "专业",
+          "pinyin": "zhuānyè",
+          "meaning_kr": "전공",
+          "example": {
+            "text": "我的专业是计算机。",
+            "pinyin": "Wǒ de zhuānyè shì jìsuànjī.",
+            "meaning_kr": "내 전공은 컴퓨터이다."
+          }
+        },
+        {
+          "word_id": "L03_084",
+          "hanzi": "什么样",
+          "pinyin": "shénmeyàng",
+          "meaning_kr": "어떤, 어떤 종류의",
+          "example": {
+            "text": "你喜欢什么样的电影？",
+            "pinyin": "Nǐ xǐhuan shénmeyàng de diànyǐng?",
+            "meaning_kr": "너는 어떤 영화를 좋아하니?"
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L03-S2",
+      "words": [
+        {
+          "word_id": "L03_001",
+          "hanzi": "工作",
+          "pinyin": "gōngzuò",
+          "meaning_kr": "일, 직업, 일하다",
+          "example": {
+            "text": "我很喜欢这份工作。",
+            "pinyin": "Wǒ hěn xǐhuan zhè fèn gōngzuò.",
+            "meaning_kr": "나는 이 일을 매우 좋아한다."
+          }
+        },
+        {
+          "word_id": "L03_020",
+          "hanzi": "可以",
+          "pinyin": "kěyǐ",
+          "meaning_kr": "~할 수 있다, ~해도 된다",
+          "example": {
+            "text": "你可以进来。",
+            "pinyin": "Nǐ kěyǐ jìnlái.",
+            "meaning_kr": "너는 들어와도 된다."
+          }
+        },
+        {
+          "word_id": "L03_021",
+          "hanzi": "俄罗斯",
+          "pinyin": "Éluósī",
+          "meaning_kr": "러시아",
+          "example": {
+            "text": "我想去俄罗斯旅游。",
+            "pinyin": "Wǒ xiǎng qù Éluósī lǚyóu.",
+            "meaning_kr": "나는 러시아로 여행 가고 싶다."
+          }
+        },
+        {
+          "word_id": "L03_030",
+          "hanzi": "很多",
+          "pinyin": "hěn duō",
+          "meaning_kr": "아주 많은",
+          "example": {
+            "text": "这里有很多书。",
+            "pinyin": "Zhèlǐ yǒu hěn duō shū.",
+            "meaning_kr": "여기에는 책이 아주 많다."
+          }
+        },
+        {
+          "word_id": "L03_039",
+          "hanzi": "中文/汉语",
+          "pinyin": "Zhōngwén/Hànyǔ",
+          "meaning_kr": "중국어",
+          "example": {
+            "text": "我在学习中文。",
+            "pinyin": "Wǒ zài xuéxí Zhōngwén.",
+            "meaning_kr": "나는 중국어를 배우고 있다."
+          }
+        },
+        {
+          "word_id": "L03_041",
+          "hanzi": "比如",
+          "pinyin": "bǐrú",
+          "meaning_kr": "예를 들어",
+          "example": {
+            "text": "比如水果，我喜欢苹果。",
+            "pinyin": "Bǐrú shuǐguǒ, wǒ xǐhuan píngguǒ.",
+            "meaning_kr": "예를 들어 과일 중에서는 사과를 좋아한다."
+          }
+        },
+        {
+          "word_id": "L03_042",
+          "hanzi": "合资",
+          "pinyin": "hézī",
+          "meaning_kr": "합작, 합자",
+          "example": {
+            "text": "这是两家公司合资建立的。",
+            "pinyin": "Zhè shì liǎng jiā gōngsī hézī jiànlì de.",
+            "meaning_kr": "이것은 두 회사가 합작하여 설립한 것이다."
+          }
+        },
+        {
+          "word_id": "L03_043",
+          "hanzi": "公司",
+          "pinyin": "gōngsī",
+          "meaning_kr": "회사",
+          "example": {
+            "text": "他在公司上班。",
+            "pinyin": "Tā zài gōngsī shàngbān.",
+            "meaning_kr": "그는 회사에서 근무한다."
+          }
+        },
+        {
+          "word_id": "L03_044",
+          "hanzi": "关系",
+          "pinyin": "guānxi",
+          "meaning_kr": "관계",
+          "example": {
+            "text": "他们的关系很好。",
+            "pinyin": "Tāmen de guānxi hěn hǎo.",
+            "meaning_kr": "그들의 관계는 매우 좋다."
+          }
+        },
+        {
+          "word_id": "L03_045",
+          "hanzi": "越来越",
+          "pinyin": "yuèláiyuè",
+          "meaning_kr": "갈수록, 점점",
+          "example": {
+            "text": "汉语越来越有意思了。",
+            "pinyin": "Hànyǔ yuèláiyuè yǒu yìsi le.",
+            "meaning_kr": "중국어가 갈수록 재미있어진다."
+          }
+        },
+        {
+          "word_id": "L03_046",
+          "hanzi": "这样",
+          "pinyin": "zhèyàng",
+          "meaning_kr": "이러한, 이렇게",
+          "example": {
+            "text": "这样做是对的。",
+            "pinyin": "Zhèyàng zuò shì duì de.",
+            "meaning_kr": "이렇게 하는 것이 맞다."
+          }
+        },
+        {
+          "word_id": "L03_047",
+          "hanzi": "为",
+          "pinyin": "wèi",
+          "meaning_kr": "~를 위하여, ~에게",
+          "example": {
+            "text": "为大家服务。",
+            "pinyin": "Wèi dàjiā fúwù.",
+            "meaning_kr": "모두를 위해 봉사하다."
+          }
+        },
+        {
+          "word_id": "L03_048",
+          "hanzi": "这些",
+          "pinyin": "zhèxiē",
+          "meaning_kr": "이것들, 이",
+          "example": {
+            "text": "这些都是我的书。",
+            "pinyin": "Zhèxiē dōu shì wǒ de shū.",
+            "meaning_kr": "이것들은 모두 내 책이다."
+          }
+        },
+        {
+          "word_id": "L03_049",
+          "hanzi": "提供",
+          "pinyin": "tígōng",
+          "meaning_kr": "제공하다",
+          "example": {
+            "text": "酒店提供免费早餐。",
+            "pinyin": "Jiǔdiàn tígōng miǎnfèi zǎocān.",
+            "meaning_kr": "호텔은 무료 조식을 제공한다."
+          }
+        },
+        {
+          "word_id": "L03_050",
+          "hanzi": "机会",
+          "pinyin": "jīhuì",
+          "meaning_kr": "기회",
+          "example": {
+            "text": "请给我一次机会。",
+            "pinyin": "Qǐng gěi wǒ yí cì jīhuì.",
+            "meaning_kr": "나에게 기회를 한 번 주세요."
+          }
+        },
+        {
+          "word_id": "L03_085",
+          "hanzi": "学习",
+          "pinyin": "xuéxí",
+          "meaning_kr": "배우다, 학습하다",
+          "example": {
+            "text": "我每天都学习汉语。",
+            "pinyin": "Wǒ měitiān dōu xuéxí Hànyǔ.",
+            "meaning_kr": "나는 매일 중국어를 학습한다."
+          }
+        },
+        {
+          "word_id": "L03_086",
+          "hanzi": "学生",
+          "pinyin": "xuésheng",
+          "meaning_kr": "학생",
+          "example": {
+            "text": "他是一个大学生。",
+            "pinyin": "Tā shì yí ge dàxuéshēng.",
+            "meaning_kr": "그는 대학생이다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L03-S3",
+      "words": [
+        {
+          "word_id": "L03_001",
+          "hanzi": "工作",
+          "pinyin": "gōngzuò",
+          "meaning_kr": "일, 직업, 일하다",
+          "example": {
+            "text": "我很喜欢这份工作。",
+            "pinyin": "Wǒ hěn xǐhuan zhè fèn gōngzuò.",
+            "meaning_kr": "나는 이 일을 매우 좋아한다."
+          }
+        },
+        {
+          "word_id": "L03_010",
+          "hanzi": "有意思",
+          "pinyin": "yǒu yìsi",
+          "meaning_kr": "재미있다, 의미가 있다",
+          "example": {
+            "text": "这部电影很有意思。",
+            "pinyin": "Zhè bù diànyǐng hěn yǒu yìsi.",
+            "meaning_kr": "이 영화는 매우 재미있다."
+          }
+        },
+        {
+          "word_id": "L03_015",
+          "hanzi": "知识",
+          "pinyin": "zhīshi",
+          "meaning_kr": "지식",
+          "example": {
+            "text": "书里有很多知识。",
+            "pinyin": "Shū lǐ yǒu hěn duō zhīshi.",
+            "meaning_kr": "책 속에는 많은 지식이 있다."
+          }
+        },
+        {
+          "word_id": "L03_019",
+          "hanzi": "翻译",
+          "pinyin": "fānyì",
+          "meaning_kr": "통역/번역하다, 번역가",
+          "example": {
+            "text": "请帮我翻译一下。",
+            "pinyin": "Qǐng bāng wǒ fānyì yíxià.",
+            "meaning_kr": "나를 도와 번역 좀 해줘."
+          }
+        },
+        {
+          "word_id": "L03_020",
+          "hanzi": "可以",
+          "pinyin": "kěyǐ",
+          "meaning_kr": "~할 수 있다, ~해도 된다",
+          "example": {
+            "text": "你可以进来。",
+            "pinyin": "Nǐ kěyǐ jìnlái.",
+            "meaning_kr": "너는 들어와도 된다."
+          }
+        },
+        {
+          "word_id": "L03_034",
+          "hanzi": "总/总是",
+          "pinyin": "zǒng/zǒngshì",
+          "meaning_kr": "늘, 항상",
+          "example": {
+            "text": "他总是很忙。",
+            "pinyin": "Tā zǒngshì hěn máng.",
+            "meaning_kr": "그는 늘 바쁘다."
+          }
+        },
+        {
+          "word_id": "L03_035",
+          "hanzi": "变/变化",
+          "pinyin": "biàn/biànhuà",
+          "meaning_kr": "변화하다, 변하다",
+          "example": {
+            "text": "天气变冷了。",
+            "pinyin": "Tiānqì biàn lěng le.",
+            "meaning_kr": "날씨가 추워졌다."
+          }
+        },
+        {
+          "word_id": "L03_038",
+          "hanzi": "因为",
+          "pinyin": "yīnwèi",
+          "meaning_kr": "왜냐하면, ~때문에",
+          "example": {
+            "text": "因为生病，他没来。",
+            "pinyin": "Yīnwèi shēngbìng, tā méi lái.",
+            "meaning_kr": "아팠기 때문에 그는 오지 않았다."
+          }
+        },
+        {
+          "word_id": "L03_051",
+          "hanzi": "另外",
+          "pinyin": "lìngwài",
+          "meaning_kr": "이외에, 게다가",
+          "example": {
+            "text": "另外，我还要买苹果。",
+            "pinyin": "Lìngwài, wǒ hái yào mǎi píngguǒ.",
+            "meaning_kr": "이외에, 나는 사과도 사야 한다."
+          }
+        },
+        {
+          "word_id": "L03_052",
+          "hanzi": "非常",
+          "pinyin": "fēicháng",
+          "meaning_kr": "매우, 대단히",
+          "example": {
+            "text": "这道菜非常好吃。",
+            "pinyin": "Zhè dào cài fēicháng hǎochī.",
+            "meaning_kr": "이 요리는 매우 맛있다."
+          }
+        },
+        {
+          "word_id": "L03_053",
+          "hanzi": "内容",
+          "pinyin": "nèiróng",
+          "meaning_kr": "내용",
+          "example": {
+            "text": "故事的内容很吸引人。",
+            "pinyin": "Gùshi de nèiróng hěn xīyǐn rén.",
+            "meaning_kr": "이야기 내용이 매우 흥미롭다."
+          }
+        },
+        {
+          "word_id": "L03_054",
+          "hanzi": "同时",
+          "pinyin": "tóngshí",
+          "meaning_kr": "동시에",
+          "example": {
+            "text": "工作和学习要同时进行。",
+            "pinyin": "Gōngzuò hé xuéxí yào tóngshí jìnxíng.",
+            "meaning_kr": "일과 공부는 동시에 진행되어야 한다."
+          }
+        },
+        {
+          "word_id": "L03_055",
+          "hanzi": "不断",
+          "pinyin": "búduàn",
+          "meaning_kr": "끊임없이",
+          "example": {
+            "text": "我们要不断努力。",
+            "pinyin": "Wǒmen yào búduàn nǔlì.",
+            "meaning_kr": "우리는 끊임없이 노력해야 한다."
+          }
+        },
+        {
+          "word_id": "L03_056",
+          "hanzi": "新",
+          "pinyin": "xīn",
+          "meaning_kr": "새로운, 새",
+          "example": {
+            "text": "这是我的新手机。",
+            "pinyin": "Zhè shì wǒ de xīn shǒujī.",
+            "meaning_kr": "이것은 나의 새 휴대폰이다."
+          }
+        },
+        {
+          "word_id": "L03_085",
+          "hanzi": "学习",
+          "pinyin": "xuéxí",
+          "meaning_kr": "배우다, 학습하다",
+          "example": {
+            "text": "我每天都学习汉语。",
+            "pinyin": "Wǒ měitiān dōu xuéxí Hànyǔ.",
+            "meaning_kr": "나는 매일 중국어를 학습한다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L03-S4",
+      "words": [
+        {
+          "word_id": "L03_008",
+          "hanzi": "锻炼",
+          "pinyin": "duànliàn",
+          "meaning_kr": "단련하다, 운동하다",
+          "example": {
+            "text": "跑步可以锻炼身体。",
+            "pinyin": "Pǎobù kěyǐ duànliàn shēntǐ.",
+            "meaning_kr": "달리기는 몸을 단련할 수 있다."
+          }
+        },
+        {
+          "word_id": "L03_009",
+          "hanzi": "能力",
+          "pinyin": "nénglì",
+          "meaning_kr": "능력",
+          "example": {
+            "text": "他的能力很强。",
+            "pinyin": "Tā de nénglì hěn qiáng.",
+            "meaning_kr": "그의 능력은 뛰어나다."
+          }
+        },
+        {
+          "word_id": "L03_019",
+          "hanzi": "翻译",
+          "pinyin": "fānyì",
+          "meaning_kr": "통역/번역하다, 번역가",
+          "example": {
+            "text": "请帮我翻译一下。",
+            "pinyin": "Qǐng bāng wǒ fānyì yíxià.",
+            "meaning_kr": "나를 도와 번역 좀 해줘."
+          }
+        },
+        {
+          "word_id": "L03_030",
+          "hanzi": "很多",
+          "pinyin": "hěn duō",
+          "meaning_kr": "아주 많은",
+          "example": {
+            "text": "这里有很多书。",
+            "pinyin": "Zhèlǐ yǒu hěn duō shū.",
+            "meaning_kr": "여기에는 책이 아주 많다."
+          }
+        },
+        {
+          "word_id": "L03_032",
+          "hanzi": "喜欢",
+          "pinyin": "xǐhuan",
+          "meaning_kr": "좋아하다",
+          "example": {
+            "text": "我喜欢听音乐。",
+            "pinyin": "Wǒ xǐhuan tīng yīnyuè.",
+            "meaning_kr": "나는 음악 듣는 것을 좋아한다."
+          }
+        },
+        {
+          "word_id": "L03_037",
+          "hanzi": "当",
+          "pinyin": "dāng",
+          "meaning_kr": "~가 되다, (직업을) 맡다",
+          "example": {
+            "text": "我想当一名老师。",
+            "pinyin": "Wǒ xiǎng dāng yì míng lǎoshī.",
+            "meaning_kr": "나는 선생님이 되고 싶다."
+          }
+        },
+        {
+          "word_id": "L03_038",
+          "hanzi": "因为",
+          "pinyin": "yīnwèi",
+          "meaning_kr": "왜냐하면, ~때문에",
+          "example": {
+            "text": "因为生病，他没来。",
+            "pinyin": "Yīnwèi shēngbìng, tā méi lái.",
+            "meaning_kr": "아팠기 때문에 그는 오지 않았다."
+          }
+        },
+        {
+          "word_id": "L03_057",
+          "hanzi": "再有",
+          "pinyin": "zài yǒu",
+          "meaning_kr": "게다가, 또",
+          "example": {
+            "text": "再有就是，时间不够了。",
+            "pinyin": "Zài yǒu jiù shì, shíjiān bú gòu le.",
+            "meaning_kr": "게다가 또, 시간이 부족하다."
+          }
+        },
+        {
+          "word_id": "L03_058",
+          "hanzi": "需要",
+          "pinyin": "xūyào",
+          "meaning_kr": "필요하다",
+          "example": {
+            "text": "我需要你的帮助。",
+            "pinyin": "Wǒ xūyào nǐ de bāngzhù.",
+            "meaning_kr": "나는 너의 도움이 필요하다."
+          }
+        },
+        {
+          "word_id": "L03_059",
+          "hanzi": "交流",
+          "pinyin": "jiāoliú",
+          "meaning_kr": "교류하다, 소통하다",
+          "example": {
+            "text": "多跟别人交流。",
+            "pinyin": "Duō gēn biérén jiāoliú.",
+            "meaning_kr": "다른 사람과 자주 소통해라."
+          }
+        },
+        {
+          "word_id": "L03_060",
+          "hanzi": "参加",
+          "pinyin": "cānjiā",
+          "meaning_kr": "참가하다",
+          "example": {
+            "text": "我想参加比赛。",
+            "pinyin": "Wǒ xiǎng cānjiā bǐsài.",
+            "meaning_kr": "나는 경기에 참가하고 싶다."
+          }
+        },
+        {
+          "word_id": "L03_061",
+          "hanzi": "活动",
+          "pinyin": "huódòng",
+          "meaning_kr": "활동, 행사",
+          "example": {
+            "text": "学校有许多活动。",
+            "pinyin": "Xuéxiào yǒu xǔduō huódòng.",
+            "meaning_kr": "학교에는 많은 행사가 있다."
+          }
+        },
+        {
+          "word_id": "L03_062",
+          "hanzi": "可能",
+          "pinyin": "kěnéng",
+          "meaning_kr": "아마도, ~할 가능성이 있다",
+          "example": {
+            "text": "明天可能会下雨。",
+            "pinyin": "Míngtiān kěnéng huì xiàyǔ.",
+            "meaning_kr": "내일은 아마 비가 올 것이다."
+          }
+        },
+        {
+          "word_id": "L03_063",
+          "hanzi": "经常",
+          "pinyin": "jīngcháng",
+          "meaning_kr": "자주, 흔히",
+          "example": {
+            "text": "我经常去那个公园。",
+            "pinyin": "Wǒ jīngcháng qù nàge gōngyuán.",
+            "meaning_kr": "나는 자주 저 공원에 간다."
+          }
+        },
+        {
+          "word_id": "L03_064",
+          "hanzi": "出差",
+          "pinyin": "chūchāi",
+          "meaning_kr": "출장 가다",
+          "example": {
+            "text": "爸爸明天要去上海出差。",
+            "pinyin": "Bàba míngtiān yào qù Shànghǎi chūchāi.",
+            "meaning_kr": "아빠는 내일 상하이로 출장을 가신다."
+          }
+        },
+        {
+          "word_id": "L03_065",
+          "hanzi": "来说",
+          "pinyin": "lái shuō",
+          "meaning_kr": "~에 대해 말하자면",
+          "example": {
+            "text": "对我来说，这很简单。",
+            "pinyin": "Duì wǒ lái shuō, zhè hěn jiǎndān.",
+            "meaning_kr": "나에게 있어서 이건 매우 간단하다."
+          }
+        },
+        {
+          "word_id": "L03_066",
+          "hanzi": "问题",
+          "pinyin": "wèntí",
+          "meaning_kr": "문제, 질문",
+          "example": {
+            "text": "这个问题很简单。",
+            "pinyin": "Zhège wèntí hěn jiǎndān.",
+            "meaning_kr": "이 문제는 매우 간단하다."
+          }
+        },
+        {
+          "word_id": "L03_067",
+          "hanzi": "旅游",
+          "pinyin": "lǚyóu",
+          "meaning_kr": "여행하다",
+          "example": {
+            "text": "我喜欢去各地旅游。",
+            "pinyin": "Wǒ xǐhuan qù gèdì lǚyóu.",
+            "meaning_kr": "나는 각지로 여행 가는 것을 좋아한다."
+          }
+        },
+        {
+          "word_id": "L03_068",
+          "hanzi": "到处",
+          "pinyin": "dàochù",
+          "meaning_kr": "곳곳, 어디나",
+          "example": {
+            "text": "公园里到处都是鲜花。",
+            "pinyin": "Gōngyuán lǐ dàochù dōu shì xiānhuā.",
+            "meaning_kr": "공원 안 곳곳에 꽃들이 가득하다."
+          }
+        },
+        {
+          "word_id": "L03_069",
+          "hanzi": "走一走",
+          "pinyin": "zǒu yi zǒu",
+          "meaning_kr": "좀 걷다, 거닐다",
+          "example": {
+            "text": "饭后去外面走一走吧。",
+            "pinyin": "Fàn hòu qù wàimian zǒu yi zǒu ba.",
+            "meaning_kr": "식후에 밖에 나가 좀 걸읍시다."
+          }
+        },
+        {
+          "word_id": "L03_070",
+          "hanzi": "看一看",
+          "pinyin": "kàn yi kàn",
+          "meaning_kr": "둘러보다, 좀 보다",
+          "example": {
+            "text": "请让我看一看。",
+            "pinyin": "Qǐng ràng wǒ kàn yi kàn.",
+            "meaning_kr": "나한테 좀 보여 주세요."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L03-S5",
+      "words": [
+        {
+          "word_id": "L03_001",
+          "hanzi": "工作",
+          "pinyin": "gōngzuò",
+          "meaning_kr": "일, 직업, 일하다",
+          "example": {
+            "text": "我很喜欢这份工作。",
+            "pinyin": "Wǒ hěn xǐhuan zhè fèn gōngzuò.",
+            "meaning_kr": "나는 이 일을 매우 좋아한다."
+          }
+        },
+        {
+          "word_id": "L03_002",
+          "hanzi": "觉得",
+          "pinyin": "juéde",
+          "meaning_kr": "~라고 생각하다, 느끼다",
+          "example": {
+            "text": "你觉得今天怎么样？",
+            "pinyin": "Nǐ juéde jīntiān zěnmeyàng?",
+            "meaning_kr": "너는 오늘 어떻다고 생각하니?"
+          }
+        },
+        {
+          "word_id": "L03_012",
+          "hanzi": "把",
+          "pinyin": "bǎ",
+          "meaning_kr": "~을/를 (처치를 나타냄)",
+          "example": {
+            "text": "请把门关上。",
+            "pinyin": "Qǐng bǎ mén guānshàng.",
+            "meaning_kr": "문 좀 닫아 주세요."
+          }
+        },
+        {
+          "word_id": "L03_016",
+          "hanzi": "更多",
+          "pinyin": "gèng duō",
+          "meaning_kr": "더 많이, 더욱 많은",
+          "example": {
+            "text": "我想了解更多。",
+            "pinyin": "Wǒ xiǎng liǎojiě gèng duō.",
+            "meaning_kr": "나는 더 많이 알고 싶다."
+          }
+        },
+        {
+          "word_id": "L03_018",
+          "hanzi": "通过",
+          "pinyin": "tōngguò",
+          "meaning_kr": "~를 통하여, 통과하다",
+          "example": {
+            "text": "通过这次考试并不难。",
+            "pinyin": "Tōngguò zhè cì kǎoshì bìng bù nán.",
+            "meaning_kr": "이번 시험에 합격하는 것은 어렵지 않다."
+          }
+        },
+        {
+          "word_id": "L03_019",
+          "hanzi": "翻译",
+          "pinyin": "fānyì",
+          "meaning_kr": "통역/번역하다, 번역가",
+          "example": {
+            "text": "请帮我翻译一下。",
+            "pinyin": "Qǐng bāng wǒ fānyì yíxià.",
+            "meaning_kr": "나를 도와 번역 좀 해줘."
+          }
+        },
+        {
+          "word_id": "L03_020",
+          "hanzi": "可以",
+          "pinyin": "kěyǐ",
+          "meaning_kr": "~할 수 있다, ~해도 된다",
+          "example": {
+            "text": "你可以进来。",
+            "pinyin": "Nǐ kěyǐ jìnlái.",
+            "meaning_kr": "너는 들어와도 된다."
+          }
+        },
+        {
+          "word_id": "L03_021",
+          "hanzi": "俄罗斯",
+          "pinyin": "Éluósī",
+          "meaning_kr": "러시아",
+          "example": {
+            "text": "我想去俄罗斯旅游。",
+            "pinyin": "Wǒ xiǎng qù Éluósī lǚyóu.",
+            "meaning_kr": "나는 러시아로 여행 가고 싶다."
+          }
+        },
+        {
+          "word_id": "L03_022",
+          "hanzi": "文化",
+          "pinyin": "wénhuà",
+          "meaning_kr": "문화",
+          "example": {
+            "text": "中国文化很有名。",
+            "pinyin": "Zhōngguó wénhuà hěn yǒumíng.",
+            "meaning_kr": "중국 문화는 매우 유명하다."
+          }
+        },
+        {
+          "word_id": "L03_023",
+          "hanzi": "介绍",
+          "pinyin": "jièshào",
+          "meaning_kr": "소개하다",
+          "example": {
+            "text": "我给你介绍一下。",
+            "pinyin": "Wǒ gěi nǐ jièshào yíxià.",
+            "meaning_kr": "내가 너에게 소개 좀 해줄게."
+          }
+        },
+        {
+          "word_id": "L03_024",
+          "hanzi": "给",
+          "pinyin": "gěi",
+          "meaning_kr": "~에게 주다, ~에게",
+          "example": {
+            "text": "请给我一杯水。",
+            "pinyin": "Qǐng gěi wǒ yì bēi shuǐ.",
+            "meaning_kr": "나에게 물 한 잔 주세요."
+          }
+        },
+        {
+          "word_id": "L03_025",
+          "hanzi": "帮助",
+          "pinyin": "bāngzhù",
+          "meaning_kr": "돕다, 도움",
+          "example": {
+            "text": "谢谢你的帮助。",
+            "pinyin": "Xièxie nǐ de bāngzhù.",
+            "meaning_kr": "너의 도움에 감사해."
+          }
+        },
+        {
+          "word_id": "L03_026",
+          "hanzi": "了解",
+          "pinyin": "liǎojiě",
+          "meaning_kr": "이해하다, 잘 알다",
+          "example": {
+            "text": "我很了解他。",
+            "pinyin": "Wǒ hěn liǎojiě tā.",
+            "meaning_kr": "나는 그를 잘 안다."
+          }
+        },
+        {
+          "word_id": "L03_063",
+          "hanzi": "经常",
+          "pinyin": "jīngcháng",
+          "meaning_kr": "자주, 흔히",
+          "example": {
+            "text": "我经常去那个公园。",
+            "pinyin": "Wǒ jīngcháng qù nàge gōngyuán.",
+            "meaning_kr": "나는 자주 저 공원에 간다."
+          }
+        },
+        {
+          "word_id": "L03_071",
+          "hanzi": "当然",
+          "pinyin": "dāngrán",
+          "meaning_kr": "당연히, 물론",
+          "example": {
+            "text": "当然可以，没问题。",
+            "pinyin": "Dāngrán kěyǐ, méi wèntí.",
+            "meaning_kr": "당연히 되지, 문제없어."
+          }
+        },
+        {
+          "word_id": "L03_072",
+          "hanzi": "好处",
+          "pinyin": "hǎochu",
+          "meaning_kr": "장점, 이점",
+          "example": {
+            "text": "吃水果有很多好处。",
+            "pinyin": "Chī shuǐguǒ yǒu hěn duō hǎochu.",
+            "meaning_kr": "과일을 먹는 것은 장점이 많다."
+          }
+        },
+        {
+          "word_id": "L03_073",
+          "hanzi": "薪水",
+          "pinyin": "xīnshui",
+          "meaning_kr": "급여, 월급",
+          "example": {
+            "text": "他的薪水很高。",
+            "pinyin": "Tā de xīnshui hěn gāo.",
+            "meaning_kr": "그의 급여는 매우 높다."
+          }
+        },
+        {
+          "word_id": "L03_074",
+          "hanzi": "而且",
+          "pinyin": "érqiě",
+          "meaning_kr": "게다가, 뿐만 아니라",
+          "example": {
+            "text": "他聪明而且努力。",
+            "pinyin": "Tā cōngming érqiě nǔlì.",
+            "meaning_kr": "그는 똑똑하고 게다가 노력도 한다."
+          }
+        },
+        {
+          "word_id": "L03_075",
+          "hanzi": "加薪",
+          "pinyin": "jiāxīn",
+          "meaning_kr": "월급이 오르다",
+          "example": {
+            "text": "老板给他加薪了。",
+            "pinyin": "Lǎobǎn gěi tā jiāxīn le.",
+            "meaning_kr": "사장님이 그의 월급을 올려주었다."
+          }
+        },
+        {
+          "word_id": "L03_076",
+          "hanzi": "意义",
+          "pinyin": "yìyì",
+          "meaning_kr": "의미, 의의",
+          "example": {
+            "text": "这是一件很有意义的事。",
+            "pinyin": "Zhè shì yí jiàn hěn yǒu yìyì de shì.",
+            "meaning_kr": "이것은 매우 의미 있는 일이다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L03-S6",
+      "words": [
+        {
+          "word_id": "L03_001",
+          "hanzi": "工作",
+          "pinyin": "gōngzuò",
+          "meaning_kr": "일, 직업, 일하다",
+          "example": {
+            "text": "我很喜欢这份工作。",
+            "pinyin": "Wǒ hěn xǐhuan zhè fèn gōngzuò.",
+            "meaning_kr": "나는 이 일을 매우 좋아한다."
+          }
+        },
+        {
+          "word_id": "L03_002",
+          "hanzi": "觉得",
+          "pinyin": "juéde",
+          "meaning_kr": "~라고 생각하다, 느끼다",
+          "example": {
+            "text": "你觉得今天怎么样？",
+            "pinyin": "Nǐ juéde jīntiān zěnmeyàng?",
+            "meaning_kr": "너는 오늘 어떻다고 생각하니?"
+          }
+        },
+        {
+          "word_id": "L03_003",
+          "hanzi": "理想",
+          "pinyin": "lǐxiǎng",
+          "meaning_kr": "이상, 이상적이다",
+          "example": {
+            "text": "这是我理想的生活。",
+            "pinyin": "Zhè shì wǒ lǐxiǎng de shēnghuó.",
+            "meaning_kr": "이것은 내가 이상적으로 생각하는 삶이다."
+          }
+        },
+        {
+          "word_id": "L03_019",
+          "hanzi": "翻译",
+          "pinyin": "fānyì",
+          "meaning_kr": "통역/번역하다, 번역가",
+          "example": {
+            "text": "请帮我翻译一下。",
+            "pinyin": "Qǐng bāng wǒ fānyì yíxià.",
+            "meaning_kr": "나를 도와 번역 좀 해줘."
+          }
+        },
+        {
+          "word_id": "L03_047",
+          "hanzi": "为",
+          "pinyin": "wèi",
+          "meaning_kr": "~를 위하여, ~에게",
+          "example": {
+            "text": "为大家服务。",
+            "pinyin": "Wèi dàjiā fúwù.",
+            "meaning_kr": "모두를 위해 봉사하다."
+          }
+        },
+        {
+          "word_id": "L03_077",
+          "hanzi": "由于",
+          "pinyin": "yóuyú",
+          "meaning_kr": "~에 인하여, ~때문에",
+          "example": {
+            "text": "由于天气原因，航班延误了。",
+            "pinyin": "Yóuyú tiānqì yuányīn, hángbān yánwù le.",
+            "meaning_kr": "날씨 때문에 항공편이 지연되었다."
+          }
+        },
+        {
+          "word_id": "L03_078",
+          "hanzi": "特点",
+          "pinyin": "tèdiǎn",
+          "meaning_kr": "특징",
+          "example": {
+            "text": "这家店的特点是便宜。",
+            "pinyin": "Zhè jiā diàn de tèdiǎn shì piányi.",
+            "meaning_kr": "이 집의 특징은 싸다는 것이다."
+          }
+        },
+        {
+          "word_id": "L03_079",
+          "hanzi": "适合",
+          "pinyin": "shìhé",
+          "meaning_kr": "적합하다, 잘 맞다",
+          "example": {
+            "text": "这份工作很适合你。",
+            "pinyin": "Zhè fèn gōngzuò hěn shìhé nǐ.",
+            "meaning_kr": "이 일은 너에게 매우 잘 맞는다."
+          }
+        },
+        {
+          "word_id": "L03_080",
+          "hanzi": "所以",
+          "pinyin": "suǒyǐ",
+          "meaning_kr": "그래서, 그러므로",
+          "example": {
+            "text": "所以我决定去。",
+            "pinyin": "Suǒyǐ wǒ juédìng qù.",
+            "meaning_kr": "그래서 나는 가기로 결정했다."
+          }
+        },
+        {
+          "word_id": "L03_081",
+          "hanzi": "会",
+          "pinyin": "huì",
+          "meaning_kr": "~할 것이다, ~할 줄 안다",
+          "example": {
+            "text": "我会努力学习的。",
+            "pinyin": "Wǒ huì nǔlì xuéxí de.",
+            "meaning_kr": "나는 열심히 공부할 것이다."
+          }
+        },
+        {
+          "word_id": "L03_082",
+          "hanzi": "而",
+          "pinyin": "ér",
+          "meaning_kr": "그리하여, ~하면서",
+          "example": {
+            "text": "为理想而奋斗。",
+            "pinyin": "Wèi lǐxiǎng ér fèndòu.",
+            "meaning_kr": "이상을 위하여 분투하다."
+          }
+        },
+        {
+          "word_id": "L03_083",
+          "hanzi": "努力",
+          "pinyin": "nǔlì",
+          "meaning_kr": "노력하다, 열심히 하다",
+          "example": {
+            "text": "他很努力学习。",
+            "pinyin": "Tā hěn nǔlì xuéxí.",
+            "meaning_kr": "그는 매우 열심히 공부한다."
+          }
+        },
+        {
+          "word_id": "L03_085",
+          "hanzi": "学习",
+          "pinyin": "xuéxí",
+          "meaning_kr": "배우다, 학습하다",
+          "example": {
+            "text": "我每天都学习汉语。",
+            "pinyin": "Wǒ měitiān dōu xuéxí Hànyǔ.",
+            "meaning_kr": "나는 매일 중국어를 학습한다."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -4,14 +4,15 @@ import { getSentences } from '../../lib/dataSource'
 import { logEvent } from '../../lib/logging'
 import { getRecordedSentenceIds } from '../../lib/activity'
 import { useAuth } from '../../contexts/AuthContext'
+import { useLesson } from '../../contexts/LessonContext'
 import { SentenceCard } from './SentenceCard'
 import type { SentencesData, Sentence } from '../../types'
 
-const LESSON_ID = 'L01'
 const PLATO_URL = import.meta.env.VITE_PLATO_SUBMIT_URL
 
 export function ReadingTab() {
   const { user } = useAuth()
+  const { lessonId: LESSON_ID } = useLesson()
   const [data, setData] = useState<SentencesData | null>(null)
   const [viewMode, setViewMode] = useState<'cards' | 'full'>('cards')
   const [showPinyin, setShowPinyin] = useState(true)
@@ -24,12 +25,14 @@ export function ReadingTab() {
 
   useEffect(() => {
     getSentences(LESSON_ID).then(setData)
-  }, [])
+    audioRef.current?.pause()
+    setPlayingAll(false)
+  }, [LESSON_ID])
 
   useEffect(() => {
     if (!user?.studentId) return
     getRecordedSentenceIds(user.studentId, LESSON_ID).then(setRecordedIds)
-  }, [user?.studentId])
+  }, [user?.studentId, LESSON_ID])
 
   useEffect(() => {
     const target = searchParams.get('sentence')

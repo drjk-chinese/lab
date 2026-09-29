@@ -2,18 +2,18 @@ import { useEffect, useState } from 'react'
 import { getVocab, getSentences } from '../../lib/dataSource'
 import { logEvent } from '../../lib/logging'
 import { useAuth } from '../../contexts/AuthContext'
+import { useLesson } from '../../contexts/LessonContext'
 import { useSessionState } from '../../hooks/useSessionState'
 import { ReadingStage } from './ReadingStage'
 import { FlashcardStage } from './FlashcardStage'
 import { QuizStage } from './QuizStage'
 import type { VocabData, VocabWord, SentencesData } from '../../types'
 
-const LESSON_ID = 'L01'
-
 type Stage = 'reading' | 'flashcards' | 'quiz' | 'retry-flashcards' | 'retry-quiz' | 'done'
 
 export function VocabTab() {
   const { user } = useAuth()
+  const { lessonId: LESSON_ID } = useLesson()
   const [vocab, setVocab] = useState<VocabData | null>(null)
   const [sentences, setSentences] = useState<SentencesData | null>(null)
   const [sectionIdx, setSectionIdx] = useState(0)
@@ -26,7 +26,10 @@ export function VocabTab() {
   useEffect(() => {
     getVocab(LESSON_ID).then(setVocab)
     getSentences(LESSON_ID).then(setSentences)
-  }, [])
+    setSectionIdx(0)
+    setStage('reading')
+    setRetryWords([])
+  }, [LESSON_ID])
 
   if (!vocab || !sentences) {
     return <div className="p-6 text-sm text-text-muted">불러오는 중…</div>

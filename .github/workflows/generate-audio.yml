@@ -3,8 +3,13 @@ name: Generate lesson audio
 on:
   workflow_dispatch:
     inputs:
+      lesson_id:
+        description: '어느 과인지 (src/data/sentences_<이 값>.json)'
+        required: true
+        default: 'L01'
+        type: string
       limit:
-        description: '"2"=처음 2문장 테스트, "all"=전체 22문장, 또는 "L01S1_SENT02"처럼 특정 문장 id(쉼표로 여러 개)만 재생성'
+        description: '"2"=처음 2문장 테스트, "all"=전체 문장, 또는 "L01S1_SENT02"처럼 특정 문장 id(쉼표로 여러 개)만 재생성'
         required: true
         default: '2'
         type: string
@@ -32,12 +37,13 @@ jobs:
       - name: Install ffmpeg (for loudness normalization)
         run: sudo apt-get update -y && sudo apt-get install -y ffmpeg
 
-      - name: Generate audio and update sentences_L01.json
+      - name: Generate audio and update sentences_<lesson_id>.json
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ inputs.voice_id }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          LESSON_ID: ${{ inputs.lesson_id }}
           SUPABASE_AUDIO_BUCKET: audio
           LIMIT: ${{ inputs.limit }}
         run: node scripts/generate-audio.mjs
@@ -46,6 +52,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/sentences_L01.json
-          git diff --cached --quiet && echo "No changes to commit" || git commit -m "낭독 음원 자동 생성 (limit=${{ inputs.limit }})"
+          git add src/data/sentences_${{ inputs.lesson_id }}.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "${{ inputs.lesson_id }} 낭독 음원 자동 생성 (limit=${{ inputs.limit }})"
           git push origin HEAD:${{ github.ref_name }}

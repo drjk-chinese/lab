@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react'
 import { getVocab, getGrammar, saveContent } from '../../lib/dataSource'
 import { isSupabaseConfigured } from '../../lib/supabaseClient'
+import { useLesson } from '../../contexts/LessonContext'
 import { EditableField } from './EditableField'
 import type { VocabData, GrammarData, GrammarCard, GrammarExample } from '../../types'
-
-const LESSON_ID = 'L01'
 
 function nextCardId(cards: GrammarCard[]): string {
   const numbers = cards
@@ -16,6 +15,7 @@ function nextCardId(cards: GrammarCard[]): string {
 }
 
 export function AdminContentEditor() {
+  const { lessonId: LESSON_ID } = useLesson()
   const [vocab, setVocab] = useState<VocabData | null>(null)
   const [grammar, setGrammar] = useState<GrammarData | null>(null)
   const [status, setStatus] = useState<string | null>(null)
@@ -32,7 +32,7 @@ export function AdminContentEditor() {
   useEffect(() => {
     getVocab(LESSON_ID).then(setVocab)
     getGrammar(LESSON_ID).then(setGrammar)
-  }, [])
+  }, [LESSON_ID])
 
   async function persist(kind: 'vocab' | 'grammar', payload: VocabData | GrammarData) {
     const ok = await saveContent(LESSON_ID, kind, payload)

@@ -1,6 +1,6 @@
 // Generates one ElevenLabs mp3 per reading-tab sentence, uploads each to
 // Supabase Storage, and writes the resulting public URLs back into
-// src/data/sentences_L01.json (audio_url field). Run via the
+// src/data/sentences_<LESSON_ID>.json (audio_url field). Run via the
 // "Generate lesson audio" GitHub Actions workflow (workflow_dispatch) —
 // see README for the required repo secrets.
 //
@@ -9,6 +9,7 @@
 //   ELEVENLABS_VOICE_ID
 //   SUPABASE_URL
 //   SUPABASE_SERVICE_ROLE_KEY
+//   LESSON_ID (which src/data/sentences_<LESSON_ID>.json to update — defaults to "L01")
 //   SUPABASE_AUDIO_BUCKET (defaults to "audio")
 //   LIMIT ("2" for a quick test, "all" for every sentence — defaults to "2")
 
@@ -19,16 +20,18 @@ import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
 
 const execFileAsync = promisify(execFile)
-const DATA_PATH = new URL('../src/data/sentences_L01.json', import.meta.url)
 
 const {
   ELEVENLABS_API_KEY,
   ELEVENLABS_VOICE_ID,
   SUPABASE_URL,
   SUPABASE_SERVICE_ROLE_KEY,
+  LESSON_ID = 'L01',
   SUPABASE_AUDIO_BUCKET = 'audio',
   LIMIT = '2',
 } = process.env
+
+const DATA_PATH = new URL(`../src/data/sentences_${LESSON_ID}.json`, import.meta.url)
 
 function requireEnv(name, value) {
   if (!value) {
@@ -134,7 +137,7 @@ async function main() {
       console.log(`- ${sentence.sentence_id}: ${ttsText}`)
       const rawAudio = await synthesize(ttsText)
       const audioBuffer = await normalizeLoudness(rawAudio)
-      const path = `L01/${sentence.sentence_id}.mp3`
+      const path = `${LESSON_ID}/${sentence.sentence_id}.mp3`
       const publicUrl = await uploadToSupabase(path, audioBuffer)
       sentence.audio_url = publicUrl
       console.log(`  -> ${publicUrl}`)
@@ -144,7 +147,7 @@ async function main() {
   }
 
   await writeFile(DATA_PATH, JSON.stringify(data, null, 2) + '\n', 'utf-8')
-  console.log('Updated src/data/sentences_L01.json')
+  console.log(`Updated src/data/sentences_${LESSON_ID}.json`)
 }
 
 main()

@@ -1,0 +1,108 @@
+{
+  "lesson_id": "L03",
+  "grammar_cards": [
+    {
+      "card_id": "G1",
+      "title": "동태조사 过 (경험)",
+      "structure": "동사/형용사 + 过",
+      "meaning": "동작·상황이 이전에 발생했음을 나타내며, 그 영향이 현재까지 이어지지 않음",
+      "examples": [
+        {"source": "text", "hanzi": "我去年到过北京，登过长城。", "pinyin": "Wǒ qùnián dàoguo Běijīng, dēngguo Chángchéng.", "meaning_kr": "나는 작년에 베이징에 가 본 적이 있으며, 만리장성에도 오른 적이 있다."},
+        {"source": "extra", "hanzi": "我吃过中国菜。", "pinyin": "Wǒ chīguo Zhōngguó cài.", "meaning_kr": "나는 중국 음식을 먹어본 적이 있다."}
+      ]
+    },
+    {
+      "card_id": "G2",
+      "title": "为 (개사)",
+      "structure": "为 + 대상",
+      "meaning": "~에게, ~을 위하여, ~을 대신하여",
+      "examples": [
+        {"source": "text", "hanzi": "为人民服务。", "pinyin": "Wèi rénmín fúwù.", "meaning_kr": "인민을 위해 봉사하다."},
+        {"source": "extra", "hanzi": "妈妈为我做了晚饭。", "pinyin": "Māma wèi wǒ zuòle wǎnfàn.", "meaning_kr": "엄마는 나를 위해 저녁을 만들어 주셨다."}
+      ]
+    },
+    {
+      "card_id": "G3",
+      "title": "동사 중첩 (AA / A一A)",
+      "structure": "동사+동사, 동사+一+동사 (둘째 음절 경성)",
+      "meaning": "가벼운 시도 / 짧은 시간 / 부드러운 어기",
+      "examples": [
+        {"source": "text", "hanzi": "喜欢到处走一走、看一看。", "pinyin": "xǐhuan dàochù zǒu yi zǒu, kàn yi kàn.", "meaning_kr": "곳곳을 좀 걷고 좀 둘러보는 것을 좋아한다."},
+        {"source": "extra", "usage": "가벼운 시도", "hanzi": "我试试。", "pinyin": "Wǒ shìshi.", "meaning_kr": "제가 해보겠습니다."},
+        {"source": "extra", "usage": "짧은 시간", "hanzi": "看看就给你。", "pinyin": "Kànkan jiù gěi nǐ.", "meaning_kr": "보고 금방 줄게."},
+        {"source": "extra", "usage": "열거", "hanzi": "星期天我通常在家里看看电视，听听音乐什么的。", "pinyin": "Xīngqītiān wǒ tōngcháng zài jiālǐ kànkan diànshì, tīngting yīnyuè shénme de.", "meaning_kr": "일요일에 난 보통 집에서 텔레비전을 보고 음악을 듣는다."},
+        {"source": "extra", "usage": "부드러운 어기", "hanzi": "这本书有意思吗？给我看看。", "pinyin": "Zhè běn shū yǒu yìsi ma? Gěi wǒ kànkan.", "meaning_kr": "이 책 재미있어요? 좀 보여 주세요."}
+      ]
+    },
+    {
+      "card_id": "G4",
+      "title": "而且",
+      "structure": "A，而且 B",
+      "meaning": "게다가, ~뿐만 아니라 — 의미가 한층 더 진행됨",
+      "examples": [
+        {"source": "text", "hanzi": "他对待工作总是那么严肃而且认真。", "pinyin": "Tā duìdài gōngzuò zǒngshì nàme yánsù érqiě rènzhēn.", "meaning_kr": "그는 일을 처리할 때 항상 진지하고 성실하다."},
+        {"source": "extra", "hanzi": "这个东西不但价钱便宜，而且品质也好。", "pinyin": "Zhè ge dōngxi búdàn jiàqián piányi, érqiě pǐnzhì yě hǎo.", "meaning_kr": "이 물건은 가격이 쌀 뿐만 아니라 품질 또한 좋다."}
+      ]
+    },
+    {
+      "card_id": "G5",
+      "title": "由于…所以/因而 (인과 접속사, 짝 구조)",
+      "structure": "由于 + 원인, (因而 / 所以) + 결과",
+      "meaning": "인과관계 — 원인과 결과, 또는 판단의 근거를 나타냄",
+      "examples": [
+        {"source": "text", "hanzi": "由于翻译工作的特点，我觉得它很适合我，是我理想的工作，所以我会为我的理想而努力学习的。", "pinyin": "Yóuyú fānyì gōngzuò de tèdiǎn, wǒ juéde tā hěn shìhé wǒ, shì wǒ lǐxiǎng de gōngzuò, suǒyǐ wǒ huì wèi wǒ de lǐxiǎng ér nǔlì xuéxí de.", "meaning_kr": "번역 업무의 특성 때문에, 나는 그것이 나에게 잘 맞고 내가 이상적으로 생각하는 직업이라고 느껴서, 그래서 나는 내 이상을 위해 노력하여 공부할 것이다."},
+        {"source": "extra", "hanzi": "由于今天下雨，因而运动会只能取消。", "pinyin": "Yóuyú jīntiān xiàyǔ, yīn'ér yùndòng huì zhǐ néng qǔxiāo.", "meaning_kr": "오늘은 비가 와서, 운동회는 취소될 수밖에 없다."}
+      ]
+    },
+    {
+      "card_id": "G6",
+      "title": "把자문",
+      "structure": "주어 + 把 + 목적어(대상) + 동사(+기타성분)",
+      "meaning": "동작의 대상을 동사 앞으로 옮겨서, 그 대상에게 일어난 변화를 부각하는 표현",
+      "examples": [
+        {"source": "text", "hanzi": "我希望能把自己学的知识更多地用到工作中。", "pinyin": "Wǒ xīwàng néng bǎ zìjǐ xué de zhīshi gèng duō de yòngdào gōngzuò zhōng.", "meaning_kr": "나는 자신이 배운 지식을 일하는 중에 더 많이 사용할 수 있기를 바란다."},
+        {"source": "extra", "hanzi": "请把门关上。", "pinyin": "Qǐng bǎ mén guānshàng.", "meaning_kr": "문 좀 닫아 주세요."}
+      ]
+    },
+    {
+      "card_id": "G7",
+      "title": "既…又…",
+      "structure": "(주어) + 既A + 又B",
+      "meaning": "A하기도 하고 또 B하기도 하다 — 두 가지 성질/동작을 동시에 나열",
+      "examples": [
+        {"source": "text", "hanzi": "我觉得理想的工作应该是那种既能锻炼我的能力，又很有意思的工作。", "pinyin": "Wǒ juéde lǐxiǎng de gōngzuò yīnggāi shì nà zhǒng jì néng duànliàn wǒ de nénglì, yòu hěn yǒu yìsi de gōngzuò.", "meaning_kr": "나는 이상적인 직업이란 마땅히 내 능력을 단련할 수도 있고, 또 매우 재미가 있는 그런 일이어야 한다고 생각한다."},
+        {"source": "extra", "hanzi": "这个房间既大又干净。", "pinyin": "Zhè ge fángjiān jì dà yòu gānjìng.", "meaning_kr": "이 방은 크기도 하고 또 깨끗하다."}
+      ]
+    },
+    {
+      "card_id": "G8",
+      "title": "应该",
+      "structure": "주어 + 应该 + 동사(구)",
+      "meaning": "마땅히 ~해야 한다",
+      "examples": [
+        {"source": "text", "hanzi": "我觉得理想的工作应该是那种既能锻炼我的能力，又很有意思的工作。", "pinyin": "Wǒ juéde lǐxiǎng de gōngzuò yīnggāi shì nà zhǒng jì néng duànliàn wǒ de nénglì, yòu hěn yǒu yìsi de gōngzuò.", "meaning_kr": "나는 이상적인 직업이란 마땅히 내 능력을 단련할 수도 있고, 또 매우 재미가 있는 그런 일이어야 한다고 생각한다."},
+        {"source": "extra", "hanzi": "你应该多休息。", "pinyin": "Nǐ yīnggāi duō xiūxi.", "meaning_kr": "너는 마땅히 좀 더 쉬어야 한다."}
+      ]
+    },
+    {
+      "card_id": "G9",
+      "title": "因为",
+      "structure": "(因为 + 원인)，(所以/就) + 결과 — 단독으로 원인만 제시하는 것도 가능",
+      "meaning": "왜냐하면, ~때문에",
+      "examples": [
+        {"source": "text", "hanzi": "因为我学的是中文专业，我希望能把自己学的知识更多地用到工作中。", "pinyin": "Yīnwèi wǒ xué de shì Zhōngwénzhuānyè, wǒ xīwàng néng bǎ zìjǐ xué de zhīshi gèng duō de yòngdào gōngzuò zhōng.", "meaning_kr": "나는 배우는 것이 중문 전공이기 때문에, 자신이 배운 지식을 일하는 중에 더 많이 사용할 수 있기를 바란다."},
+        {"source": "extra", "hanzi": "因为生病，他没来。", "pinyin": "Yīnwèi shēngbìng, tā méi lái.", "meaning_kr": "아팠기 때문에 그는 오지 않았다."}
+      ]
+    },
+    {
+      "card_id": "G10",
+      "title": "可以",
+      "structure": "주어 + 可以 + 동사(구)",
+      "meaning": "~할 수 있다, ~해도 된다 (가능·허가)",
+      "examples": [
+        {"source": "text", "hanzi": "通过翻译，我可以把俄罗斯的文化介绍给中国，也可以帮助俄罗斯人更多地了解中国。", "pinyin": "Tōngguò fānyì, wǒ kěyǐ bǎ Éluósī de wénhuà jièshào gěi Zhōngguó, yě kěyǐ bāngzhù Éluósīrén gèng duō de liǎojiě Zhōngguó.", "meaning_kr": "통역을 통하여 나는 러시아의 문화를 중국에 소개해 줄 수 있고, 또한 러시아 사람들이 중국을 더 많이 이해하도록 도울 수 있다."},
+        {"source": "extra", "hanzi": "你可以进来。", "pinyin": "Nǐ kěyǐ jìnlái.", "meaning_kr": "너는 들어와도 된다."}
+      ]
+    }
+  ]
+}

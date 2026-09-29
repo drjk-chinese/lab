@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes, Outlet } from 'react-router-dom'
 import { AuthProvider, useAuth } from './contexts/AuthContext'
+import { LessonProvider } from './contexts/LessonContext'
 import { AppHeader } from './components/AppHeader'
 import { BottomTabBar } from './components/BottomTabBar'
 import { LoginPage } from './pages/LoginPage'
@@ -71,7 +72,9 @@ function AppRoutes() {
 export default function App() {
   return (
     <AuthProvider>
-      <AppRoutes />
+      <LessonProvider>
+        <AppRoutes />
+      </LessonProvider>
     </AuthProvider>
   )
 }

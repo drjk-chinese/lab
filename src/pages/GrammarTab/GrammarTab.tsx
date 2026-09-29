@@ -2,9 +2,8 @@ import { useEffect, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { getGrammar, getSentences } from '../../lib/dataSource'
 import { speak } from '../../lib/tts'
+import { useLesson } from '../../contexts/LessonContext'
 import type { GrammarData, GrammarExample, SentencesData, GrammarRole } from '../../types'
-
-const LESSON_ID = 'L01'
 
 const ROLE_CLASS: Record<GrammarRole, string> = {
   verb: 'text-role-verb',
@@ -18,6 +17,7 @@ const ROLE_CLASS: Record<GrammarRole, string> = {
 }
 
 export function GrammarTab() {
+  const { lessonId: LESSON_ID } = useLesson()
   const [grammar, setGrammar] = useState<GrammarData | null>(null)
   const [sentences, setSentences] = useState<SentencesData | null>(null)
   const [searchParams] = useSearchParams()
@@ -25,7 +25,7 @@ export function GrammarTab() {
   useEffect(() => {
     getGrammar(LESSON_ID).then(setGrammar)
     getSentences(LESSON_ID).then(setSentences)
-  }, [])
+  }, [LESSON_ID])
 
   useEffect(() => {
     const target = searchParams.get('card')
@@ -99,6 +99,11 @@ function ExampleRow({ example, sentenceId }: { example: GrammarExample; sentence
         >
           🔊 듣기
         </button>
+        {example.usage && (
+          <span className="border border-accent bg-accent-soft px-1.5 py-0.5 text-accent">
+            {example.usage}
+          </span>
+        )}
         {example.source === 'text' && (
           <span className="border border-line px-1.5 py-0.5 text-text-muted">본문</span>
         )}

@@ -44,6 +44,8 @@ export interface GrammarExample {
   meaning_kr: string
   footnote_marker?: boolean
   segments?: GrammarSegment[]
+  /** Short label for what this example demonstrates (e.g. "가벼운 시도"). */
+  usage?: string
 }
 
 export interface GrammarCard {
@@ -58,7 +60,8 @@ export interface GrammarCard {
 export interface GrammarData {
   lesson_id: string
   grammar_cards: GrammarCard[]
-  color_roles: Record<GrammarRole, string>
+  /** Unused by the app (role→color is hardcoded in GrammarTab); kept optional for older data files that still include it. */
+  color_roles?: Record<GrammarRole, string>
 }
 
 export interface Sentence {

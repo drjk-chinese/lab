@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { supabase, isSupabaseConfigured } from '../../lib/supabaseClient'
+import { useLesson } from '../../contexts/LessonContext'
 
 interface ActivityRow {
   student_id: string
@@ -14,19 +15,22 @@ interface ActivityRow {
 }
 
 export function AdminActivityDashboard() {
+  const { lessonId } = useLesson()
   const [rows, setRows] = useState<ActivityRow[] | null>(null)
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
     if (!isSupabaseConfigured || !supabase) return
+    setRows(null)
     supabase
       .from('student_activity_summary')
       .select('*')
+      .eq('lesson_id', lessonId)
       .then(({ data, error: err }) => {
         if (err) setError(err.message)
         else setRows((data ?? []) as ActivityRow[])
       })
-  }, [])
+  }, [lessonId])
 
   if (!isSupabaseConfigured) {
     return (
