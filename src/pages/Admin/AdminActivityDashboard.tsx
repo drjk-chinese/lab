@@ -11,7 +11,24 @@ interface ActivityRow {
   quiz_correct: number
   sentence_plays: number
   recordings: number
+  first_active_at: string | null
+  last_active_at: string | null
   session_span_seconds: number | null
+}
+
+function formatDate(iso: string | null) {
+  if (!iso) return '-'
+  return new Date(iso).toLocaleDateString('ko-KR', { month: 'numeric', day: 'numeric' })
+}
+
+function formatDateTime(iso: string | null) {
+  if (!iso) return '-'
+  return new Date(iso).toLocaleString('ko-KR', {
+    month: 'numeric',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  })
 }
 
 export function AdminActivityDashboard() {
@@ -26,6 +43,7 @@ export function AdminActivityDashboard() {
       .from('student_activity_summary')
       .select('*')
       .eq('lesson_id', lessonId)
+      .order('last_active_at', { ascending: false })
       .then(({ data, error: err }) => {
         if (err) setError(err.message)
         else setRows((data ?? []) as ActivityRow[])
@@ -46,7 +64,7 @@ export function AdminActivityDashboard() {
 
   return (
     <div className="overflow-x-auto px-4 py-4">
-      <table className="w-full min-w-[600px] border-collapse text-xs">
+      <table className="w-full min-w-[800px] border-collapse text-xs">
         <thead>
           <tr className="divider-line text-left text-text-muted">
             <th className="py-2 pr-3">학번</th>
@@ -56,6 +74,8 @@ export function AdminActivityDashboard() {
             <th className="py-2 pr-3">문장 재생</th>
             <th className="py-2 pr-3">녹음 횟수</th>
             <th className="py-2 pr-3">체류시간</th>
+            <th className="py-2 pr-3">시작일</th>
+            <th className="py-2 pr-3">최근활동</th>
           </tr>
         </thead>
         <tbody>
@@ -72,6 +92,8 @@ export function AdminActivityDashboard() {
               <td className="py-2 pr-3">
                 {r.session_span_seconds ? `${Math.round(r.session_span_seconds / 60)}분` : '-'}
               </td>
+              <td className="py-2 pr-3">{formatDate(r.first_active_at)}</td>
+              <td className="py-2 pr-3">{formatDateTime(r.last_active_at)}</td>
             </tr>
           ))}
         </tbody>

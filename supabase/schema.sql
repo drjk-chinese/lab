@@ -128,8 +128,8 @@ create policy "quiz_results: admins read all" on quiz_results
 
 -- ── activity dashboard helper view ─────────────────────────────────────
 -- Backs the admin "활동현황" table: per-student login count, checked-word
--- count, quiz accuracy, sentence play count, recording count, and rough
--- time-on-task.
+-- count, quiz accuracy, sentence play count, recording count, first/last
+-- activity dates, and rough time-on-task.
 -- drop+create (not "or replace") because Postgres won't let a view's
 -- column list be reordered/inserted-into in place, only appended to.
 drop view if exists student_activity_summary;
@@ -145,6 +145,8 @@ select
   ) as quiz_correct,
   count(*) filter (where e.event_type = 'sentence_play') as sentence_plays,
   count(*) filter (where e.event_type = 'record_attempt') as recordings,
+  min(e.timestamp) as first_active_at,
+  max(e.timestamp) as last_active_at,
   extract(epoch from (max(e.timestamp) - min(e.timestamp))) as session_span_seconds
 from event_logs e
 group by e.student_id, e.lesson_id;
