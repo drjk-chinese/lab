@@ -10,6 +10,7 @@ interface Props {
   showPinyin: boolean
   showTranslation: boolean
   showGrammar: boolean
+  hideHanzi?: boolean
   studentId: string | null
   lessonId: string
   onRecorded?: (sentenceId: string) => void
@@ -20,6 +21,7 @@ export function SentenceCard({
   showPinyin,
   showTranslation,
   showGrammar,
+  hideHanzi,
   studentId,
   lessonId,
   onRecorded,
@@ -68,7 +70,11 @@ export function SentenceCard({
 
   return (
     <div id={`sentence-${sentence.sentence_id}`} className="divider-line px-4 py-4">
-      <p className="font-hanzi text-xl leading-relaxed">{sentence.hanzi}</p>
+      {hideHanzi ? (
+        <p className="font-hanzi text-xl leading-relaxed text-text-muted">🙈 가려짐</p>
+      ) : (
+        <p className="font-hanzi text-xl leading-relaxed">{sentence.hanzi}</p>
+      )}
       {showPinyin && <p className="mt-1 text-sm text-teal">{sentence.pinyin}</p>}
       {showTranslation && <p className="mt-1 text-sm text-text-muted">{sentence.meaning_kr}</p>}
 

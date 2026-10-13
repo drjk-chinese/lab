@@ -18,6 +18,7 @@ export function ReadingTab() {
   const [showPinyin, setShowPinyin] = useState(true)
   const [showTranslation, setShowTranslation] = useState(false)
   const [showGrammar, setShowGrammar] = useState(false)
+  const [hideHanzi, setHideHanzi] = useState(false)
   const [playingAll, setPlayingAll] = useState(false)
   const [recordedIds, setRecordedIds] = useState<Set<string>>(new Set())
   const [searchParams] = useSearchParams()
@@ -70,6 +71,14 @@ export function ReadingTab() {
     setPlayingAll(false)
   }
 
+  function toggleMemorizeMode(on: boolean) {
+    setHideHanzi(on)
+    // Memorize mode is for "read the Korean, try to say it in Chinese from
+    // memory" — default to showing the translation when turning it on so
+    // there's something to recall from, without forcing it to stay on.
+    if (on) setShowTranslation(true)
+  }
+
   return (
     <div className="pb-32">
       <div className="border-b border-line px-4 py-3">
@@ -93,11 +102,17 @@ export function ReadingTab() {
           </button>
         </div>
 
-        <div className="mt-3 flex gap-4 text-sm">
+        <div className="mt-3 flex flex-wrap gap-4 text-sm">
           <ToggleRow label="병음" checked={showPinyin} onChange={setShowPinyin} />
           <ToggleRow label="해석" checked={showTranslation} onChange={setShowTranslation} />
           <ToggleRow label="문법" checked={showGrammar} onChange={setShowGrammar} />
+          <ToggleRow label="🙈 암기모드(한자 가리기)" checked={hideHanzi} onChange={toggleMemorizeMode} />
         </div>
+        {hideHanzi && (
+          <p className="mt-1 text-xs text-accent">
+            한글 해석만 보고 중국어 문장을 떠올려서 녹음해 보세요. 확인하려면 암기모드를 꺼주세요.
+          </p>
+        )}
 
         {user && (
           <p className="mt-2 text-xs text-text-muted">
@@ -118,9 +133,10 @@ export function ReadingTab() {
             <SentenceCard
               key={s.sentence_id}
               sentence={s}
-              showPinyin={showPinyin}
+              showPinyin={showPinyin && !hideHanzi}
               showTranslation={showTranslation}
               showGrammar={showGrammar}
+              hideHanzi={hideHanzi}
               studentId={user?.studentId ?? null}
               lessonId={LESSON_ID}
               onRecorded={(id) => setRecordedIds((prev) => new Set(prev).add(id))}
@@ -131,8 +147,14 @@ export function ReadingTab() {
         <div className="space-y-2 px-4 py-4">
           {allSentences.map((s) => (
             <p key={s.sentence_id} id={`sentence-${s.sentence_id}`} className="leading-relaxed">
-              <span className="font-hanzi text-xl">{s.hanzi}</span>
-              {showPinyin && <span className="block text-sm text-teal">{s.pinyin}</span>}
+              {hideHanzi ? (
+                <span className="font-hanzi text-xl text-text-muted">🙈 가려짐</span>
+              ) : (
+                <span className="font-hanzi text-xl">{s.hanzi}</span>
+              )}
+              {showPinyin && !hideHanzi && (
+                <span className="block text-sm text-teal">{s.pinyin}</span>
+              )}
               {showTranslation && (
                 <span className="block text-sm text-text-muted">{s.meaning_kr}</span>
               )}
