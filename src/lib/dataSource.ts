@@ -5,6 +5,9 @@ import sentencesL01 from '../data/sentences_L01.json'
 import vocabL03 from '../data/vocab_L03.json'
 import grammarL03 from '../data/grammar_L03.json'
 import sentencesL03 from '../data/sentences_L03.json'
+import vocabL05 from '../data/vocab_L05.json'
+import grammarL05 from '../data/grammar_L05.json'
+import sentencesL05 from '../data/sentences_L05.json'
 import { DEFAULT_LESSON_ID } from '../data/lessons'
 import type { VocabData, GrammarData, SentencesData } from '../types'
 
@@ -17,14 +20,17 @@ import type { VocabData, GrammarData, SentencesData } from '../types'
 const VOCAB_LOCAL: Record<string, VocabData> = {
   L01: vocabL01 as VocabData,
   L03: vocabL03 as VocabData,
+  L05: vocabL05 as VocabData,
 }
 const GRAMMAR_LOCAL: Record<string, GrammarData> = {
   L01: grammarL01 as GrammarData,
   L03: grammarL03 as GrammarData,
+  L05: grammarL05 as GrammarData,
 }
 const SENTENCES_LOCAL: Record<string, SentencesData> = {
   L01: sentencesL01 as SentencesData,
   L03: sentencesL03 as SentencesData,
+  L05: sentencesL05 as SentencesData,
 }
 
 export async function getVocab(lessonId = DEFAULT_LESSON_ID): Promise<VocabData> {

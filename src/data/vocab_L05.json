@@ -1,0 +1,596 @@
+{
+  "lesson_id": "L05",
+  "sections": [
+    {
+      "section_id": "L05-S1",
+      "words": [
+        {
+          "word_id": "L05_001",
+          "hanzi": "跟",
+          "pinyin": "gēn",
+          "meaning_kr": "~와, ~과",
+          "example": {
+            "text": "我跟妈妈一起去买东西。",
+            "pinyin": "Wǒ gēn māma yìqǐ qù mǎi dōngxi.",
+            "meaning_kr": "나는 엄마와 함께 물건을 사러 간다."
+          }
+        },
+        {
+          "word_id": "L05_002",
+          "hanzi": "位",
+          "pinyin": "wèi",
+          "meaning_kr": "분 (사람을 높여 세는 양사)",
+          "example": {
+            "text": "这位老师很有名。",
+            "pinyin": "Zhè wèi lǎoshī hěn yǒumíng.",
+            "meaning_kr": "이 선생님은 유명하다."
+          }
+        },
+        {
+          "word_id": "L05_003",
+          "hanzi": "参观",
+          "pinyin": "cānguān",
+          "meaning_kr": "참관하다, 견학하다",
+          "example": {
+            "text": "我们明天去参观博物馆。",
+            "pinyin": "Wǒmen míngtiān qù cānguān bówùguǎn.",
+            "meaning_kr": "우리는 내일 박물관을 견학하러 간다."
+          }
+        },
+        {
+          "word_id": "L05_004",
+          "hanzi": "农民工",
+          "pinyin": "nóngmíngōng",
+          "meaning_kr": "농민공 (도시로 일하러 온 농촌 출신 노동자)",
+          "example": {
+            "text": "这座城市有很多农民工。",
+            "pinyin": "Zhè zuò chéngshì yǒu hěn duō nóngmíngōng.",
+            "meaning_kr": "이 도시에는 농민공이 많다."
+          }
+        },
+        {
+          "word_id": "L05_005",
+          "hanzi": "记者",
+          "pinyin": "jìzhě",
+          "meaning_kr": "기자",
+          "example": {
+            "text": "她是一名记者。",
+            "pinyin": "Tā shì yì míng jìzhě.",
+            "meaning_kr": "그녀는 기자이다."
+          }
+        },
+        {
+          "word_id": "L05_006",
+          "hanzi": "不过",
+          "pinyin": "búguò",
+          "meaning_kr": "그러나, 하지만",
+          "example": {
+            "text": "他很累，不过他还在工作。",
+            "pinyin": "Tā hěn lèi, búguò tā hái zài gōngzuò.",
+            "meaning_kr": "그는 피곤하지만 여전히 일하고 있다."
+          }
+        },
+        {
+          "word_id": "L05_007",
+          "hanzi": "从…到…",
+          "pinyin": "cóng…dào…",
+          "meaning_kr": "~부터 ~까지",
+          "example": {
+            "text": "我从早上到晚上都在学习。",
+            "pinyin": "Wǒ cóng zǎoshang dào wǎnshang dōu zài xuéxí.",
+            "meaning_kr": "나는 아침부터 저녁까지 공부한다."
+          }
+        },
+        {
+          "word_id": "L05_008",
+          "hanzi": "当",
+          "pinyin": "dāng",
+          "meaning_kr": "~이 되다, (직무를) 맡다",
+          "example": {
+            "text": "我想当老师。",
+            "pinyin": "Wǒ xiǎng dāng lǎoshī.",
+            "meaning_kr": "나는 선생님이 되고 싶다."
+          }
+        },
+        {
+          "word_id": "L05_009",
+          "hanzi": "志愿",
+          "pinyin": "zhìyuàn",
+          "meaning_kr": "자원하다, 자원봉사",
+          "example": {
+            "text": "他是一名志愿者。",
+            "pinyin": "Tā shì yì míng zhìyuànzhě.",
+            "meaning_kr": "그는 자원봉사자이다."
+          }
+        },
+        {
+          "word_id": "L05_010",
+          "hanzi": "教师",
+          "pinyin": "jiàoshī",
+          "meaning_kr": "교사",
+          "example": {
+            "text": "我妈妈是一名教师。",
+            "pinyin": "Wǒ māma shì yì míng jiàoshī.",
+            "meaning_kr": "우리 엄마는 교사이다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L05-S2",
+      "words": [
+        {
+          "word_id": "L05_011",
+          "hanzi": "父母",
+          "pinyin": "fùmǔ",
+          "meaning_kr": "부모",
+          "example": {
+            "text": "我的父母很爱我。",
+            "pinyin": "Wǒ de fùmǔ hěn ài wǒ.",
+            "meaning_kr": "우리 부모님은 나를 매우 사랑한다."
+          }
+        },
+        {
+          "word_id": "L05_012",
+          "hanzi": "农村",
+          "pinyin": "nóngcūn",
+          "meaning_kr": "농촌",
+          "example": {
+            "text": "他出生在农村。",
+            "pinyin": "Tā chūshēng zài nóngcūn.",
+            "meaning_kr": "그는 농촌에서 태어났다."
+          }
+        },
+        {
+          "word_id": "L05_013",
+          "hanzi": "来到",
+          "pinyin": "láidào",
+          "meaning_kr": "오다, 도착하다",
+          "example": {
+            "text": "他终于来到了北京。",
+            "pinyin": "Tā zhōngyú láidàole Běijīng.",
+            "meaning_kr": "그는 마침내 베이징에 도착했다."
+          }
+        },
+        {
+          "word_id": "L05_014",
+          "hanzi": "公立",
+          "pinyin": "gōnglì",
+          "meaning_kr": "공립",
+          "example": {
+            "text": "这是一所公立学校。",
+            "pinyin": "Zhè shì yì suǒ gōnglì xuéxiào.",
+            "meaning_kr": "이것은 공립학교이다."
+          }
+        },
+        {
+          "word_id": "L05_015",
+          "hanzi": "上学",
+          "pinyin": "shàngxué",
+          "meaning_kr": "학교에 다니다, 등교하다",
+          "example": {
+            "text": "我每天八点上学。",
+            "pinyin": "Wǒ měitiān bā diǎn shàngxué.",
+            "meaning_kr": "나는 매일 8시에 등교한다."
+          }
+        },
+        {
+          "word_id": "L05_016",
+          "hanzi": "原因",
+          "pinyin": "yuányīn",
+          "meaning_kr": "원인, 이유",
+          "example": {
+            "text": "他没来的原因是什么？",
+            "pinyin": "Tā méi lái de yuányīn shì shénme?",
+            "meaning_kr": "그가 오지 않은 이유는 무엇인가?"
+          }
+        },
+        {
+          "word_id": "L05_017",
+          "hanzi": "户口",
+          "pinyin": "hùkǒu",
+          "meaning_kr": "호적, 호구",
+          "example": {
+            "text": "他没有北京户口。",
+            "pinyin": "Tā méiyǒu Běijīng hùkǒu.",
+            "meaning_kr": "그는 베이징 호구가 없다."
+          }
+        },
+        {
+          "word_id": "L05_018",
+          "hanzi": "交不起",
+          "pinyin": "jiāo bu qǐ",
+          "meaning_kr": "(돈이 없어) 낼 수 없다",
+          "example": {
+            "text": "他交不起学费。",
+            "pinyin": "Tā jiāo bu qǐ xuéfèi.",
+            "meaning_kr": "그는 학비를 낼 수 없다."
+          }
+        },
+        {
+          "word_id": "L05_019",
+          "hanzi": "学费",
+          "pinyin": "xuéfèi",
+          "meaning_kr": "학비, 수업료",
+          "example": {
+            "text": "这个学校的学费很贵。",
+            "pinyin": "Zhè ge xuéxiào de xuéfèi hěn guì.",
+            "meaning_kr": "이 학교의 학비는 비싸다."
+          }
+        },
+        {
+          "word_id": "L05_020",
+          "hanzi": "而",
+          "pinyin": "ér",
+          "meaning_kr": "그러나, 그런데",
+          "example": {
+            "text": "他很忙，而我很闲。",
+            "pinyin": "Tā hěn máng, ér wǒ hěn xián.",
+            "meaning_kr": "그는 바쁘고, 그런데 나는 한가하다."
+          }
+        },
+        {
+          "word_id": "L05_021",
+          "hanzi": "只",
+          "pinyin": "zhǐ",
+          "meaning_kr": "단지, 겨우",
+          "example": {
+            "text": "我只要一杯水。",
+            "pinyin": "Wǒ zhǐ yào yì bēi shuǐ.",
+            "meaning_kr": "나는 물 한 잔만 필요하다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L05-S3",
+      "words": [
+        {
+          "word_id": "L05_022",
+          "hanzi": "当…的时候",
+          "pinyin": "dāng…de shíhou",
+          "meaning_kr": "~할 때",
+          "example": {
+            "text": "当我到家的时候，他已经睡了。",
+            "pinyin": "Dāng wǒ dào jiā de shíhou, tā yǐjing shuì le.",
+            "meaning_kr": "내가 집에 도착했을 때 그는 이미 자고 있었다."
+          }
+        },
+        {
+          "word_id": "L05_023",
+          "hanzi": "正在",
+          "pinyin": "zhèngzài",
+          "meaning_kr": "~하고 있는 중이다",
+          "example": {
+            "text": "他正在看书。",
+            "pinyin": "Tā zhèngzài kàn shū.",
+            "meaning_kr": "그는 책을 보고 있다."
+          }
+        },
+        {
+          "word_id": "L05_024",
+          "hanzi": "外边",
+          "pinyin": "wàibian",
+          "meaning_kr": "바깥, 밖",
+          "example": {
+            "text": "孩子们在外边玩儿。",
+            "pinyin": "Háizimen zài wàibian wánr.",
+            "meaning_kr": "아이들은 밖에서 놀고 있다."
+          }
+        },
+        {
+          "word_id": "L05_025",
+          "hanzi": "跑",
+          "pinyin": "pǎo",
+          "meaning_kr": "뛰다, 달리다",
+          "example": {
+            "text": "他每天早上跑步。",
+            "pinyin": "Tā měitiān zǎoshang pǎobù.",
+            "meaning_kr": "그는 매일 아침 달리기를 한다."
+          }
+        },
+        {
+          "word_id": "L05_026",
+          "hanzi": "过来",
+          "pinyin": "guòlái",
+          "meaning_kr": "(이쪽으로) 오다",
+          "example": {
+            "text": "请你过来一下。",
+            "pinyin": "Qǐng nǐ guòlái yíxià.",
+            "meaning_kr": "이쪽으로 좀 와 주세요."
+          }
+        },
+        {
+          "word_id": "L05_027",
+          "hanzi": "让",
+          "pinyin": "ràng",
+          "meaning_kr": "~에게 ~하게 하다",
+          "example": {
+            "text": "妈妈让我早点回家。",
+            "pinyin": "Māma ràng wǒ zǎodiǎn huíjiā.",
+            "meaning_kr": "엄마는 나에게 집에 일찍 오라고 했다."
+          }
+        },
+        {
+          "word_id": "L05_028",
+          "hanzi": "给",
+          "pinyin": "gěi",
+          "meaning_kr": "~에게, ~을 위해",
+          "example": {
+            "text": "我给他打电话。",
+            "pinyin": "Wǒ gěi tā dǎ diànhuà.",
+            "meaning_kr": "나는 그에게 전화를 건다."
+          }
+        },
+        {
+          "word_id": "L05_029",
+          "hanzi": "起",
+          "pinyin": "qǐ",
+          "meaning_kr": "(이름을) 짓다",
+          "example": {
+            "text": "爸爸给我起了个名字。",
+            "pinyin": "Bàba gěi wǒ qǐle ge míngzi.",
+            "meaning_kr": "아빠는 나에게 이름을 지어주셨다."
+          }
+        },
+        {
+          "word_id": "L05_030",
+          "hanzi": "英文",
+          "pinyin": "Yīngwén",
+          "meaning_kr": "영어",
+          "example": {
+            "text": "他的英文名字叫Tom。",
+            "pinyin": "Tā de Yīngwén míngzi jiào Tom.",
+            "meaning_kr": "그의 영어 이름은 Tom이다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L05-S4",
+      "words": [
+        {
+          "word_id": "L05_031",
+          "hanzi": "走进",
+          "pinyin": "zǒujìn",
+          "meaning_kr": "걸어 들어가다",
+          "example": {
+            "text": "她走进了教室。",
+            "pinyin": "Tā zǒujìnle jiàoshì.",
+            "meaning_kr": "그녀는 교실로 걸어 들어갔다."
+          }
+        },
+        {
+          "word_id": "L05_032",
+          "hanzi": "暖气",
+          "pinyin": "nuǎnqì",
+          "meaning_kr": "난방 (설비)",
+          "example": {
+            "text": "这个房间没有暖气。",
+            "pinyin": "Zhè ge fángjiān méiyǒu nuǎnqì.",
+            "meaning_kr": "이 방에는 난방시설이 없다."
+          }
+        },
+        {
+          "word_id": "L05_033",
+          "hanzi": "破旧",
+          "pinyin": "pòjiù",
+          "meaning_kr": "낡다, 오래되다",
+          "example": {
+            "text": "这把椅子很破旧。",
+            "pinyin": "Zhè bǎ yǐzi hěn pòjiù.",
+            "meaning_kr": "이 의자는 매우 낡았다."
+          }
+        },
+        {
+          "word_id": "L05_034",
+          "hanzi": "课本",
+          "pinyin": "kèběn",
+          "meaning_kr": "교과서",
+          "example": {
+            "text": "请打开你的课本。",
+            "pinyin": "Qǐng dǎkāi nǐ de kèběn.",
+            "meaning_kr": "교과서를 펴 주세요."
+          }
+        },
+        {
+          "word_id": "L05_035",
+          "hanzi": "已经",
+          "pinyin": "yǐjing",
+          "meaning_kr": "이미, 벌써",
+          "example": {
+            "text": "他已经走了。",
+            "pinyin": "Tā yǐjing zǒu le.",
+            "meaning_kr": "그는 이미 떠났다."
+          }
+        },
+        {
+          "word_id": "L05_036",
+          "hanzi": "挤",
+          "pinyin": "jǐ",
+          "meaning_kr": "붐비다, 비좁다",
+          "example": {
+            "text": "地铁里很挤。",
+            "pinyin": "Dìtiě li hěn jǐ.",
+            "meaning_kr": "지하철 안이 매우 붐빈다."
+          }
+        },
+        {
+          "word_id": "L05_037",
+          "hanzi": "吵",
+          "pinyin": "chǎo",
+          "meaning_kr": "시끄럽다",
+          "example": {
+            "text": "外边太吵了。",
+            "pinyin": "Wàibian tài chǎo le.",
+            "meaning_kr": "바깥이 너무 시끄럽다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L05-S5",
+      "words": [
+        {
+          "word_id": "L05_038",
+          "hanzi": "条件",
+          "pinyin": "tiáojiàn",
+          "meaning_kr": "조건, 여건",
+          "example": {
+            "text": "这里的条件不太好。",
+            "pinyin": "Zhèli de tiáojiàn bú tài hǎo.",
+            "meaning_kr": "이곳의 여건은 그다지 좋지 않다."
+          }
+        },
+        {
+          "word_id": "L05_039",
+          "hanzi": "跟…比起来",
+          "pinyin": "gēn…bǐ qǐlái",
+          "meaning_kr": "~와 비교하면",
+          "example": {
+            "text": "跟以前比起来，他变化很大。",
+            "pinyin": "Gēn yǐqián bǐ qǐlái, tā biànhuà hěn dà.",
+            "meaning_kr": "예전과 비교하면 그는 변화가 크다."
+          }
+        },
+        {
+          "word_id": "L05_040",
+          "hanzi": "差",
+          "pinyin": "chà",
+          "meaning_kr": "차이가 나다, 부족하다",
+          "example": {
+            "text": "他的成绩差得太多了。",
+            "pinyin": "Tā de chéngjì chà de tài duō le.",
+            "meaning_kr": "그의 성적은 너무 많이 떨어진다."
+          }
+        },
+        {
+          "word_id": "L05_041",
+          "hanzi": "校长",
+          "pinyin": "xiàozhǎng",
+          "meaning_kr": "교장",
+          "example": {
+            "text": "校长在开会。",
+            "pinyin": "Xiàozhǎng zài kāihuì.",
+            "meaning_kr": "교장 선생님은 회의 중이다."
+          }
+        },
+        {
+          "word_id": "L05_042",
+          "hanzi": "有的",
+          "pinyin": "yǒude",
+          "meaning_kr": "어떤 사람, 일부",
+          "example": {
+            "text": "这些学生有的在睡觉，有的在学习。",
+            "pinyin": "Zhèxiē xuésheng yǒude zài shuìjiào, yǒude zài xuéxí.",
+            "meaning_kr": "이 학생들 중 일부는 자고 있고, 일부는 공부하고 있다."
+          }
+        },
+        {
+          "word_id": "L05_043",
+          "hanzi": "虽然…但是…",
+          "pinyin": "suīrán…dànshì…",
+          "meaning_kr": "비록 ~이지만 ~하다",
+          "example": {
+            "text": "虽然他很忙，但是他还是来了。",
+            "pinyin": "Suīrán tā hěn máng, dànshì tā háishi láile.",
+            "meaning_kr": "비록 그는 바쁘지만, 그래도 왔다."
+          }
+        },
+        {
+          "word_id": "L05_044",
+          "hanzi": "工资",
+          "pinyin": "gōngzī",
+          "meaning_kr": "임금, 월급",
+          "example": {
+            "text": "他的工资不太高。",
+            "pinyin": "Tā de gōngzī bú tài gāo.",
+            "meaning_kr": "그의 월급은 그다지 높지 않다."
+          }
+        },
+        {
+          "word_id": "L05_045",
+          "hanzi": "应该",
+          "pinyin": "yīnggāi",
+          "meaning_kr": "마땅히 ~해야 한다",
+          "example": {
+            "text": "你应该好好休息。",
+            "pinyin": "Nǐ yīnggāi hǎohāo xiūxi.",
+            "meaning_kr": "너는 마땅히 푹 쉬어야 한다."
+          }
+        },
+        {
+          "word_id": "L05_046",
+          "hanzi": "知识",
+          "pinyin": "zhīshi",
+          "meaning_kr": "지식",
+          "example": {
+            "text": "他有很多知识。",
+            "pinyin": "Tā yǒu hěn duō zhīshi.",
+            "meaning_kr": "그는 많은 지식을 가지고 있다."
+          }
+        },
+        {
+          "word_id": "L05_047",
+          "hanzi": "愿意",
+          "pinyin": "yuànyì",
+          "meaning_kr": "기꺼이 ~하기를 원하다",
+          "example": {
+            "text": "我愿意帮助你。",
+            "pinyin": "Wǒ yuànyì bāngzhù nǐ.",
+            "meaning_kr": "나는 기꺼이 너를 돕고 싶다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L05-S6",
+      "words": [
+        {
+          "word_id": "L05_048",
+          "hanzi": "对",
+          "pinyin": "duì",
+          "meaning_kr": "~에 대해",
+          "example": {
+            "text": "我对中国历史很感兴趣。",
+            "pinyin": "Wǒ duì Zhōngguó lìshǐ hěn gǎn xìngqù.",
+            "meaning_kr": "나는 중국 역사에 대해 관심이 많다."
+          }
+        },
+        {
+          "word_id": "L05_049",
+          "hanzi": "钦佩",
+          "pinyin": "qīnpèi",
+          "meaning_kr": "존경하다, 탄복하다",
+          "example": {
+            "text": "我很钦佩他的精神。",
+            "pinyin": "Wǒ hěn qīnpèi tā de jīngshén.",
+            "meaning_kr": "나는 그의 정신을 매우 존경한다."
+          }
+        },
+        {
+          "word_id": "L05_050",
+          "hanzi": "要是",
+          "pinyin": "yàoshi",
+          "meaning_kr": "만약 ~라면",
+          "example": {
+            "text": "要是明天下雨，我们就不去了。",
+            "pinyin": "Yàoshi míngtiān xiàyǔ, wǒmen jiù bú qù le.",
+            "meaning_kr": "만약 내일 비가 오면 우리는 가지 않을 것이다."
+          }
+        },
+        {
+          "word_id": "L05_051",
+          "hanzi": "名",
+          "pinyin": "míng",
+          "meaning_kr": "명 (사람을 세는 양사)",
+          "example": {
+            "text": "他是一名医生。",
+            "pinyin": "Tā shì yì míng yīshēng.",
+            "meaning_kr": "그는 의사이다."
+          }
+        }
+      ]
+    }
+  ]
+}
