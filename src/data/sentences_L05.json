@@ -12,7 +12,7 @@
           "hanzi": "上星期三上午，我跟一位中国朋友一起去参观一个农民工孩子的学校。",
           "pinyin": "Shàng xīngqīsān shàngwǔ, wǒ gēn yí wèi Zhōngguó péngyou yìqǐ qù cānguān yí ge nóngmíngōng háizi de xuéxiào.",
           "meaning_kr": "지난주 수요일 오전, 나는 중국인 친구 한 명과 함께 농민공 자녀들이 다니는 학교를 견학하러 갔다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S1_01.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -21,7 +21,7 @@
           "hanzi": "这位中国朋友是个女记者，不过她每星期一、星期三上午从八点到九点半都在这个学校当志愿教师。",
           "pinyin": "Zhè wèi Zhōngguó péngyou shì ge nǚ jìzhě, búguò tā měi xīngqīyī, xīngqīsān shàngwǔ cóng bā diǎn dào jiǔ diǎn bàn dōu zài zhè ge xuéxiào dāng zhìyuàn jiàoshī.",
           "meaning_kr": "이 중국인 친구는 여기자이지만, 매주 월요일과 수요일 오전 8시부터 9시 반까지 이 학교에서 자원봉사 교사로 일한다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S1_02.mp3",
           "grammar_card_ids": [
             "G1"
           ],
