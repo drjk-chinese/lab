@@ -38,7 +38,7 @@
           "hanzi": "这个学校学生的父母都是从农村来到北京找工作的，他们的孩子不能去公立学校上学。",
           "pinyin": "Zhè ge xuéxiào xuésheng de fùmǔ dōu shì cóng nóngcūn láidào Běijīng zhǎo gōngzuò de, tāmen de háizi bù néng qù gōnglì xuéxiào shàngxué.",
           "meaning_kr": "이 학교 학생들의 부모는 모두 농촌에서 베이징으로 일자리를 찾으러 온 사람들이어서, 그들의 아이들은 공립학교에 다닐 수 없다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S2_01.mp3",
           "grammar_card_ids": [
             "G2",
             "G12"
@@ -50,7 +50,7 @@
           "hanzi": "这有两个原因：一是因为这些孩子没有北京户口；二是因为他们的父母交不起公立学校的学费。",
           "pinyin": "Zhè yǒu liǎng ge yuányīn: yī shì yīnwèi zhèxiē háizi méiyǒu Běijīng hùkǒu; èr shì yīnwèi tāmen de fùmǔ jiāo bu qǐ gōnglì xuéxiào de xuéfèi.",
           "meaning_kr": "여기에는 두 가지 이유가 있다. 첫째는 이 아이들이 베이징 호구가 없기 때문이고, 둘째는 그들의 부모가 공립학교 학비를 낼 수 없기 때문이다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S2_02.mp3",
           "grammar_card_ids": [
             "G7",
             "G9",
@@ -63,7 +63,7 @@
           "hanzi": "而这个学校的学费半年只要300元。",
           "pinyin": "Ér zhè ge xuéxiào de xuéfèi bàn nián zhǐ yào sānbǎi yuán.",
           "meaning_kr": "반면 이 학교의 학비는 반년에 300위안밖에 되지 않는다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S2_03.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         }
@@ -78,7 +78,7 @@
           "hanzi": "当我们来到学校的时候，学生们正在外边玩儿，他们见到我很高兴。",
           "pinyin": "Dāng wǒmen láidào xuéxiào de shíhou, xuéshengmen zhèngzài wàibiān wánr, tāmen jiàndào wǒ hěn gāoxìng.",
           "meaning_kr": "우리가 학교에 도착했을 때 학생들은 밖에서 놀고 있었는데, 그들은 나를 보고 기뻐했다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S3_01.mp3",
           "grammar_card_ids": [
             "G3",
             "G10",
@@ -91,7 +91,7 @@
           "hanzi": "很多学生跑过来让我给他们起英文名字。",
           "pinyin": "Hěn duō xuésheng pǎo guòlái ràng wǒ gěi tāmen qǐ Yīngwén míngzi.",
           "meaning_kr": "많은 학생들이 뛰어와서 나에게 영어 이름을 지어 달라고 했다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S3_02.mp3",
           "grammar_card_ids": [
             "G10",
             "G11"
@@ -109,7 +109,7 @@
           "hanzi": "上课了，我跟学生们一起走进教室。",
           "pinyin": "Shàngkè le, wǒ gēn xuéshengmen yìqǐ zǒujìn jiàoshì.",
           "meaning_kr": "수업이 시작되어 나는 학생들과 함께 교실로 들어갔다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S4_01.mp3",
           "grammar_card_ids": [
             "G10"
           ],
@@ -120,7 +120,7 @@
           "hanzi": "我看到教室里没有暖气，桌子和椅子也很破旧，孩子们用的课本是别的学生已经用过的。",
           "pinyin": "Wǒ kàndào jiàoshì li méiyǒu nuǎnqì, zhuōzi hé yǐzi yě hěn pòjiù, háizimen yòng de kèběn shì bié de xuésheng yǐjing yòngguo de.",
           "meaning_kr": "교실에는 난방 시설이 없었고, 책상과 의자도 낡았으며, 아이들이 쓰는 교과서는 다른 학생들이 이미 썼던 것이었다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S4_02.mp3",
           "grammar_card_ids": [
             "G7",
             "G16"
@@ -132,7 +132,7 @@
           "hanzi": "教室里有五十多个学生，所以很挤，也很吵。",
           "pinyin": "Jiàoshì li yǒu wǔshí duō ge xuésheng, suǒyǐ hěn jǐ, yě hěn chǎo.",
           "meaning_kr": "교실 안에 50여 명의 학생이 있어서 매우 비좁고 시끄러웠다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S4_03.mp3",
           "grammar_card_ids": [
             "G4",
             "G7"
@@ -150,7 +150,7 @@
           "hanzi": "这里的条件跟公立学校比起来，差得太多了。",
           "pinyin": "Zhèli de tiáojiàn gēn gōnglì xuéxiào bǐ qǐlái, chà de tài duō le.",
           "meaning_kr": "이곳의 여건은 공립학교와 비교하면 너무 많이 떨어진다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S5_01.mp3",
           "grammar_card_ids": [
             "G5",
             "G17"
@@ -162,7 +162,7 @@
           "hanzi": "下课以后，学校的校长告诉我，这个学校有一些志愿教师，他们有的就住在学校里。",
           "pinyin": "Xiàkè yǐhòu, xuéxiào de xiàozhǎng gàosu wǒ, zhè ge xuéxiào yǒu yìxiē zhìyuàn jiàoshī, tāmen yǒu de jiù zhùzài xuéxiào li.",
           "meaning_kr": "수업이 끝난 후 교장 선생님은 이 학교에 자원봉사 교사가 몇 명 있으며, 그중 일부는 학교 안에서 지낸다고 알려 주었다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S5_02.mp3",
           "grammar_card_ids": [
             "G14"
           ],
@@ -173,7 +173,7 @@
           "hanzi": "虽然这里的条件不好，教师的工资也很少，但是，他们觉得每个孩子都应该上学，都应该学习知识，所以他们都很愿意当志愿教师。",
           "pinyin": "Suīrán zhèli de tiáojiàn bù hǎo, jiàoshī de gōngzī yě hěn shǎo, dànshì, tāmen juéde měi ge háizi dōu yīnggāi shàngxué, dōu yīnggāi xuéxí zhīshi, suǒyǐ tāmen dōu hěn yuànyì dāng zhìyuàn jiàoshī.",
           "meaning_kr": "비록 이곳의 여건이 좋지 않고 교사의 급여도 적지만, 그들은 모든 아이들이 학교에 다니고 지식을 배워야 한다고 생각하기 때문에 기꺼이 자원봉사 교사로 일한다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S5_03.mp3",
           "grammar_card_ids": [
             "G8",
             "G13"
@@ -191,7 +191,7 @@
           "hanzi": "我对这些志愿教师非常钦佩。",
           "pinyin": "Wǒ duì zhèxiē zhìyuàn jiàoshī fēicháng qīnpèi.",
           "meaning_kr": "나는 이 자원봉사 교사들을 매우 존경한다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S6_01.mp3",
           "grammar_card_ids": [],
           "confirmed": true
         },
@@ -200,7 +200,7 @@
           "hanzi": "以后要是有时间，我也要来这个学校当一名英语志愿教师。",
           "pinyin": "Yǐhòu yàoshi yǒu shíjiān, wǒ yě yào lái zhè ge xuéxiào dāng yì míng Yīngyǔ zhìyuàn jiàoshī.",
           "meaning_kr": "나중에 시간이 있으면 나도 이 학교에 와서 영어 자원봉사 교사를 하려고 한다.",
-          "audio_url": null,
+          "audio_url": "https://mwstlszhhefxoqzikoqj.supabase.co/storage/v1/object/public/audio/L05/L05_S6_02.mp3",
           "grammar_card_ids": [
             "G6"
           ],
