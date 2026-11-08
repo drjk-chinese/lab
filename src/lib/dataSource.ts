@@ -8,8 +8,9 @@ import sentencesL03 from '../data/sentences_L03.json'
 import vocabL05 from '../data/vocab_L05.json'
 import grammarL05 from '../data/grammar_L05.json'
 import sentencesL05 from '../data/sentences_L05.json'
+import quizL05 from '../data/quiz_L05.json'
 import { DEFAULT_LESSON_ID } from '../data/lessons'
-import type { VocabData, GrammarData, SentencesData } from '../types'
+import type { VocabData, GrammarData, SentencesData, QuizData } from '../types'
 
 // Content lives in Supabase tables (see supabase/schema.sql) once a project
 // is connected, seeded from the JSON files in src/data. That lets the admin
@@ -31,6 +32,9 @@ const SENTENCES_LOCAL: Record<string, SentencesData> = {
   L01: sentencesL01 as SentencesData,
   L03: sentencesL03 as SentencesData,
   L05: sentencesL05 as SentencesData,
+}
+const QUIZ_LOCAL: Record<string, QuizData> = {
+  L05: quizL05 as QuizData,
 }
 
 export async function getVocab(lessonId = DEFAULT_LESSON_ID): Promise<VocabData> {
@@ -70,6 +74,19 @@ export async function getSentences(lessonId = DEFAULT_LESSON_ID): Promise<Senten
     if (!error && data?.payload) return data.payload as SentencesData
   }
   return SENTENCES_LOCAL[lessonId]
+}
+
+export async function getQuiz(lessonId = DEFAULT_LESSON_ID): Promise<QuizData | null> {
+  if (isSupabaseConfigured && supabase) {
+    const { data, error } = await supabase
+      .from('lesson_content')
+      .select('payload')
+      .eq('lesson_id', lessonId)
+      .eq('kind', 'quiz')
+      .maybeSingle()
+    if (!error && data?.payload) return data.payload as QuizData
+  }
+  return QUIZ_LOCAL[lessonId] ?? null
 }
 
 /**

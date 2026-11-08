@@ -5,6 +5,8 @@ import { logEvent } from '../../lib/logging'
 import { getRecordedSentenceIds } from '../../lib/activity'
 import { useAuth } from '../../contexts/AuthContext'
 import { useLesson } from '../../contexts/LessonContext'
+import { useLocalStorageState } from '../../hooks/useLocalStorageState'
+import { LESSONS } from '../../data/lessons'
 import { SentenceCard } from './SentenceCard'
 import type { SentencesData, Sentence } from '../../types'
 
@@ -23,6 +25,21 @@ export function ReadingTab() {
   const [recordedIds, setRecordedIds] = useState<Set<string>>(new Set())
   const [searchParams] = useSearchParams()
   const audioRef = useRef<HTMLAudioElement | null>(null)
+  const hasQuiz = LESSONS.find((l) => l.id === LESSON_ID)?.hasQuiz ?? false
+  const [bookmarked, setBookmarked] = useLocalStorageState<string[]>(
+    `quiz_bookmarks_${LESSON_ID}`,
+    [],
+  )
+  const bookmarkedSet = new Set(bookmarked)
+
+  function toggleBookmark(sentenceId: string) {
+    setBookmarked((prev) => {
+      const next = new Set(prev)
+      if (next.has(sentenceId)) next.delete(sentenceId)
+      else next.add(sentenceId)
+      return Array.from(next)
+    })
+  }
 
   useEffect(() => {
     getSentences(LESSON_ID).then(setData)
@@ -113,6 +130,11 @@ export function ReadingTab() {
             한글 해석만 보고 중국어 문장을 떠올려서 녹음해 보세요. 확인하려면 암기모드를 꺼주세요.
           </p>
         )}
+        {hasQuiz && (
+          <p className="mt-1 text-xs text-text-muted">
+            ⭐ 퀴즈에 꼭 나왔으면 하는 문장을 표시해두면, 퀴즈 탭에서 "선택 문장 포함" 모드로 풀 수 있어요.
+          </p>
+        )}
 
         {user && (
           <p className="mt-2 text-xs text-text-muted">
@@ -140,6 +162,9 @@ export function ReadingTab() {
               studentId={user?.studentId ?? null}
               lessonId={LESSON_ID}
               onRecorded={(id) => setRecordedIds((prev) => new Set(prev).add(id))}
+              showBookmark={hasQuiz}
+              bookmarked={bookmarkedSet.has(s.sentence_id)}
+              onToggleBookmark={() => toggleBookmark(s.sentence_id)}
             />
           ))}
         </div>
@@ -147,6 +172,15 @@ export function ReadingTab() {
         <div className="space-y-2 px-4 py-4">
           {allSentences.map((s) => (
             <p key={s.sentence_id} id={`sentence-${s.sentence_id}`} className="leading-relaxed">
+              {hasQuiz && (
+                <button
+                  onClick={() => toggleBookmark(s.sentence_id)}
+                  className="mr-1 align-middle"
+                  aria-label="퀴즈용 문장 표시"
+                >
+                  {bookmarkedSet.has(s.sentence_id) ? '⭐' : '☆'}
+                </button>
+              )}
               {hideHanzi ? (
                 <span className="font-hanzi text-xl text-text-muted">🙈 가려짐</span>
               ) : (

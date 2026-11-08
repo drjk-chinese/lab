@@ -7,6 +7,7 @@ const TITLES: Record<string, string> = {
   '/vocab': '단어예습',
   '/reading': '낭독',
   '/grammar': '문법',
+  '/quiz': '퀴즈',
   '/admin': '관리자',
 }
 

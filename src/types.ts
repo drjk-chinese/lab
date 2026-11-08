@@ -111,6 +111,46 @@ export type EventType =
   | 'quiz_answer'
   | 'sentence_play'
   | 'record_attempt'
+  | 'sentence_bookmark'
+
+/** One blank inside a fill_blank question's sentence template. */
+export interface FillBlankSlot {
+  answer: string
+  choices: string[]
+}
+
+export interface FillBlankQuestion {
+  question_id: string
+  type: 'fill_blank'
+  /** Sentence with each blank written as {{0}}, {{1}}, ... matching `slots` order. */
+  template: string
+  meaning_kr: string
+  slots: FillBlankSlot[]
+  explanation: string
+  /** sentence_id in sentences_<lesson>.json this question was derived from, used for "선택 문장 포함" mode. */
+  source_sentence_id: string
+  /** Grammar card ids / vocab tags this question drills, used to pick a same-topic variant on retry. */
+  topics: string[]
+}
+
+export interface WordOrderQuestion {
+  question_id: string
+  type: 'word_order'
+  /** Correct order of chunks; shuffled for display. */
+  tokens: string[]
+  meaning_kr: string
+  explanation: string
+  source_sentence_id: string
+  topics: string[]
+}
+
+export type QuizQuestionData = FillBlankQuestion | WordOrderQuestion
+
+export interface QuizData {
+  lesson_id: string
+  fill_blank: FillBlankQuestion[]
+  word_order: WordOrderQuestion[]
+}
 
 export interface QuizResultRow {
   student_id: string

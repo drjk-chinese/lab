@@ -7,6 +7,7 @@ import { LoginPage } from './pages/LoginPage'
 import { VocabTab } from './pages/VocabTab/VocabTab'
 import { ReadingTab } from './pages/ReadingTab/ReadingTab'
 import { GrammarTab } from './pages/GrammarTab/GrammarTab'
+import { QuizTab } from './pages/QuizTab/QuizTab'
 import { AdminPage } from './pages/Admin/AdminPage'
 
 function AppLayout() {
@@ -55,6 +56,7 @@ function AppRoutes() {
         <Route path="/vocab" element={<VocabTab />} />
         <Route path="/reading" element={<ReadingTab />} />
         <Route path="/grammar" element={<GrammarTab />} />
+        <Route path="/quiz" element={<QuizTab />} />
         <Route
           path="/admin"
           element={

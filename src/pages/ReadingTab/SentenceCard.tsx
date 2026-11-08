@@ -14,6 +14,9 @@ interface Props {
   studentId: string | null
   lessonId: string
   onRecorded?: (sentenceId: string) => void
+  showBookmark?: boolean
+  bookmarked?: boolean
+  onToggleBookmark?: () => void
 }
 
 export function SentenceCard({
@@ -25,6 +28,9 @@ export function SentenceCard({
   studentId,
   lessonId,
   onRecorded,
+  showBookmark,
+  bookmarked,
+  onToggleBookmark,
 }: Props) {
   const [speed, setSpeed] = useState<(typeof SPEEDS)[number]>(1)
   const [recording, setRecording] = useState(false)
@@ -70,6 +76,15 @@ export function SentenceCard({
 
   return (
     <div id={`sentence-${sentence.sentence_id}`} className="divider-line px-4 py-4">
+      {showBookmark && (
+        <button
+          onClick={onToggleBookmark}
+          className="float-right text-lg"
+          aria-label="퀴즈용 문장 표시"
+        >
+          {bookmarked ? '⭐' : '☆'}
+        </button>
+      )}
       {hideHanzi ? (
         <p className="font-hanzi text-xl leading-relaxed text-text-muted">🙈 가려짐</p>
       ) : (
