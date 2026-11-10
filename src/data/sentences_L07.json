@@ -1,0 +1,304 @@
+{
+  "lesson_id": "L07",
+  "lesson_title": "我要去中国",
+  "note": "본문 전체 지문 반영 완료. 문장별 ElevenLabs 음원(audio_url)은 아직 생성 전이라 재생 버튼이 \"음원 준비중\"으로 표시됩니다.",
+  "sections": [
+    {
+      "section_id": "L07-S1",
+      "complete": true,
+      "sentences": [
+        {
+          "sentence_id": "L07_S1_01",
+          "hanzi": "去年4月，我在办公室看到一个通知，上面说，我们公司要派一个职员到中国去学习通信专业。",
+          "pinyin": "Qùnián sì yuè, wǒ zài bàngōngshì kàndào yí ge tōngzhī, shàngmian shuō, wǒmen gōngsī yào pài yí ge zhíyuán dào Zhōngguó qù xuéxí tōngxìn zhuānyè.",
+          "meaning_kr": "작년 4월, 나는 사무실에서 통지 하나를 보았는데, 거기에는 우리 회사에서 중국에 가서 통신학을 공부할 직원 한 명을 파견하려 한다고 쓰여 있었다.",
+          "audio_url": null,
+          "grammar_card_ids": [
+            "G1"
+          ],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S1_02",
+          "hanzi": "看到这个通知，我非常高兴，马上就报了名。",
+          "pinyin": "Kàndào zhè ge tōngzhī, wǒ fēicháng gāoxìng, mǎshàng jiù bào le míng.",
+          "meaning_kr": "이 통지를 보고 나는 매우 기뻐서, 곧바로 신청했다.",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S1_03",
+          "hanzi": "不久公司通知我，我被选上了。",
+          "pinyin": "Bùjiǔ gōngsī tōngzhī wǒ, wǒ bèi xuǎnshang le.",
+          "meaning_kr": "얼마 지나지 않아 회사는 나에게 통지했다, 내가 선발되었다고.",
+          "audio_url": null,
+          "grammar_card_ids": [
+            "G5",
+            "G6"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "section_id": "L07-S2",
+      "complete": true,
+      "sentences": [
+        {
+          "sentence_id": "L07_S2_01",
+          "hanzi": "听到这个消息，我又高兴又担心。",
+          "pinyin": "Tīngdào zhè ge xiāoxi, wǒ yòu gāoxìng yòu dānxīn.",
+          "meaning_kr": "이 소식을 듣고 나는 기쁘기도 하고 걱정스럽기도 했다.",
+          "audio_url": null,
+          "grammar_card_ids": [
+            "G8"
+          ],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S2_02",
+          "hanzi": "因为我知道父母的想法，他们都不太想让我出国，他们知道这件事一定不高兴。",
+          "pinyin": "Yīnwèi wǒ zhīdao fùmǔ de xiǎngfa, tāmen dōu bú tài xiǎng ràng wǒ chūguó, tāmen zhīdao zhè jiàn shì yídìng bù gāoxìng.",
+          "meaning_kr": "왜냐하면 나는 부모님의 생각을 알고 있었는데, 그들은 내가 외국에 나가는 것을 그다지 원하지 않으셨고, 이 일을 아시면 틀림없이 기뻐하지 않으실 것을 알았기 때문이다.",
+          "audio_url": null,
+          "grammar_card_ids": [
+            "G9"
+          ],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S2_03",
+          "hanzi": "所以我一直没有告诉他们。",
+          "pinyin": "Suǒyǐ wǒ yìzhí méiyǒu gàosu tāmen.",
+          "meaning_kr": "그래서 나는 줄곧 그들에게 말하지 않았다.",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S2_04",
+          "hanzi": "把一切手续都办好以后，在离开家的前五天我才告诉他们。",
+          "pinyin": "Bǎ yíqiè shǒuxù dōu bànhǎo yǐhòu, zài líkāi jiā de qián wǔ tiān wǒ cái gàosu tāmen.",
+          "meaning_kr": "모든 수속을 다 마친 후, 집을 떠나기 5일 전에야 비로소 그들에게 말했다.",
+          "audio_url": null,
+          "grammar_card_ids": [
+            "G7"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "section_id": "L07-S3",
+      "complete": true,
+      "sentences": [
+        {
+          "sentence_id": "L07_S3_01",
+          "hanzi": "果然，他们听了很不高兴。",
+          "pinyin": "Guǒrán, tāmen tīng le hěn bù gāoxìng.",
+          "meaning_kr": "과연, 그들은 듣고서 매우 기분 나빠했다.",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S3_02",
+          "hanzi": "妈妈对我说：“你已经不小了，还没有结婚，没有孩子。",
+          "pinyin": "Māma duì wǒ shuō: “Nǐ yǐjing bù xiǎo le, hái méiyǒu jiéhūn, méiyǒu háizi.",
+          "meaning_kr": "엄마는 나에게 말씀하셨다: \"너는 이미 어린 나이가 아닌데, 아직 결혼도 안 했고, 아이도 없구나.",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S3_03",
+          "hanzi": "你知道，我希望你早点儿结婚，早点儿要一个孩子。",
+          "pinyin": "Nǐ zhīdao, wǒ xīwàng nǐ zǎo diǎnr jiéhūn, zǎo diǎnr yào yí ge háizi.",
+          "meaning_kr": "너도 알다시피, 나는 네가 좀 일찍 결혼하고 좀 일찍 아이를 갖기를 바란다.",
+          "audio_url": null,
+          "grammar_card_ids": [
+            "G10"
+          ],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S3_04",
+          "hanzi": "你为什么不听我的话？",
+          "pinyin": "Nǐ wèishénme bù tīng wǒ de huà?",
+          "meaning_kr": "너는 왜 내 말을 듣지 않니?",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S3_05",
+          "hanzi": "我不是你的妈妈吗？”",
+          "pinyin": "Wǒ bú shì nǐ de māma ma?”",
+          "meaning_kr": "내가 네 엄마가 아니니?\"",
+          "audio_url": null,
+          "grammar_card_ids": [
+            "G2"
+          ],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S3_06",
+          "hanzi": "爸爸说：“你现在的工作不是很好吗？",
+          "pinyin": "Bàba shuō: “Nǐ xiànzài de gōngzuò bú shì hěn hǎo ma?",
+          "meaning_kr": "아빠가 말씀하셨다: \"너 지금 하는 일이 좋지 않니?",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S3_07",
+          "hanzi": "为什么还要出国呢？”",
+          "pinyin": "Wèishénme hái yào chūguó ne?”",
+          "meaning_kr": "왜 또 외국에 나가려고 하니?\"",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "section_id": "L07-S4",
+      "complete": true,
+      "sentences": [
+        {
+          "sentence_id": "L07_S4_01",
+          "hanzi": "我对他们说：“一年以后我就会回来，你们不用着急，你们还有妹妹陪着，一年就像一天一样，很快就会过去的。",
+          "pinyin": "Wǒ duì tāmen shuō: “Yì nián yǐhòu wǒ jiù huì huílái, nǐmen bú yòng zháojí, nǐmen hái yǒu mèimei péizhe, yì nián jiù xiàng yì tiān yíyàng, hěn kuài jiù huì guòqù de.",
+          "meaning_kr": "나는 그들에게 말했다: \"1년 후면 저는 돌아올 거예요, 걱정하실 필요 없어요, 두 분 곁에는 여동생도 있으니, 1년은 하루와 같아서 아주 빨리 지나갈 거예요.",
+          "audio_url": null,
+          "grammar_card_ids": [
+            "G11"
+          ],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S4_02",
+          "hanzi": "这次是一个很好的机会，我是个年轻人，应该去学习。",
+          "pinyin": "Zhè cì shì yí ge hěn hǎo de jīhuì, wǒ shì ge niánqīngrén, yīnggāi qù xuéxí.",
+          "meaning_kr": "이번은 아주 좋은 기회이고, 저는 젊은이니까 마땅히 가서 공부해야 해요.",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S4_03",
+          "hanzi": "等我回来以后就结婚，到那时再要孩子也不晚。”",
+          "pinyin": "Děng wǒ huílái yǐhòu jiù jiéhūn, dào nàshí zài yào háizi yě bù wǎn.”",
+          "meaning_kr": "제가 돌아온 다음에 바로 결혼할 테니, 그때 가서 아이를 가져도 늦지 않아요.\"",
+          "audio_url": null,
+          "grammar_card_ids": [
+            "G3",
+            "G12"
+          ],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "section_id": "L07-S5",
+      "complete": true,
+      "sentences": [
+        {
+          "sentence_id": "L07_S5_01",
+          "hanzi": "五天以后，我一个人到了机场，在那里我给父母打了一个电话。",
+          "pinyin": "Wǔ tiān yǐhòu, wǒ yí ge rén dào le jīchǎng, zài nàli wǒ gěi fùmǔ dǎ le yí ge diànhuà.",
+          "meaning_kr": "5일 후, 나는 혼자 공항에 도착해서, 그곳에서 부모님께 전화를 한 통 걸었다.",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S5_02",
+          "hanzi": "在电话里我对他们说：“飞机马上就要起飞了，我就要到中国去了。",
+          "pinyin": "Zài diànhuà li wǒ duì tāmen shuō: “Fēijī mǎshàng jiù yào qǐfēi le, wǒ jiù yào dào Zhōngguó qù le.",
+          "meaning_kr": "전화로 나는 그들에게 말했다: \"비행기가 곧 이륙하려고 해요, 저는 곧 중국으로 가요.",
+          "audio_url": null,
+          "grammar_card_ids": [
+            "G13"
+          ],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S5_03",
+          "hanzi": "再见，爸爸！",
+          "pinyin": "Zàijiàn, bàba!",
+          "meaning_kr": "안녕히 계세요, 아빠!",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S5_04",
+          "hanzi": "再见，妈妈！”",
+          "pinyin": "Zàijiàn, māma!”",
+          "meaning_kr": "안녕히 계세요, 엄마!\"",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "section_id": "L07-S6",
+      "complete": true,
+      "sentences": [
+        {
+          "sentence_id": "L07_S6_01",
+          "hanzi": "放下电话，我心里想，我这次去中国不是一年，我要在那里学习四年。",
+          "pinyin": "Fàngxià diànhuà, wǒ xīnli xiǎng, wǒ zhè cì qù Zhōngguó bú shì yì nián, wǒ yào zài nàli xuéxí sì nián.",
+          "meaning_kr": "전화를 끊고, 나는 마음속으로 생각했다, 이번에 중국에 가는 것은 1년이 아니라, 그곳에서 4년을 공부해야 한다고.",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S6_02",
+          "hanzi": "中国离埃塞俄比亚太远了，四年里我不一定能回来。",
+          "pinyin": "Zhōngguó lí Āisài'ébǐyà tài yuǎn le, sì nián li wǒ bù yídìng néng huílái.",
+          "meaning_kr": "중국은 에티오피아로부터 너무 멀어, 나는 4년 안에 돌아올 수 있을지도 확실하지 않다.",
+          "audio_url": null,
+          "grammar_card_ids": [
+            "G4",
+            "G14"
+          ],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S6_03",
+          "hanzi": "爸爸、妈妈、妹妹，四年以后再见吧！",
+          "pinyin": "Bàba, māma, mèimei, sì nián yǐhòu zàijiàn ba!",
+          "meaning_kr": "아빠, 엄마, 여동생아, 4년 후에 다시 만나자!",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S6_04",
+          "hanzi": "我亲爱的祖国——埃塞俄比亚，再见吧！",
+          "pinyin": "Wǒ qīn'ài de zǔguó — Āisài'ébǐyà, zàijiàn ba!",
+          "meaning_kr": "나의 사랑하는 조국 — 에티오피아여, 안녕!",
+          "audio_url": null,
+          "grammar_card_ids": [],
+          "confirmed": true
+        },
+        {
+          "sentence_id": "L07_S6_05",
+          "hanzi": "想到这里，我的眼泪一下子流了下来。",
+          "pinyin": "Xiǎngdào zhèli, wǒ de yǎnlèi yíxiàzi liú le xiàlái.",
+          "meaning_kr": "여기까지 생각하니, 내 눈물이 갑자기 흘러내렸다.",
+          "audio_url": null,
+          "grammar_card_ids": [
+            "G15"
+          ],
+          "confirmed": true
+        }
+      ]
+    }
+  ]
+}

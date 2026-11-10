@@ -1,0 +1,728 @@
+{
+  "lesson_id": "L07",
+  "sections": [
+    {
+      "section_id": "L07-S1",
+      "words": [
+        {
+          "word_id": "L07_001",
+          "hanzi": "去年",
+          "pinyin": "qùnián",
+          "meaning_kr": "작년",
+          "example": {
+            "text": "去年我去了中国。",
+            "pinyin": "Qùnián wǒ qùle Zhōngguó.",
+            "meaning_kr": "작년에 나는 중국에 갔다."
+          }
+        },
+        {
+          "word_id": "L07_002",
+          "hanzi": "办公室",
+          "pinyin": "bàngōngshì",
+          "meaning_kr": "사무실",
+          "example": {
+            "text": "他在办公室工作。",
+            "pinyin": "Tā zài bàngōngshì gōngzuò.",
+            "meaning_kr": "그는 사무실에서 일한다."
+          }
+        },
+        {
+          "word_id": "L07_003",
+          "hanzi": "通知",
+          "pinyin": "tōngzhī",
+          "meaning_kr": "통지, 알리다",
+          "example": {
+            "text": "学校发了一个通知。",
+            "pinyin": "Xuéxiào fāle yí ge tōngzhī.",
+            "meaning_kr": "학교에서 통지를 하나 발송했다."
+          }
+        },
+        {
+          "word_id": "L07_004",
+          "hanzi": "上面",
+          "pinyin": "shàngmian",
+          "meaning_kr": "위, (문서의) 거기",
+          "example": {
+            "text": "上面写着他的名字。",
+            "pinyin": "Shàngmian xiězhe tā de míngzi.",
+            "meaning_kr": "거기에는 그의 이름이 쓰여 있다."
+          }
+        },
+        {
+          "word_id": "L07_005",
+          "hanzi": "公司",
+          "pinyin": "gōngsī",
+          "meaning_kr": "회사",
+          "example": {
+            "text": "我在一家公司工作。",
+            "pinyin": "Wǒ zài yì jiā gōngsī gōngzuò.",
+            "meaning_kr": "나는 한 회사에서 일한다."
+          }
+        },
+        {
+          "word_id": "L07_006",
+          "hanzi": "派",
+          "pinyin": "pài",
+          "meaning_kr": "파견하다",
+          "example": {
+            "text": "公司派他去北京。",
+            "pinyin": "Gōngsī pài tā qù Běijīng.",
+            "meaning_kr": "회사는 그를 베이징으로 파견했다."
+          }
+        },
+        {
+          "word_id": "L07_007",
+          "hanzi": "职员",
+          "pinyin": "zhíyuán",
+          "meaning_kr": "직원",
+          "example": {
+            "text": "她是公司的职员。",
+            "pinyin": "Tā shì gōngsī de zhíyuán.",
+            "meaning_kr": "그녀는 회사의 직원이다."
+          }
+        },
+        {
+          "word_id": "L07_008",
+          "hanzi": "通信",
+          "pinyin": "tōngxìn",
+          "meaning_kr": "통신",
+          "example": {
+            "text": "他学习通信专业。",
+            "pinyin": "Tā xuéxí tōngxìn zhuānyè.",
+            "meaning_kr": "그는 통신학을 공부한다."
+          }
+        },
+        {
+          "word_id": "L07_009",
+          "hanzi": "专业",
+          "pinyin": "zhuānyè",
+          "meaning_kr": "전공, 학과",
+          "example": {
+            "text": "你的专业是什么？",
+            "pinyin": "Nǐ de zhuānyè shì shénme?",
+            "meaning_kr": "네 전공은 뭐니?"
+          }
+        },
+        {
+          "word_id": "L07_010",
+          "hanzi": "马上",
+          "pinyin": "mǎshàng",
+          "meaning_kr": "곧, 즉시",
+          "example": {
+            "text": "他马上就到。",
+            "pinyin": "Tā mǎshàng jiù dào.",
+            "meaning_kr": "그는 곧 도착한다."
+          }
+        },
+        {
+          "word_id": "L07_011",
+          "hanzi": "报名",
+          "pinyin": "bàomíng",
+          "meaning_kr": "신청하다, 등록하다",
+          "example": {
+            "text": "我已经报名了。",
+            "pinyin": "Wǒ yǐjing bàomíng le.",
+            "meaning_kr": "나는 이미 신청했다."
+          }
+        },
+        {
+          "word_id": "L07_012",
+          "hanzi": "不久",
+          "pinyin": "bùjiǔ",
+          "meaning_kr": "머지않아, 얼마 안 되어",
+          "example": {
+            "text": "不久他就回来了。",
+            "pinyin": "Bùjiǔ tā jiù huílái le.",
+            "meaning_kr": "머지않아 그는 돌아왔다."
+          }
+        },
+        {
+          "word_id": "L07_013",
+          "hanzi": "被",
+          "pinyin": "bèi",
+          "meaning_kr": "~에 의해 ~당하다",
+          "example": {
+            "text": "他被老师批评了。",
+            "pinyin": "Tā bèi lǎoshī pīpíng le.",
+            "meaning_kr": "그는 선생님께 혼났다."
+          }
+        },
+        {
+          "word_id": "L07_014",
+          "hanzi": "选上",
+          "pinyin": "xuǎnshang",
+          "meaning_kr": "선발되다, 뽑히다",
+          "example": {
+            "text": "他被选上了。",
+            "pinyin": "Tā bèi xuǎnshang le.",
+            "meaning_kr": "그는 선발되었다."
+          }
+        },
+        {
+          "word_id": "L07_015",
+          "hanzi": "就",
+          "pinyin": "jiù",
+          "meaning_kr": "곧, 바로",
+          "example": {
+            "text": "他说完就走了。",
+            "pinyin": "Tā shuōwán jiù zǒu le.",
+            "meaning_kr": "그는 말을 마치자마자 바로 갔다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L07-S2",
+      "words": [
+        {
+          "word_id": "L07_016",
+          "hanzi": "消息",
+          "pinyin": "xiāoxi",
+          "meaning_kr": "소식",
+          "example": {
+            "text": "这是个好消息。",
+            "pinyin": "Zhè shì ge hǎo xiāoxi.",
+            "meaning_kr": "이것은 좋은 소식이다."
+          }
+        },
+        {
+          "word_id": "L07_017",
+          "hanzi": "又…又…",
+          "pinyin": "yòu…yòu…",
+          "meaning_kr": "~하면서 또 ~하다",
+          "example": {
+            "text": "他又高又帅。",
+            "pinyin": "Tā yòu gāo yòu shuài.",
+            "meaning_kr": "그는 키도 크고 잘생기기도 했다."
+          }
+        },
+        {
+          "word_id": "L07_018",
+          "hanzi": "担心",
+          "pinyin": "dānxīn",
+          "meaning_kr": "걱정하다",
+          "example": {
+            "text": "别担心，没事的。",
+            "pinyin": "Bié dānxīn, méishì de.",
+            "meaning_kr": "걱정하지 마, 괜찮아."
+          }
+        },
+        {
+          "word_id": "L07_019",
+          "hanzi": "想法",
+          "pinyin": "xiǎngfa",
+          "meaning_kr": "생각, 의견",
+          "example": {
+            "text": "我有一个想法。",
+            "pinyin": "Wǒ yǒu yí ge xiǎngfa.",
+            "meaning_kr": "나에게 생각이 하나 있다."
+          }
+        },
+        {
+          "word_id": "L07_020",
+          "hanzi": "出国",
+          "pinyin": "chūguó",
+          "meaning_kr": "출국하다, 외국에 가다",
+          "example": {
+            "text": "他明年要出国。",
+            "pinyin": "Tā míngnián yào chūguó.",
+            "meaning_kr": "그는 내년에 외국에 나가려고 한다."
+          }
+        },
+        {
+          "word_id": "L07_021",
+          "hanzi": "一定",
+          "pinyin": "yídìng",
+          "meaning_kr": "반드시, 틀림없이",
+          "example": {
+            "text": "我一定会成功。",
+            "pinyin": "Wǒ yídìng huì chénggōng.",
+            "meaning_kr": "나는 반드시 성공할 것이다."
+          }
+        },
+        {
+          "word_id": "L07_022",
+          "hanzi": "一直",
+          "pinyin": "yìzhí",
+          "meaning_kr": "줄곧, 계속",
+          "example": {
+            "text": "他一直在等你。",
+            "pinyin": "Tā yìzhí zài děng nǐ.",
+            "meaning_kr": "그는 줄곧 너를 기다리고 있다."
+          }
+        },
+        {
+          "word_id": "L07_023",
+          "hanzi": "把",
+          "pinyin": "bǎ",
+          "meaning_kr": "~을/를",
+          "example": {
+            "text": "请把门关上。",
+            "pinyin": "Qǐng bǎ mén guānshàng.",
+            "meaning_kr": "문 좀 닫아 주세요."
+          }
+        },
+        {
+          "word_id": "L07_024",
+          "hanzi": "一切",
+          "pinyin": "yíqiè",
+          "meaning_kr": "모든, 일체",
+          "example": {
+            "text": "一切都准备好了。",
+            "pinyin": "Yíqiè dōu zhǔnbèi hǎo le.",
+            "meaning_kr": "모든 것이 다 준비되었다."
+          }
+        },
+        {
+          "word_id": "L07_025",
+          "hanzi": "手续",
+          "pinyin": "shǒuxù",
+          "meaning_kr": "수속, 절차",
+          "example": {
+            "text": "办手续很麻烦。",
+            "pinyin": "Bàn shǒuxù hěn máfan.",
+            "meaning_kr": "수속을 밟는 것은 번거롭다."
+          }
+        },
+        {
+          "word_id": "L07_026",
+          "hanzi": "办好",
+          "pinyin": "bànhǎo",
+          "meaning_kr": "(일을) 다 처리하다",
+          "example": {
+            "text": "事情都办好了。",
+            "pinyin": "Shìqing dōu bànhǎo le.",
+            "meaning_kr": "일이 다 처리되었다."
+          }
+        },
+        {
+          "word_id": "L07_027",
+          "hanzi": "离开",
+          "pinyin": "líkāi",
+          "meaning_kr": "떠나다",
+          "example": {
+            "text": "他离开了家乡。",
+            "pinyin": "Tā líkāile jiāxiāng.",
+            "meaning_kr": "그는 고향을 떠났다."
+          }
+        },
+        {
+          "word_id": "L07_028",
+          "hanzi": "才",
+          "pinyin": "cái",
+          "meaning_kr": "그제서야, 비로소",
+          "example": {
+            "text": "他十点才到。",
+            "pinyin": "Tā shí diǎn cái dào.",
+            "meaning_kr": "그는 10시가 되어서야 도착했다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L07-S3",
+      "words": [
+        {
+          "word_id": "L07_029",
+          "hanzi": "果然",
+          "pinyin": "guǒrán",
+          "meaning_kr": "과연, 아니나 다를까",
+          "example": {
+            "text": "果然下雨了。",
+            "pinyin": "Guǒrán xiàyǔ le.",
+            "meaning_kr": "과연 비가 왔다."
+          }
+        },
+        {
+          "word_id": "L07_030",
+          "hanzi": "结婚",
+          "pinyin": "jiéhūn",
+          "meaning_kr": "결혼하다",
+          "example": {
+            "text": "他们明年结婚。",
+            "pinyin": "Tāmen míngnián jiéhūn.",
+            "meaning_kr": "그들은 내년에 결혼한다."
+          }
+        },
+        {
+          "word_id": "L07_031",
+          "hanzi": "孩子",
+          "pinyin": "háizi",
+          "meaning_kr": "아이",
+          "example": {
+            "text": "她有两个孩子。",
+            "pinyin": "Tā yǒu liǎng ge háizi.",
+            "meaning_kr": "그녀는 아이가 둘 있다."
+          }
+        },
+        {
+          "word_id": "L07_032",
+          "hanzi": "希望",
+          "pinyin": "xīwàng",
+          "meaning_kr": "바라다, 희망하다",
+          "example": {
+            "text": "我希望你幸福。",
+            "pinyin": "Wǒ xīwàng nǐ xìngfú.",
+            "meaning_kr": "나는 네가 행복하길 바란다."
+          }
+        },
+        {
+          "word_id": "L07_033",
+          "hanzi": "早点儿",
+          "pinyin": "zǎo diǎnr",
+          "meaning_kr": "좀 일찍",
+          "example": {
+            "text": "你早点儿睡吧。",
+            "pinyin": "Nǐ zǎo diǎnr shuì ba.",
+            "meaning_kr": "좀 일찍 자렴."
+          }
+        },
+        {
+          "word_id": "L07_034",
+          "hanzi": "话",
+          "pinyin": "huà",
+          "meaning_kr": "말",
+          "example": {
+            "text": "他说的话很对。",
+            "pinyin": "Tā shuō de huà hěn duì.",
+            "meaning_kr": "그가 한 말은 맞다."
+          }
+        },
+        {
+          "word_id": "L07_035",
+          "hanzi": "不是…吗",
+          "pinyin": "bú shì…ma",
+          "meaning_kr": "~이 아닌가?",
+          "example": {
+            "text": "你不是韩国人吗？",
+            "pinyin": "Nǐ bú shì Hánguórén ma?",
+            "meaning_kr": "너 한국 사람 아니니?"
+          }
+        },
+        {
+          "word_id": "L07_036",
+          "hanzi": "还",
+          "pinyin": "hái",
+          "meaning_kr": "아직, 또, 여전히",
+          "example": {
+            "text": "他还没来。",
+            "pinyin": "Tā hái méi lái.",
+            "meaning_kr": "그는 아직 안 왔다."
+          }
+        },
+        {
+          "word_id": "L07_037",
+          "hanzi": "对",
+          "pinyin": "duì",
+          "meaning_kr": "~에게, ~를 향하여",
+          "example": {
+            "text": "他对我笑了。",
+            "pinyin": "Tā duì wǒ xiào le.",
+            "meaning_kr": "그는 나를 향해 웃었다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L07-S4",
+      "words": [
+        {
+          "word_id": "L07_038",
+          "hanzi": "不用",
+          "pinyin": "búyòng",
+          "meaning_kr": "~할 필요 없다",
+          "example": {
+            "text": "你不用担心。",
+            "pinyin": "Nǐ búyòng dānxīn.",
+            "meaning_kr": "너는 걱정할 필요 없다."
+          }
+        },
+        {
+          "word_id": "L07_039",
+          "hanzi": "着急",
+          "pinyin": "zháojí",
+          "meaning_kr": "조급해하다, 애태우다",
+          "example": {
+            "text": "别着急，慢慢来。",
+            "pinyin": "Bié zháojí, mànman lái.",
+            "meaning_kr": "조급해하지 말고 천천히 해."
+          }
+        },
+        {
+          "word_id": "L07_040",
+          "hanzi": "陪",
+          "pinyin": "péi",
+          "meaning_kr": "곁에 있다, 동반하다",
+          "example": {
+            "text": "我陪你去。",
+            "pinyin": "Wǒ péi nǐ qù.",
+            "meaning_kr": "내가 너와 함께 갈게."
+          }
+        },
+        {
+          "word_id": "L07_041",
+          "hanzi": "像…一样",
+          "pinyin": "xiàng…yíyàng",
+          "meaning_kr": "마치 ~와 같다",
+          "example": {
+            "text": "她像妈妈一样。",
+            "pinyin": "Tā xiàng māma yíyàng.",
+            "meaning_kr": "그녀는 엄마와 같다."
+          }
+        },
+        {
+          "word_id": "L07_042",
+          "hanzi": "过去",
+          "pinyin": "guòqù",
+          "meaning_kr": "지나가다",
+          "example": {
+            "text": "时间过去得很快。",
+            "pinyin": "Shíjiān guòqù de hěn kuài.",
+            "meaning_kr": "시간이 아주 빨리 지나간다."
+          }
+        },
+        {
+          "word_id": "L07_043",
+          "hanzi": "机会",
+          "pinyin": "jīhuì",
+          "meaning_kr": "기회",
+          "example": {
+            "text": "这是个好机会。",
+            "pinyin": "Zhè shì ge hǎo jīhuì.",
+            "meaning_kr": "이것은 좋은 기회다."
+          }
+        },
+        {
+          "word_id": "L07_044",
+          "hanzi": "年轻人",
+          "pinyin": "niánqīngrén",
+          "meaning_kr": "젊은이",
+          "example": {
+            "text": "年轻人应该努力。",
+            "pinyin": "Niánqīngrén yīnggāi nǔlì.",
+            "meaning_kr": "젊은이는 마땅히 노력해야 한다."
+          }
+        },
+        {
+          "word_id": "L07_045",
+          "hanzi": "等",
+          "pinyin": "děng",
+          "meaning_kr": "기다리다",
+          "example": {
+            "text": "我在这儿等你。",
+            "pinyin": "Wǒ zài zhèr děng nǐ.",
+            "meaning_kr": "나는 여기서 너를 기다린다."
+          }
+        },
+        {
+          "word_id": "L07_046",
+          "hanzi": "那时",
+          "pinyin": "nàshí",
+          "meaning_kr": "그때",
+          "example": {
+            "text": "那时我还小。",
+            "pinyin": "Nàshí wǒ hái xiǎo.",
+            "meaning_kr": "그때 나는 아직 어렸다."
+          }
+        },
+        {
+          "word_id": "L07_047",
+          "hanzi": "再",
+          "pinyin": "zài",
+          "meaning_kr": "다시, 그 다음에",
+          "example": {
+            "text": "你先吃饭，再做作业。",
+            "pinyin": "Nǐ xiān chīfàn, zài zuò zuòyè.",
+            "meaning_kr": "너는 먼저 밥을 먹고 그다음에 숙제를 해라."
+          }
+        },
+        {
+          "word_id": "L07_048",
+          "hanzi": "晚",
+          "pinyin": "wǎn",
+          "meaning_kr": "늦다",
+          "example": {
+            "text": "现在回去还不晚。",
+            "pinyin": "Xiànzài huíqù hái bù wǎn.",
+            "meaning_kr": "지금 돌아가도 늦지 않다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L07-S5",
+      "words": [
+        {
+          "word_id": "L07_049",
+          "hanzi": "机场",
+          "pinyin": "jīchǎng",
+          "meaning_kr": "공항",
+          "example": {
+            "text": "我去机场接朋友。",
+            "pinyin": "Wǒ qù jīchǎng jiē péngyou.",
+            "meaning_kr": "나는 공항에 친구를 마중 나간다."
+          }
+        },
+        {
+          "word_id": "L07_050",
+          "hanzi": "就要…了",
+          "pinyin": "jiù yào…le",
+          "meaning_kr": "곧 ~하려 하다",
+          "example": {
+            "text": "火车就要开了。",
+            "pinyin": "Huǒchē jiù yào kāi le.",
+            "meaning_kr": "기차가 곧 출발하려 한다."
+          }
+        },
+        {
+          "word_id": "L07_051",
+          "hanzi": "起飞",
+          "pinyin": "qǐfēi",
+          "meaning_kr": "이륙하다",
+          "example": {
+            "text": "飞机就要起飞了。",
+            "pinyin": "Fēijī jiù yào qǐfēi le.",
+            "meaning_kr": "비행기가 곧 이륙하려 한다."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "L07-S6",
+      "words": [
+        {
+          "word_id": "L07_052",
+          "hanzi": "放下",
+          "pinyin": "fàngxià",
+          "meaning_kr": "내려놓다",
+          "example": {
+            "text": "请把书放下。",
+            "pinyin": "Qǐng bǎ shū fàngxià.",
+            "meaning_kr": "책을 내려놓아 주세요."
+          }
+        },
+        {
+          "word_id": "L07_053",
+          "hanzi": "心里",
+          "pinyin": "xīnli",
+          "meaning_kr": "마음속",
+          "example": {
+            "text": "我心里很高兴。",
+            "pinyin": "Wǒ xīnli hěn gāoxìng.",
+            "meaning_kr": "내 마음속은 매우 기쁘다."
+          }
+        },
+        {
+          "word_id": "L07_054",
+          "hanzi": "离",
+          "pinyin": "lí",
+          "meaning_kr": "~에서, ~로부터",
+          "example": {
+            "text": "我家离学校很近。",
+            "pinyin": "Wǒ jiā lí xuéxiào hěn jìn.",
+            "meaning_kr": "우리 집은 학교에서 가깝다."
+          }
+        },
+        {
+          "word_id": "L07_055",
+          "hanzi": "远",
+          "pinyin": "yuǎn",
+          "meaning_kr": "멀다",
+          "example": {
+            "text": "这里离车站很远。",
+            "pinyin": "Zhèli lí chēzhàn hěn yuǎn.",
+            "meaning_kr": "여기는 역에서 멀다."
+          }
+        },
+        {
+          "word_id": "L07_056",
+          "hanzi": "埃塞俄比亚",
+          "pinyin": "Āisài'ébǐyà",
+          "meaning_kr": "에티오피아",
+          "example": {
+            "text": "他来自埃塞俄比亚。",
+            "pinyin": "Tā láizì Āisài'ébǐyà.",
+            "meaning_kr": "그는 에티오피아에서 왔다."
+          }
+        },
+        {
+          "word_id": "L07_057",
+          "hanzi": "不一定",
+          "pinyin": "bù yídìng",
+          "meaning_kr": "꼭 ~한 것은 아니다",
+          "example": {
+            "text": "他不一定会来。",
+            "pinyin": "Tā bù yídìng huì lái.",
+            "meaning_kr": "그가 꼭 올 거라고 할 수는 없다."
+          }
+        },
+        {
+          "word_id": "L07_058",
+          "hanzi": "亲爱",
+          "pinyin": "qīn'ài",
+          "meaning_kr": "친애하다, 사랑하는",
+          "example": {
+            "text": "亲爱的朋友们，你们好！",
+            "pinyin": "Qīn'ài de péngyoumen, nǐmen hǎo!",
+            "meaning_kr": "사랑하는 친구 여러분, 안녕하세요!"
+          }
+        },
+        {
+          "word_id": "L07_059",
+          "hanzi": "祖国",
+          "pinyin": "zǔguó",
+          "meaning_kr": "조국",
+          "example": {
+            "text": "我爱我的祖国。",
+            "pinyin": "Wǒ ài wǒ de zǔguó.",
+            "meaning_kr": "나는 나의 조국을 사랑한다."
+          }
+        },
+        {
+          "word_id": "L07_060",
+          "hanzi": "眼泪",
+          "pinyin": "yǎnlèi",
+          "meaning_kr": "눈물",
+          "example": {
+            "text": "她流下了眼泪。",
+            "pinyin": "Tā liúxiàle yǎnlèi.",
+            "meaning_kr": "그녀는 눈물을 흘렸다."
+          }
+        },
+        {
+          "word_id": "L07_061",
+          "hanzi": "一下子",
+          "pinyin": "yíxiàzi",
+          "meaning_kr": "갑자기, 단번에",
+          "example": {
+            "text": "他一下子就明白了。",
+            "pinyin": "Tā yíxiàzi jiù míngbai le.",
+            "meaning_kr": "그는 단번에 이해했다."
+          }
+        },
+        {
+          "word_id": "L07_062",
+          "hanzi": "流",
+          "pinyin": "liú",
+          "meaning_kr": "흐르다",
+          "example": {
+            "text": "河水慢慢地流。",
+            "pinyin": "Héshuǐ mànman de liú.",
+            "meaning_kr": "강물이 천천히 흐른다."
+          }
+        },
+        {
+          "word_id": "L07_063",
+          "hanzi": "下来",
+          "pinyin": "xiàlái",
+          "meaning_kr": "내려오다",
+          "example": {
+            "text": "他从楼上走下来了。",
+            "pinyin": "Tā cóng lóushang zǒu xiàlái le.",
+            "meaning_kr": "그는 위층에서 걸어 내려왔다."
+          }
+        }
+      ]
+    }
+  ]
+}

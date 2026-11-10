@@ -1,0 +1,603 @@
+{
+  "lesson_id": "L07",
+  "fill_blank": [
+    {
+      "question_id": "L07_FB01",
+      "type": "fill_blank",
+      "template": "去年4月，我在办公室看到一个通知，上面说，我们公司要{{0}}一个职员{{1}}中国去学习通信专业。",
+      "meaning_kr": "작년 4월, 나는 사무실에서 통지 하나를 보았는데, 거기에는 우리 회사에서 중국에 가서 통신학을 공부할 직원 한 명을 파견하려 한다고 쓰여 있었다.",
+      "slots": [
+        {
+          "answer": "派",
+          "choices": [
+            "派",
+            "带",
+            "找",
+            "让"
+          ]
+        },
+        {
+          "answer": "到",
+          "choices": [
+            "到",
+            "在",
+            "从",
+            "给"
+          ]
+        }
+      ],
+      "explanation": "派는 '파견하다'라는 뜻이고, 到는 목적지를 이끄는 개사입니다 (겸어문: 职员이 앞 동사의 목적어이자 뒤 동사의 주어).",
+      "source_sentence_id": "L07_S1_01",
+      "topics": [
+        "G1",
+        "vocab:派"
+      ]
+    },
+    {
+      "question_id": "L07_FB02",
+      "type": "fill_blank",
+      "template": "看到这个通知，我非常高兴，{{0}}{{1}}报了名。",
+      "meaning_kr": "이 통지를 보고 나는 매우 기뻐서, 곧바로 신청했다.",
+      "slots": [
+        {
+          "answer": "马上",
+          "choices": [
+            "马上",
+            "一直",
+            "一定",
+            "还"
+          ]
+        },
+        {
+          "answer": "就",
+          "choices": [
+            "就",
+            "才",
+            "再",
+            "也"
+          ]
+        }
+      ],
+      "explanation": "马上은 '곧, 즉시', 就는 아주 짧은 시간 내에 일이 일어남을 나타내는 부사입니다.",
+      "source_sentence_id": "L07_S1_02",
+      "topics": [
+        "G3",
+        "vocab:马上"
+      ]
+    },
+    {
+      "question_id": "L07_FB03",
+      "type": "fill_blank",
+      "template": "不久公司通知我，我{{0}}选{{1}}了。",
+      "meaning_kr": "얼마 지나지 않아 회사는 나에게 통지했다, 내가 선발되었다고.",
+      "slots": [
+        {
+          "answer": "被",
+          "choices": [
+            "被",
+            "把",
+            "对",
+            "给"
+          ]
+        },
+        {
+          "answer": "上",
+          "choices": [
+            "上",
+            "到",
+            "好",
+            "完"
+          ]
+        }
+      ],
+      "explanation": "被는 피동을 나타내는 개사이고, 上은 '선발되다'라는 뜻을 완성하는 결과보어입니다.",
+      "source_sentence_id": "L07_S1_03",
+      "topics": [
+        "G5",
+        "G6"
+      ]
+    },
+    {
+      "question_id": "L07_FB04",
+      "type": "fill_blank",
+      "template": "听到这个消息，我{{0}}高兴{{0}}担心。",
+      "meaning_kr": "이 소식을 듣고 나는 기쁘기도 하고 걱정스럽기도 했다.",
+      "slots": [
+        {
+          "answer": "又",
+          "choices": [
+            "又",
+            "也",
+            "还",
+            "就"
+          ]
+        }
+      ],
+      "explanation": "又…又…는 두 가지 성질·동작을 동시에 나열하는 병렬구문입니다.",
+      "source_sentence_id": "L07_S2_01",
+      "topics": [
+        "G8"
+      ]
+    },
+    {
+      "question_id": "L07_FB05",
+      "type": "fill_blank",
+      "template": "因为我知道父母的想法，他们都不太想{{0}}我出国，他们知道这件事一定{{1}}高兴。",
+      "meaning_kr": "왜냐하면 나는 부모님의 생각을 알고 있었는데, 그들은 내가 외국에 나가는 것을 그다지 원하지 않으셨고, 이 일을 아시면 틀림없이 기뻐하지 않으실 것을 알았기 때문이다.",
+      "slots": [
+        {
+          "answer": "让",
+          "choices": [
+            "让",
+            "把",
+            "被",
+            "给"
+          ]
+        },
+        {
+          "answer": "不",
+          "choices": [
+            "不",
+            "没",
+            "很",
+            "都"
+          ]
+        }
+      ],
+      "explanation": "让은 '~하게 하다'라는 사역동사이고, 一定不高兴은 틀림없이 기뻐하지 않는다는 전체부정입니다.",
+      "source_sentence_id": "L07_S2_02",
+      "topics": [
+        "G9",
+        "vocab:让"
+      ]
+    },
+    {
+      "question_id": "L07_FB06",
+      "type": "fill_blank",
+      "template": "所以我{{0}}没有告诉他们。",
+      "meaning_kr": "그래서 나는 줄곧 그들에게 말하지 않았다.",
+      "slots": [
+        {
+          "answer": "一直",
+          "choices": [
+            "一直",
+            "一下子",
+            "马上",
+            "不久"
+          ]
+        }
+      ],
+      "explanation": "一直는 '줄곧, 계속'이라는 뜻의 부사입니다.",
+      "source_sentence_id": "L07_S2_03",
+      "topics": [
+        "vocab:一直"
+      ]
+    },
+    {
+      "question_id": "L07_FB07",
+      "type": "fill_blank",
+      "template": "{{0}}一切手续都办好以后，在离开家的前五天我{{1}}告诉他们。",
+      "meaning_kr": "모든 수속을 다 마친 후, 집을 떠나기 5일 전에야 비로소 그들에게 말했다.",
+      "slots": [
+        {
+          "answer": "把",
+          "choices": [
+            "把",
+            "被",
+            "对",
+            "给"
+          ]
+        },
+        {
+          "answer": "才",
+          "choices": [
+            "才",
+            "就",
+            "还",
+            "再"
+          ]
+        }
+      ],
+      "explanation": "把는 목적어를 동사 앞으로 이끄는 개사이고, 才는 '그제서야, 비로소'라는 뜻입니다.",
+      "source_sentence_id": "L07_S2_04",
+      "topics": [
+        "G7",
+        "vocab:把"
+      ]
+    },
+    {
+      "question_id": "L07_FB08",
+      "type": "fill_blank",
+      "template": "你知道，我希望你{{0}}结婚，{{0}}要一个孩子。",
+      "meaning_kr": "너도 알다시피, 나는 네가 좀 일찍 결혼하고 좀 일찍 아이를 갖기를 바란다.",
+      "slots": [
+        {
+          "answer": "早点儿",
+          "choices": [
+            "早点儿",
+            "一下子",
+            "不一定",
+            "好好儿"
+          ]
+        }
+      ],
+      "explanation": "早点儿은 '좀 일찍'이라는 뜻으로, 형용사+点儿을 동사 앞에 두어 권유의 어감을 나타냅니다.",
+      "source_sentence_id": "L07_S3_03",
+      "topics": [
+        "G10",
+        "vocab:早点儿"
+      ]
+    },
+    {
+      "question_id": "L07_FB09",
+      "type": "fill_blank",
+      "template": "我{{0}}你的妈妈{{1}}？”",
+      "meaning_kr": "내가 네 엄마가 아니니?\"",
+      "slots": [
+        {
+          "answer": "不是",
+          "choices": [
+            "不是",
+            "是",
+            "没有",
+            "不"
+          ]
+        },
+        {
+          "answer": "吗",
+          "choices": [
+            "吗",
+            "呢",
+            "吧",
+            "啊"
+          ]
+        }
+      ],
+      "explanation": "不是…吗？는 긍정을 강조하는 반어적 의문문입니다.",
+      "source_sentence_id": "L07_S3_05",
+      "topics": [
+        "G2"
+      ]
+    },
+    {
+      "question_id": "L07_FB10",
+      "type": "fill_blank",
+      "template": "我{{0}}他们说：“一年以后我{{1}}回来，你们{{2}}着急，",
+      "meaning_kr": "나는 그들에게 말했다: \"1년 후면 저는 돌아올 거예요, 걱정하실 필요 없어요,",
+      "slots": [
+        {
+          "answer": "对",
+          "choices": [
+            "对",
+            "给",
+            "跟",
+            "把"
+          ]
+        },
+        {
+          "answer": "就会",
+          "choices": [
+            "就会",
+            "才会",
+            "还会",
+            "也会"
+          ]
+        },
+        {
+          "answer": "不用",
+          "choices": [
+            "不用",
+            "不能",
+            "不敢",
+            "不会"
+          ]
+        }
+      ],
+      "explanation": "对는 '~에게'라는 대상을 나타내는 개사이고, 不用은 '~할 필요 없다'는 뜻입니다.",
+      "source_sentence_id": "L07_S4_01",
+      "topics": [
+        "G11",
+        "vocab:不用"
+      ]
+    },
+    {
+      "question_id": "L07_FB11",
+      "type": "fill_blank",
+      "template": "等我回来以后{{0}}结婚，到那时{{1}}要孩子也不{{2}}。”",
+      "meaning_kr": "제가 돌아온 다음에 바로 결혼할 테니, 그때 가서 아이를 가져도 늦지 않아요.\"",
+      "slots": [
+        {
+          "answer": "就",
+          "choices": [
+            "就",
+            "才",
+            "也",
+            "还"
+          ]
+        },
+        {
+          "answer": "再",
+          "choices": [
+            "再",
+            "又",
+            "还",
+            "也"
+          ]
+        },
+        {
+          "answer": "晚",
+          "choices": [
+            "晚",
+            "早",
+            "好",
+            "坏"
+          ]
+        }
+      ],
+      "explanation": "等…再…는 'A가 된 다음에 B를 하다'라는 뜻이고, 再는 '또'가 아니라 순서를 나타냅니다.",
+      "source_sentence_id": "L07_S4_03",
+      "topics": [
+        "G3",
+        "G12"
+      ]
+    },
+    {
+      "question_id": "L07_FB12",
+      "type": "fill_blank",
+      "template": "在电话里我对他们说：“飞机马上{{0}}起飞{{1}}，我{{0}}到中国去{{1}}。",
+      "meaning_kr": "전화로 나는 그들에게 말했다: \"비행기가 곧 이륙하려고 해요, 저는 곧 중국으로 가요.",
+      "slots": [
+        {
+          "answer": "就要",
+          "choices": [
+            "就要",
+            "已经",
+            "正在",
+            "还要"
+          ]
+        },
+        {
+          "answer": "了",
+          "choices": [
+            "了",
+            "过",
+            "着",
+            "的"
+          ]
+        }
+      ],
+      "explanation": "就要…了는 '머지않아 곧 ~하다'라는 임박을 나타내는 구문입니다.",
+      "source_sentence_id": "L07_S5_02",
+      "topics": [
+        "G13"
+      ]
+    },
+    {
+      "question_id": "L07_FB13",
+      "type": "fill_blank",
+      "template": "中国{{0}}埃塞俄比亚太远了，四年里我不一定{{1}}回来。",
+      "meaning_kr": "중국은 에티오피아로부터 너무 멀어, 나는 4년 안에 돌아올 수 있을지도 확실하지 않다.",
+      "slots": [
+        {
+          "answer": "离",
+          "choices": [
+            "离",
+            "从",
+            "对",
+            "给"
+          ]
+        },
+        {
+          "answer": "能",
+          "choices": [
+            "能",
+            "会",
+            "可以",
+            "要"
+          ]
+        }
+      ],
+      "explanation": "离는 거리의 기준점을 나타내는 개사이고, 能은 '~할 수 있다'는 가능을 나타내는 능원동사입니다.",
+      "source_sentence_id": "L07_S6_02",
+      "topics": [
+        "G4",
+        "G14"
+      ]
+    },
+    {
+      "question_id": "L07_FB14",
+      "type": "fill_blank",
+      "template": "想到这里，我的眼泪{{0}}流{{1}}{{2}}。",
+      "meaning_kr": "여기까지 생각하니, 내 눈물이 갑자기 흘러내렸다.",
+      "slots": [
+        {
+          "answer": "一下子",
+          "choices": [
+            "一下子",
+            "马上",
+            "一直",
+            "不久"
+          ]
+        },
+        {
+          "answer": "了",
+          "choices": [
+            "了",
+            "过",
+            "着",
+            "地"
+          ]
+        },
+        {
+          "answer": "下来",
+          "choices": [
+            "下来",
+            "下去",
+            "起来",
+            "出来"
+          ]
+        }
+      ],
+      "explanation": "一下子는 '갑자기'라는 부사이고, 流了下来는 방향보어 下来가 결합되어 '흘러내리다'라는 뜻이 됩니다.",
+      "source_sentence_id": "L07_S6_05",
+      "topics": [
+        "G15",
+        "vocab:一下子"
+      ]
+    }
+  ],
+  "word_order": [
+    {
+      "question_id": "L07_WO01",
+      "type": "word_order",
+      "tokens": [
+        "看到这个通知",
+        "我",
+        "非常",
+        "高兴",
+        "马上",
+        "就",
+        "报了名"
+      ],
+      "meaning_kr": "이 통지를 보고 나는 매우 기뻐서, 곧바로 신청했다.",
+      "explanation": "马上就는 '곧바로'라는 뜻으로 짧은 시간 안에 일어난 동작을 강조합니다.",
+      "source_sentence_id": "L07_S1_02",
+      "topics": [
+        "vocab:马上"
+      ]
+    },
+    {
+      "question_id": "L07_WO02",
+      "type": "word_order",
+      "tokens": [
+        "听到这个消息",
+        "我",
+        "又",
+        "高兴",
+        "又",
+        "担心"
+      ],
+      "meaning_kr": "이 소식을 듣고 나는 기쁘기도 하고 걱정스럽기도 했다.",
+      "explanation": "又…又…는 두 가지를 동시에 나열하는 병렬구문입니다.",
+      "source_sentence_id": "L07_S2_01",
+      "topics": [
+        "G8"
+      ]
+    },
+    {
+      "question_id": "L07_WO03",
+      "type": "word_order",
+      "tokens": [
+        "把一切手续",
+        "都办好",
+        "以后",
+        "在离开家的前五天",
+        "我",
+        "才",
+        "告诉他们"
+      ],
+      "meaning_kr": "모든 수속을 다 마친 후, 집을 떠나기 5일 전에야 비로소 그들에게 말했다.",
+      "explanation": "把자문은 목적어를 동사 앞으로 이끌고, 才는 '그제서야'라는 뜻입니다.",
+      "source_sentence_id": "L07_S2_04",
+      "topics": [
+        "G7"
+      ]
+    },
+    {
+      "question_id": "L07_WO04",
+      "type": "word_order",
+      "tokens": [
+        "我",
+        "希望",
+        "你",
+        "早点儿",
+        "结婚",
+        "早点儿",
+        "要一个孩子"
+      ],
+      "meaning_kr": "나는 네가 좀 일찍 결혼하고 좀 일찍 아이를 갖기를 바란다.",
+      "explanation": "早点儿+동사는 '좀 ~하게 하다'라는 권유의 말투입니다.",
+      "source_sentence_id": "L07_S3_03",
+      "topics": [
+        "G10"
+      ]
+    },
+    {
+      "question_id": "L07_WO05",
+      "type": "word_order",
+      "tokens": [
+        "等我回来以后",
+        "就",
+        "结婚",
+        "到那时",
+        "再",
+        "要孩子",
+        "也不晚"
+      ],
+      "meaning_kr": "내가 돌아온 뒤 바로 결혼하고 그때 다시 아이를 가져도 늦지 않다.",
+      "explanation": "等…再…는 'A가 된 다음에 B를 하다'라는 뜻입니다.",
+      "source_sentence_id": "L07_S4_03",
+      "topics": [
+        "G3",
+        "G12"
+      ]
+    },
+    {
+      "question_id": "L07_WO06",
+      "type": "word_order",
+      "tokens": [
+        "飞机",
+        "马上",
+        "就要",
+        "起飞了",
+        "我",
+        "就要",
+        "到中国去了"
+      ],
+      "meaning_kr": "비행기가 곧 이륙하려고 해요, 저는 곧 중국으로 가요.",
+      "explanation": "就要…了는 머지않아 곧 ~하다라는 임박을 나타냅니다.",
+      "source_sentence_id": "L07_S5_02",
+      "topics": [
+        "G13"
+      ]
+    },
+    {
+      "question_id": "L07_WO07",
+      "type": "word_order",
+      "tokens": [
+        "中国",
+        "离",
+        "埃塞俄比亚",
+        "太远了",
+        "四年里",
+        "我",
+        "不一定",
+        "能回来"
+      ],
+      "meaning_kr": "중국은 에티오피아로부터 너무 멀어, 나는 4년 안에 돌아올 수 있을지도 확실하지 않다.",
+      "explanation": "离는 두 지점 사이의 거리를 나타내는 개사입니다.",
+      "source_sentence_id": "L07_S6_02",
+      "topics": [
+        "G4",
+        "G14"
+      ]
+    },
+    {
+      "question_id": "L07_WO08",
+      "type": "word_order",
+      "tokens": [
+        "想到这里",
+        "我的眼泪",
+        "一下子",
+        "流了",
+        "下来"
+      ],
+      "meaning_kr": "여기까지 생각하니, 내 눈물이 갑자기 흘러내렸다.",
+      "explanation": "流了下来는 방향보어 下来가 결합되어 '흘러내리다'라는 뜻입니다.",
+      "source_sentence_id": "L07_S6_05",
+      "topics": [
+        "G15"
+      ]
+    }
+  ]
+}

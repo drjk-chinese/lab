@@ -1,0 +1,475 @@
+{
+  "lesson_id": "L07",
+  "grammar_cards": [
+    {
+      "card_id": "G1",
+      "title": "겸어문",
+      "structure": "주어1 + 동사1 + 목적어(=주어2) + 동사2",
+      "meaning": "앞 동사의 목적어가 동시에 뒤 동사의 주어가 되는 문장 구조",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "我们公司要派一个职员到中国去学习通信专业。",
+          "pinyin": "Wǒmen gōngsī yào pài yí ge zhíyuán dào Zhōngguó qù xuéxí tōngxìn zhuānyè.",
+          "meaning_kr": "우리 회사에서는 중국에 가서 통신학을 공부할 직원을 파견하려고 한다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "妈妈让我早点儿回家。",
+          "pinyin": "Māma ràng wǒ zǎodiǎnr huíjiā.",
+          "meaning_kr": "엄마는 나에게 집에 일찍 오라고 하셨다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "老师请他们进来。",
+          "pinyin": "Lǎoshī qǐng tāmen jìnlái.",
+          "meaning_kr": "선생님은 그들에게 들어오라고 청했다."
+        }
+      ]
+    },
+    {
+      "card_id": "G2",
+      "title": "不是…吗？ (반어문)",
+      "structure": "不是 + 서술 내용 + 吗？",
+      "meaning": "~가 아닌가요? 긍정하면서 동시에 강조하는 반어적 의문문",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "我不是你的妈妈吗？",
+          "pinyin": "Wǒ bú shì nǐ de māma ma?",
+          "meaning_kr": "난 네 엄마가 아니니?"
+        },
+        {
+          "source": "extra",
+          "hanzi": "这个房间不是很干净吗？",
+          "pinyin": "Zhè ge fángjiān bú shì hěn gānjìng ma?",
+          "meaning_kr": "이 방은 아주 깨끗하지 않니?"
+        },
+        {
+          "source": "extra",
+          "hanzi": "你不是说过要来吗？",
+          "pinyin": "Nǐ bú shì shuōguo yào lái ma?",
+          "meaning_kr": "너 온다고 말하지 않았니?"
+        }
+      ]
+    },
+    {
+      "card_id": "G3",
+      "title": "就 (짧은 시간 내 발생)",
+      "structure": "주어 + 就 + 동사",
+      "meaning": "곧, 즉시 — 아주 짧은 시간 내에 어떤 일이 일어남을 나타냄",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "等我回来以后就结婚，到那时再要孩子也不晚。",
+          "pinyin": "Děng wǒ huílái yǐhòu jiù jiéhūn, dào nàshí zài yào háizi yě bù wǎn.",
+          "meaning_kr": "내가 돌아온 뒤 바로 결혼하고 그때 다시 아이를 가져도 늦지 않다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "他一到家就睡觉了。",
+          "pinyin": "Tā yí dào jiā jiù shuìjiào le.",
+          "meaning_kr": "그는 집에 도착하자마자 바로 잤다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "我们吃完饭就走。",
+          "pinyin": "Wǒmen chīwán fàn jiù zǒu.",
+          "meaning_kr": "우리는 밥을 다 먹으면 바로 간다."
+        }
+      ]
+    },
+    {
+      "card_id": "G4",
+      "title": "개사 离",
+      "structure": "A + 离 + B + 远/近/거리",
+      "meaning": "두 지점 사이의 공간적·시간적 거리를 나타내는 개사. 从은 이동의 출발점을, 离는 거리를 재는 기준점을 가리킴",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "中国离埃塞俄比亚太远了，四年里我不一定能回来。",
+          "pinyin": "Zhōngguó lí Āisài'ébǐyà tài yuǎn le, sì nián li wǒ bù yídìng néng huílái.",
+          "meaning_kr": "중국은 에티오피아로부터 너무 멀어, 나는 4년 안에 돌아올 수 있을지도 확실하지 않다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "我家离学校很近。",
+          "pinyin": "Wǒ jiā lí xuéxiào hěn jìn.",
+          "meaning_kr": "우리 집은 학교에서 가깝다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "北京离上海有一千多公里。",
+          "pinyin": "Běijīng lí Shànghǎi yǒu yìqiān duō gōnglǐ.",
+          "meaning_kr": "베이징은 상하이에서 천여 킬로미터 떨어져 있다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "离考试还有三天。",
+          "pinyin": "Lí kǎoshì hái yǒu sān tiān.",
+          "meaning_kr": "시험까지 아직 3일 남았다."
+        }
+      ]
+    },
+    {
+      "card_id": "G5",
+      "title": "개사 被 (피동문)",
+      "structure": "A(수동자) + 被 + 동사 + 기타성분",
+      "meaning": "~에 의해 ~을 당하다. A는 ~하게 되다라는 피동의 의미",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "不久公司通知我，我被选上了。",
+          "pinyin": "Bùjiǔ gōngsī tōngzhī wǒ, wǒ bèi xuǎnshang le.",
+          "meaning_kr": "얼마 지나지 않아 회사는 나에게 통지했다, 내가 선발되었다고."
+        },
+        {
+          "source": "extra",
+          "hanzi": "杯子被打破了。",
+          "pinyin": "Bēizi bèi dǎpò le.",
+          "meaning_kr": "잔이 깨졌다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "小李被人家捆起来了。",
+          "pinyin": "Xiǎo Lǐ bèi rénjiā kǔn qǐlái le.",
+          "meaning_kr": "샤오리는 사람들에게 묶였다."
+        }
+      ]
+    },
+    {
+      "card_id": "G6",
+      "title": "동사+上 (결과보어)",
+      "structure": "동사 + 上",
+      "meaning": "목표 도달·뽑힘(选上,考上), 닫힘·부착(关上,穿上), 새로운 상태의 시작(爱上,喜欢上) 등을 나타내는 결과보어",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "不久公司通知我，我被选上了。",
+          "pinyin": "Bùjiǔ gōngsī tōngzhī wǒ, wǒ bèi xuǎnshang le.",
+          "meaning_kr": "얼마 지나지 않아 회사는 나에게 통지했다, 내가 선발되었다고.",
+          "usage": "목표 달성"
+        },
+        {
+          "source": "extra",
+          "hanzi": "他考上了北京大学。",
+          "pinyin": "Tā kǎoshang le Běijīng Dàxué.",
+          "meaning_kr": "그는 베이징대학에 합격했다.",
+          "usage": "목표 달성"
+        },
+        {
+          "source": "extra",
+          "hanzi": "请关上门。",
+          "pinyin": "Qǐng guānshang mén.",
+          "meaning_kr": "문 좀 닫아 주세요.",
+          "usage": "닫힘"
+        },
+        {
+          "source": "extra",
+          "hanzi": "天冷了，穿上衣服吧。",
+          "pinyin": "Tiān lěng le, chuānshang yīfu ba.",
+          "meaning_kr": "날이 추워졌으니 옷을 입으렴.",
+          "usage": "부착"
+        },
+        {
+          "source": "extra",
+          "hanzi": "我喜欢上了中国菜。",
+          "pinyin": "Wǒ xǐhuanshang le Zhōngguó cài.",
+          "meaning_kr": "나는 중국 음식을 좋아하게 되었다.",
+          "usage": "상태의 시작"
+        }
+      ]
+    },
+    {
+      "card_id": "G7",
+      "title": "才의 다양한 의미",
+      "structure": "주어 + 才 + 동사/형용사",
+      "meaning": "① 늦거나 어렵게 이루어짐(그제서야) ② 수량이 적음(겨우) ③ 조건(~해야 비로소)",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "把一切手续都办好以后，在离开家的前五天我才告诉他们。",
+          "pinyin": "Bǎ yíqiè shǒuxù dōu bànhǎo yǐhòu, zài líkāi jiā de qián wǔ tiān wǒ cái gàosu tāmen.",
+          "meaning_kr": "모든 수속을 다 마친 후, 집을 떠나기 5일 전에야 비로소 그들에게 말했다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "他十点才起床。",
+          "pinyin": "Tā shí diǎn cái qǐchuáng.",
+          "meaning_kr": "그는 10시가 되어서야 일어났다.",
+          "usage": "늦음"
+        },
+        {
+          "source": "extra",
+          "hanzi": "他八点就来了，我九点才来。",
+          "pinyin": "Tā bā diǎn jiù lái le, wǒ jiǔ diǎn cái lái.",
+          "meaning_kr": "그는 8시에 바로 왔고, 나는 9시가 되어서야 왔다.",
+          "usage": "就와 대비"
+        },
+        {
+          "source": "extra",
+          "hanzi": "我妹妹才十岁。",
+          "pinyin": "Wǒ mèimei cái shí suì.",
+          "meaning_kr": "내 여동생은 겨우 10살이다.",
+          "usage": "적음"
+        },
+        {
+          "source": "extra",
+          "hanzi": "只有努力学习，才能学好汉语。",
+          "pinyin": "Zhǐyǒu nǔlì xuéxí, cái néng xuéhǎo Hànyǔ.",
+          "meaning_kr": "열심히 공부해야만 비로소 중국어를 잘 배울 수 있다.",
+          "usage": "조건"
+        }
+      ]
+    },
+    {
+      "card_id": "G8",
+      "title": "又…又…",
+      "structure": "주어 + 又 + A + 又 + B",
+      "meaning": "~하면서 한편 또 ~하다. 두 가지 성질·동작을 동시에 나열하는 병렬 구문",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "听到这个消息，我又高兴又担心。",
+          "pinyin": "Tīngdào zhè ge xiāoxi, wǒ yòu gāoxìng yòu dānxīn.",
+          "meaning_kr": "이 소식을 듣고 나는 기쁘기도 하고 걱정스럽기도 했다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "他又聪明又认真。",
+          "pinyin": "Tā yòu cōngming yòu rènzhēn.",
+          "meaning_kr": "그는 총명하면서 또한 착실하다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "这件衣服又漂亮又便宜。",
+          "pinyin": "Zhè jiàn yīfu yòu piàoliang yòu piányi.",
+          "meaning_kr": "이 옷은 예쁘면서 싸다."
+        }
+      ]
+    },
+    {
+      "card_id": "G9",
+      "title": "전체부정 & 부분부정",
+      "structure": "都/很/太/非常 + 不 (전체부정) / 不 + 都/很/太/非常 (부분부정)",
+      "meaning": "부정부사 不 앞에 都·很·太·非常 등이 오면 전체를 부정(전체부정), 그 부사들 앞에 不가 오면 일부만 부정(부분부정)",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "他们知道这件事一定不高兴。",
+          "pinyin": "Tāmen zhīdao zhè jiàn shì yídìng bù gāoxìng.",
+          "meaning_kr": "그들이 이 일을 알면 틀림없이 기뻐하지 않을 것이다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "他们都不是韩国人。",
+          "pinyin": "Tāmen dōu bú shì Hánguórén.",
+          "meaning_kr": "그들은 모두 한국인이 아니다.",
+          "usage": "전체부정"
+        },
+        {
+          "source": "extra",
+          "hanzi": "他们不都是韩国人。",
+          "pinyin": "Tāmen bù dōu shì Hánguórén.",
+          "meaning_kr": "그들 모두가 한국인은 아니다.",
+          "usage": "부분부정"
+        }
+      ]
+    },
+    {
+      "card_id": "G10",
+      "title": "A点儿 + 동사",
+      "structure": "형용사 + 点儿(一点儿) + 동사",
+      "meaning": "좀 ~하게 ~하다. 상대에게 바라거나 권하는 말투",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "我希望你早点儿结婚，早点儿要一个孩子。",
+          "pinyin": "Wǒ xīwàng nǐ zǎo diǎnr jiéhūn, zǎo diǎnr yào yí ge háizi.",
+          "meaning_kr": "나는 네가 좀 일찍 결혼하고 좀 일찍 아이를 갖기를 바란다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "你早点儿睡吧。",
+          "pinyin": "Nǐ zǎo diǎnr shuì ba.",
+          "meaning_kr": "좀 일찍 자렴."
+        },
+        {
+          "source": "extra",
+          "hanzi": "请你慢点儿说。",
+          "pinyin": "Qǐng nǐ màn diǎnr shuō.",
+          "meaning_kr": "좀 천천히 말씀해 주세요."
+        },
+        {
+          "source": "extra",
+          "hanzi": "快点儿走吧，飞机马上就要起飞了。",
+          "pinyin": "Kuài diǎnr zǒu ba, fēijī mǎshàng jiù yào qǐfēi le.",
+          "meaning_kr": "빨리 가자, 비행기가 곧 이륙하려고 해."
+        }
+      ]
+    },
+    {
+      "card_id": "G11",
+      "title": "개사 对",
+      "structure": "주어 + 对 + 대상 + 동사/형용사",
+      "meaning": "~에게, ~를 향하여. 동작이나 상태의 대상을 나타내는 개사",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "我对他们说：“一年以后我就会回来……”",
+          "pinyin": "Wǒ duì tāmen shuō: “Yì nián yǐhòu wǒ jiù huì huílái……”",
+          "meaning_kr": "나는 그들에게 말했다: \"1년 후면 저는 돌아올 거예요……\""
+        },
+        {
+          "source": "extra",
+          "hanzi": "他对我很好。",
+          "pinyin": "Tā duì wǒ hěn hǎo.",
+          "meaning_kr": "그는 나에게 잘해준다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "我对中国历史很感兴趣。",
+          "pinyin": "Wǒ duì Zhōngguó lìshǐ hěn gǎn xìngqù.",
+          "meaning_kr": "나는 중국 역사에 관심이 많다."
+        }
+      ]
+    },
+    {
+      "card_id": "G12",
+      "title": "等…再…",
+      "structure": "等 + A(以后)，再 + B",
+      "meaning": "A가 된 다음에 B를 하다. 여기서 再는 '또'가 아니라 앞으로의 순서(그 다음에)를 나타냄",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "等我回来以后就结婚，到那时再要孩子也不晚。",
+          "pinyin": "Děng wǒ huílái yǐhòu jiù jiéhūn, dào nàshí zài yào háizi yě bù wǎn.",
+          "meaning_kr": "내가 돌아온 뒤 바로 결혼하고 그때 다시 아이를 가져도 늦지 않다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "等你吃完饭再走吧。",
+          "pinyin": "Děng nǐ chīwán fàn zài zǒu ba.",
+          "meaning_kr": "밥 다 먹고 나서 가렴."
+        },
+        {
+          "source": "extra",
+          "hanzi": "等雨停了再出去。",
+          "pinyin": "Děng yǔ tíng le zài chūqù.",
+          "meaning_kr": "비가 그친 다음에 나가자."
+        },
+        {
+          "source": "extra",
+          "hanzi": "等我毕业以后再结婚。",
+          "pinyin": "Děng wǒ bìyè yǐhòu zài jiéhūn.",
+          "meaning_kr": "내가 졸업한 다음에 결혼할게."
+        }
+      ]
+    },
+    {
+      "card_id": "G13",
+      "title": "了 / 就要…了",
+      "structure": "동사 + 了 ; 주어 + 就要 + 동사 + 了",
+      "meaning": "了는 동작·행위의 완료를 나타내고, 就要…了는 머지않아 곧 ~하다라는 임박을 나타냄",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "飞机马上就要起飞了，我就要到中国去了。",
+          "pinyin": "Fēijī mǎshàng jiù yào qǐfēi le, wǒ jiù yào dào Zhōngguó qù le.",
+          "meaning_kr": "비행기가 곧 이륙하려고 해요, 저는 곧 중국으로 가요."
+        },
+        {
+          "source": "extra",
+          "hanzi": "父亲从北京回来了。",
+          "pinyin": "Fùqīn cóng Běijīng huílái le.",
+          "meaning_kr": "아버지께서 베이징에서 돌아오셨다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "春天就要到了。",
+          "pinyin": "Chūntiān jiù yào dào le.",
+          "meaning_kr": "봄이 곧 다가온다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "火车就要进站了。",
+          "pinyin": "Huǒchē jiù yào jìn zhàn le.",
+          "meaning_kr": "열차가 곧 역에 들어온다."
+        }
+      ]
+    },
+    {
+      "card_id": "G14",
+      "title": "能·会·可以",
+      "structure": "주어 + 能/会/可以 + 동사",
+      "meaning": "가능·희망·의지·필연 등을 나타내는 능원동사. 能은 (상황상) 할 수 있다, 会는 (배워서) 할 수 있다, 可以는 할 수 있다/해도 좋다",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "四年里我不一定能回来。",
+          "pinyin": "Sì nián li wǒ bù yídìng néng huílái.",
+          "meaning_kr": "4년 안에 내가 돌아올 수 있을지도 확실하지 않다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "今天晚上我能去看电影。",
+          "pinyin": "Jīntiān wǎnshang wǒ néng qù kàn diànyǐng.",
+          "meaning_kr": "오늘 저녁 나는 영화를 보러 갈 수 있다.",
+          "usage": "能"
+        },
+        {
+          "source": "extra",
+          "hanzi": "我会开汽车。",
+          "pinyin": "Wǒ huì kāi qìchē.",
+          "meaning_kr": "나는 자동차를 운전할 수 있다.",
+          "usage": "会"
+        },
+        {
+          "source": "extra",
+          "hanzi": "你可以走了。",
+          "pinyin": "Nǐ kěyǐ zǒu le.",
+          "meaning_kr": "당신은 가도 좋다.",
+          "usage": "可以"
+        }
+      ]
+    },
+    {
+      "card_id": "G15",
+      "title": "방향보어 (来/去)",
+      "structure": "동사 + 来/去 ; 동사 + 上·下·进·出·回·过·起 + 来/去",
+      "meaning": "동작의 방향을 나타냄. 来는 말하는 사람 쪽으로, 去는 멀어지는 쪽으로의 움직임. 장소 목적어는 来/去 앞에 옴",
+      "examples": [
+        {
+          "source": "text",
+          "hanzi": "想到这里，我的眼泪一下子流了下来。",
+          "pinyin": "Xiǎngdào zhèli, wǒ de yǎnlèi yíxiàzi liú le xiàlái.",
+          "meaning_kr": "여기까지 생각하니, 내 눈물이 갑자기 흘러내렸다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "他从楼上走下来了。",
+          "pinyin": "Tā cóng lóushang zǒu xiàlái le.",
+          "meaning_kr": "그는 위층에서 걸어 내려왔다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "老师走进教室来了。",
+          "pinyin": "Lǎoshī zǒujìn jiàoshì lái le.",
+          "meaning_kr": "선생님이 교실로 걸어 들어오셨다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "他从包里拿出来一本书。",
+          "pinyin": "Tā cóng bāo li ná chūlái yì běn shū.",
+          "meaning_kr": "그는 가방에서 책 한 권을 꺼냈다."
+        },
+        {
+          "source": "extra",
+          "hanzi": "孩子们都跑过来了。",
+          "pinyin": "Háizimen dōu pǎo guòlái le.",
+          "meaning_kr": "아이들이 모두 뛰어왔다."
+        }
+      ]
+    }
+  ]
+}
